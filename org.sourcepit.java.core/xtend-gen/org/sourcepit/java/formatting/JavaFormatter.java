@@ -4,8 +4,11 @@
 
 package org.sourcepit.java.formatting;
 
+import org.eclipse.xtext.IGrammarAccess;
+import org.eclipse.xtext.TerminalRule;
 import org.eclipse.xtext.formatting.impl.AbstractDeclarativeFormatter;
 import org.eclipse.xtext.formatting.impl.FormattingConfig;
+import org.sourcepit.java.services.JavaGrammarAccess;
 
 /**
  * This class contains custom formatting description.
@@ -18,5 +21,19 @@ import org.eclipse.xtext.formatting.impl.FormattingConfig;
 @SuppressWarnings("all")
 public class JavaFormatter extends AbstractDeclarativeFormatter {
    protected void configureFormatting(final FormattingConfig c) {
+      IGrammarAccess _grammarAccess = this.getGrammarAccess();
+      this.configureFormatting(c, ((JavaGrammarAccess) _grammarAccess));
+   }
+
+   public void configureFormatting(final FormattingConfig c, final JavaGrammarAccess jga) {
+      FormattingConfig.LinewrapLocator _setLinewrap = c.setLinewrap(0, 1, 2);
+      TerminalRule _sL_COMMENTRule = jga.getSL_COMMENTRule();
+      _setLinewrap.before(_sL_COMMENTRule);
+      FormattingConfig.LinewrapLocator _setLinewrap_1 = c.setLinewrap(0, 1, 2);
+      TerminalRule _mL_COMMENTRule = jga.getML_COMMENTRule();
+      _setLinewrap_1.before(_mL_COMMENTRule);
+      FormattingConfig.LinewrapLocator _setLinewrap_2 = c.setLinewrap(0, 1, 1);
+      TerminalRule _mL_COMMENTRule_1 = jga.getML_COMMENTRule();
+      _setLinewrap_2.after(_mL_COMMENTRule_1);
    }
 }

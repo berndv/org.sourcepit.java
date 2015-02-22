@@ -5,9 +5,10 @@ package org.sourcepit.java.formatting
 
 import org.eclipse.xtext.formatting.impl.AbstractDeclarativeFormatter
 import org.eclipse.xtext.formatting.impl.FormattingConfig
+import org.sourcepit.java.services.JavaGrammarAccess
+
 // import com.google.inject.Inject;
 // import org.sourcepit.java.services.JavaGrammarAccess
-
 /**
  * This class contains custom formatting description.
  * 
@@ -18,13 +19,18 @@ import org.eclipse.xtext.formatting.impl.FormattingConfig
  */
 class JavaFormatter extends AbstractDeclarativeFormatter {
 
-//	@Inject extension JavaGrammarAccess
-	
+	//	@Inject extension JavaGrammarAccess
 	override protected void configureFormatting(FormattingConfig c) {
-// It's usually a good idea to activate the following three statements.
-// They will add and preserve newlines around comments
-//		c.setLinewrap(0, 1, 2).before(SL_COMMENTRule)
-//		c.setLinewrap(0, 1, 2).before(ML_COMMENTRule)
-//		c.setLinewrap(0, 1, 1).after(ML_COMMENTRule)
+		configureFormatting(c, grammarAccess as JavaGrammarAccess)
 	}
+
+	def void configureFormatting(FormattingConfig c, JavaGrammarAccess jga) {
+
+		// It's usually a good idea to activate the following three statements.
+		// They will add and preserve newlines around comments
+		c.setLinewrap(0, 1, 2).before(jga.SL_COMMENTRule)
+		c.setLinewrap(0, 1, 2).before(jga.ML_COMMENTRule)
+		c.setLinewrap(0, 1, 1).after(jga.ML_COMMENTRule)
+	}
+
 }
