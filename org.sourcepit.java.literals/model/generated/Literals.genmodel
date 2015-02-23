@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/org.sourcepit.java.literals/src-gen" editDirectory="/org.sourcepit.java.literals.edit/src"
+    editorDirectory="/org.sourcepit.java.literals.editor/src" modelPluginID="org.sourcepit.java.literals"
+    forceOverwrite="true" modelName="Literals" updateClasspath="false" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    complianceLevel="5.0" copyrightFields="false" editPluginID="org.sourcepit.java.literals.edit"
+    editorPluginID="org.sourcepit.java.literals.editor" runtimeVersion="2.10">
+  <genPackages prefix="Literals" basePackage="org.sourcepit.java.literals" disposableProviderFactory="true"
+      fileExtensions="literals" ecorePackage="Literals.ecore#/">
+    <genClasses ecoreClass="Literals.ecore#//literal">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Literals.ecore#//literal/value"/>
+    </genClasses>
+    <genClasses ecoreClass="Literals.ecore#//IntegerLiteral"/>
+    <genClasses ecoreClass="Literals.ecore#//FloatingPointLiteral"/>
+    <genClasses ecoreClass="Literals.ecore#//BooleanLiteral"/>
+    <genClasses ecoreClass="Literals.ecore#//CharacterLiteral"/>
+    <genClasses ecoreClass="Literals.ecore#//StringLiteral"/>
+    <genClasses ecoreClass="Literals.ecore#//NullLiteral"/>
+  </genPackages>
+</genmodel:GenModel>
