@@ -1,2 +1,4 @@
 /.launch/
 /bin/
+/target/
+/pom.xml
