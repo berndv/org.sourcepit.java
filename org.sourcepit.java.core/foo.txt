@@ -1,0 +1,203 @@
+grammar org.sourcepit.java.Java hidden(WS, ML_COMMENT, SL_COMMENT)
+
+import "http://www.eclipse.org/emf/2002/Ecore" as ecore
+generate java "http://www.sourcepit.org/java/Java"
+
+/*
+ * Productions from §10 (Arrays)
+ * http://docs.oracle.com/javase/specs/jls/se8/html/jls-10.html
+ */
+ArrayInitializer:
+	'{' (VariableInitializerList)? (',')? '}';
+
+VariableInitializerList:
+	VariableInitializer (',' VariableInitializer)?
+	/*
+ * Productions from §14 (Blocks and Statements)
+ * http://docs.oracle.com/javase/specs/jls/se8/html/jls-14.html 
+ */
+	Block :
+	'{' (BlockStatements)? '}';
+
+BlockStatements:
+	BlockStatement (BlockStatement)*;
+
+BlockStatement:
+	LocalVariableDeclarationStatement |
+	ClassDeclaration |
+	Statement;
+
+LocalVariableDeclarationStatement:
+	LocalVariableDeclaration ';';
+
+LocalVariableDeclaration:
+	(VariableModifier)* UnannType VariableDeclaratorList;
+
+Statement:
+	StatementWithoutTrailingSubstatement |
+	LabeledStatement |
+	IfThenStatement |
+	IfThenElseStatement |
+	WhileStatement |
+	ForStatement;
+
+StatementNoShortIf:
+	StatementWithoutTrailingSubstatement |
+	LabeledStatementNoShortIf |
+	IfThenElseStatementNoShortIf |
+	WhileStatementNoShortIf |
+	ForStatementNoShortIf;
+
+StatementWithoutTrailingSubstatement:
+	Block |
+	EmptyStatement |
+	ExpressionStatement |
+	AssertStatement |
+	SwitchStatement |
+	DoStatement |
+	BreakStatement |
+	ContinueStatement |
+	ReturnStatement |
+	SynchronizedStatement |
+	ThrowStatement |
+	TryStatement;
+
+EmptyStatement:
+	';';
+
+LabeledStatement:
+	Identifier ':' Statement;
+
+LabeledStatementNoShortIf:
+	Identifier ':' StatementNoShortIf;
+
+ExpressionStatement:
+	StatementExpression ';';
+
+StatementExpression:
+	Assignment |
+	PreIncrementExpression |
+	PreDecrementExpression |
+	PostIncrementExpression |
+	PostDecrementExpression |
+	MethodInvocation |
+	ClassInstanceCreationExpression;
+
+IfThenStatement:
+	'if' '(' Expression ')' Statement;
+
+IfThenElseStatement:
+	'if' '(' Expression ')' StatementNoShortIf 'else' Statement;
+
+IfThenElseStatementNoShortIf:
+	'if' '(' Expression ')' StatementNoShortIf 'else' StatementNoShortIf;
+
+AssertStatement:
+	'assert' Expression ';' |
+	'assert' Expression ':' Expression ';';
+
+SwitchStatement:
+	'switch' '(' Expression ')' SwitchBlock;
+
+SwitchBlock:
+	'{' (SwitchBlockStatementGroup)* (SwitchLabel)* '}';
+
+SwitchBlockStatementGroup:
+	SwitchLabels BlockStatements;
+
+SwitchLabels:
+	SwitchLabel (SwitchLabel)*;
+
+SwitchLabel:
+	'case' ConstantExpression ':' |
+	'case' EnumConstantName ':' |
+	'default' ':';
+
+EnumConstantName:
+	Identifier;
+
+WhileStatement:
+	'while' '(' Expression ')' Statement;
+
+WhileStatementNoShortIf:
+	'while' '(' Expression ')' StatementNoShortIf;
+
+DoStatement:
+	'do' Statement 'while' '(' Expression ')' ';';
+
+ForStatement:
+	BasicForStatement |
+	EnhancedForStatement;
+
+ForStatementNoShortIf:
+	BasicForStatementNoShortIf |
+	EnhancedForStatementNoShortIf;
+
+BasicForStatement:
+	'for' '(' (ForInit)? ';' (Expression)? ';' (ForUpdate)? ')' Statement;
+
+BasicForStatementNoShortIf:
+	'for' '(' (ForInit)? ';' (Expression)? ';' (ForUpdate)? ')' StatementNoShortIf;
+
+ForInit:
+	StatementExpressionList |
+	LocalVariableDeclaration;
+
+ForUpdate:
+	StatementExpressionList;
+
+StatementExpressionList:
+	StatementExpression (',' StatementExpression)*;
+
+EnhancedForStatement:
+	'for' '(' (VariableModifier)* UnannType VariableDeclaratorId ':' Expression ')' Statement;
+
+EnhancedForStatementNoShortIf:
+	'for' '(' (VariableModifier)* UnannType VariableDeclaratorId ':' Expression ')' StatementNoShortIf;
+
+BreakStatement:
+	'break' (Identifier)? ';';
+
+ContinueStatement:
+	'continue' (Identifier)? ';';
+
+ReturnStatement:
+	'return' (Expression)? ';';
+
+ThrowStatement:
+	'throw' Expression ';';
+
+SynchronizedStatement:
+	'synchronized' '(' Expression ')' Block;
+
+TryStatement:
+	'try' Block Catches |
+	'try' Block (Catches)? Finally |
+	TryWithResourcesStatement;
+
+Catches:
+	CatchClause (CatchClause)*;
+
+CatchClause:
+	'catch' '(' CatchFormalParameter ')' Block;
+
+CatchFormalParameter:
+	(VariableModifier)* CatchType VariableDeclaratorId;
+
+CatchType:
+	UnannClassType ('|' ClassType)*;
+
+Finally:
+	'finally' Block;
+
+TryWithResourcesStatement:
+	'try' ResourceSpecification Block (Catches)? (Finally)?;
+
+ResourceSpecification:
+	'(' ResourceList (';')? ')';
+
+ResourceList:
+	Resource (';' Resource)*;
+
+Resource:
+	(VariableModifier)* UnannType VariableDeclaratorId '=' Expression;
