@@ -1,0 +1,6 @@
+grammar org.sourcepit.java.expressions.Expressions with org.sourcepit.java.literals.Literals
+
+generate expressions "http://www.sourcepit.org/java/expressions/Expressions"
+
+Model:
+	greetings+=literal*;
