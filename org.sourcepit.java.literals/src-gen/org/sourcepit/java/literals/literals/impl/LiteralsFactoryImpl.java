@@ -11,6 +11,7 @@ import org.eclipse.emf.ecore.plugin.EcorePlugin;
 import org.sourcepit.java.literals.literals.BooleanLiteral;
 import org.sourcepit.java.literals.literals.CharacterLiteral;
 import org.sourcepit.java.literals.literals.FloatingPointLiteral;
+import org.sourcepit.java.literals.literals.Foo;
 import org.sourcepit.java.literals.literals.IntegerLiteral;
 import org.sourcepit.java.literals.literals.LiteralsFactory;
 import org.sourcepit.java.literals.literals.LiteralsPackage;
@@ -66,6 +67,8 @@ public class LiteralsFactoryImpl extends EFactoryImpl implements LiteralsFactory
    @Override
    public EObject create(EClass eClass) {
       switch (eClass.getClassifierID()) {
+         case LiteralsPackage.FOO :
+            return createFoo();
          case LiteralsPackage.LITERAL :
             return createliteral();
          case LiteralsPackage.INTEGER_LITERAL :
@@ -83,6 +86,17 @@ public class LiteralsFactoryImpl extends EFactoryImpl implements LiteralsFactory
          default :
             throw new IllegalArgumentException("The class '" + eClass.getName() + "' is not a valid classifier");
       }
+   }
+
+   /**
+    * <!-- begin-user-doc -->
+    * <!-- end-user-doc -->
+    * 
+    * @generated
+    */
+   public Foo createFoo() {
+      FooImpl foo = new FooImpl();
+      return foo;
    }
 
    /**

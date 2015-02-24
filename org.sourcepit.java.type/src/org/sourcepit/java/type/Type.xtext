@@ -1,0 +1,569 @@
+grammar org.sourcepit.java.type.Type with org.sourcepit.java.literals.Literals
+
+import "http://www.eclipse.org/emf/2002/Ecore" as ecore
+generate type "http://www.sourcepit.org/java/type/Type"
+
+Model:
+	type=literal;
+
+	/*
+ * Productions from §4 (Types, Values, and Variables)
+ */
+type:
+	primitiveType | referenceType;
+
+primitiveType:
+	annotations+=annotation* typeName=(numericType | booleanType);
+
+terminal booleanType:
+	'boolean';
+
+terminal numericType:
+	integralType | floatingPointType;
+
+terminal integralType:
+	'byte'
+	| 'short'
+	| 'int'
+	| 'long'
+	| 'char';
+
+terminal floatingPointType:
+	'float'
+	| 'double';
+
+referenceType:
+	classOrInterfaceType
+	| typeVariable
+	| arrayType;
+
+classOrInterfaceType:
+	classOrInterfaceTypeSegments+=classOrInterfaceTypeSegment ('.'
+	classOrInterfaceTypeSegments+=classOrInterfaceTypeSegment?)*;
+
+classOrInterfaceTypeSegment:
+	annotations+=annotation* name=Identifier typeArguments=typeArguments?;
+
+classType:
+	annotations+=annotation* name=Identifier typeArguments=typeArguments?
+	| classOrInterfaceType=classOrInterfaceType '.' annotations+=annotation* name=Identifier
+	typeArguments=typeArguments?;
+
+classType_lf_classOrInterfaceType:
+	'.' annotations+=annotation* name=Identifier typeArguments=typeArguments?;
+
+classType_lfno_classOrInterfaceType:
+	annotations+=annotation* name=Identifier typeArguments=typeArguments?;
+
+interfaceType:
+	classType;
+
+interfaceType_lf_classOrInterfaceType:
+	classType_lf_classOrInterfaceType;
+
+interfaceType_lfno_classOrInterfaceType:
+	classType_lfno_classOrInterfaceType;
+
+typeVariable:
+	annotations+=annotation* name=Identifier;
+
+arrayType:
+	type=(primitiveType | classOrInterfaceType | typeVariable) dims=dims;
+
+dims:
+	dims+=dim (dims+=dim)*;
+
+dim:
+	{dim} annotations+=annotation* '[' ']';
+
+typeParameter:
+	typeParameterModifiers+=typeParameterModifier* name=Identifier typeBound=typeBound?;
+
+typeParameterModifier:
+	annotation;
+
+typeBound:
+	'extends' typeVariable=typeVariable | 'extends' classOrInterfaceType=classOrInterfaceType
+	additionalBound+=additionalBound*;
+
+additionalBound:
+	'&' interfaceType;
+
+typeArguments:
+	'<' typeArgumentList '>';
+
+typeArgumentList:
+	typeArguments+=typeArgument (',' typeArguments+=typeArgument)*;
+
+typeArgument:
+	referenceType | wildcard;
+
+wildcard:
+	{wildcard} annotations+=annotation* '?' wildcardBounds=wildcardBounds?;
+
+wildcardBounds:
+	'extends' referenceType | 'super' referenceType;
+
+	/*
+ * Productions from §6 (Names)
+ */
+packageName:
+	qualifiedName;
+
+typeName:
+	qualifiedName;
+
+packageOrTypeName:
+	qualifiedName;
+
+expressionName:
+	qualifiedName;
+
+methodName:
+	Identifier;
+
+ambiguousName:
+	qualifiedName;
+
+qualifiedName:
+	Identifier ('.' Identifier)*;
+
+	/*
+ * Productions from §7 (Packages)
+ */
+compilationUnit:
+	{compilationUnit}
+	package=packageDeclaration? imports+=importDeclaration* types+=typeDeclaration*;
+
+packageDeclaration:
+	modifiers+=packageModifier* 'package' name=packageName ';';
+
+packageModifier:
+	annotation;
+
+importDeclaration:
+	singleTypeImportDeclaration
+	| typeImportOnDemandDeclaration
+	| singleStaticImportDeclaration
+	| staticImportOnDemandDeclaration;
+
+singleTypeImportDeclaration:
+	'import' name=typeName ';';
+
+typeImportOnDemandDeclaration:
+	'import' name=packageOrTypeName '.' '*' ';';
+
+singleStaticImportDeclaration:
+	'import' 'static' name=typeName ';';
+
+staticImportOnDemandDeclaration:
+	'import' 'static' name=typeName '.' '*' ';';
+
+typeDeclaration:
+	classDeclaration | interfaceDeclaration | {EmptyTypeDeclaration} ';';
+
+	/*
+ * Productions from §8 (Classes)
+ */
+classDeclaration:
+	normalClassDeclaration | enumDeclaration;
+
+normalClassDeclaration:
+	modifiers+=classModifier* 'class' name=Identifier typeParameters=typeParameters? superclass=superclass?
+	superinterfaces=superinterfaces? classBody=classBody;
+
+classModifier:
+	annotation | JavaClassModifier;
+
+JavaClassModifier:
+	modifier=ClassModifiers;
+
+enum ClassModifiers:
+	PUBLIC='public'
+	| PROTECTED='protected'
+	| PRIVATE='private'
+	| ABSTRACT='abstract'
+	| STATIC='static'
+	| FINAL='final'
+	| STRICTFP='strictfp';
+
+typeParameters:
+	'<' typeParameterList '>';
+
+typeParameterList:
+	typeParameters+=typeParameter (',' typeParameters+=typeParameter)*;
+
+superclass:
+	'extends' classType;
+
+superinterfaces:
+	'implements' interfaceTypeList;
+
+interfaceTypeList:
+	interfaceTypes+=interfaceType (',' interfaceTypes+=interfaceType)*;
+
+classBody:
+	{classBody} '{' declarations+=classBodyDeclaration* '}';
+
+classBodyDeclaration:
+	classMemberDeclaration
+	| instanceInitializer
+	| staticInitializer
+	| constructorDeclaration;
+
+classMemberDeclaration:
+	fieldDeclaration
+	| methodDeclaration
+	| classDeclaration
+	| interfaceDeclaration
+	| {EmptyClassMemberDeclaration} ';';
+
+fieldDeclaration:
+	fieldModifiers+=fieldModifier* unannType=unannType variableDeclaratorList=variableDeclaratorList ';';
+
+fieldModifier:
+	annotation | JavaFieldModifier;
+
+JavaFieldModifier:
+	modifier=FieldModifiers;
+
+enum FieldModifiers:
+	PUBLIC='public'
+	| PROTECTED='protected'
+	| PRIVATE='private'
+	| STATIC='static'
+	| FINAL='final'
+	| TRANSIENT='transient'
+	| VOLATILE='volatile';
+
+variableDeclaratorList:
+	variableDeclarators+=variableDeclarator (',' variableDeclarators+=variableDeclarator)*;
+
+variableDeclarator:
+	id=variableDeclaratorId ('=' initializer=variableInitializer)?;
+
+variableDeclaratorId:
+	id=Identifier dims=dims?;
+
+variableInitializer:
+	expression | arrayInitializer;
+
+unannType:
+	unannPrimitiveType | unannReferenceType;
+
+unannPrimitiveType:
+	name=(numericType | booleanType);
+
+unannReferenceType:
+	unannClassOrInterfaceType | unannTypeVariable | unannArrayType;
+
+	//unannClassOrInterfaceType:
+//	(unannClassType_lfno_unannClassOrInterfaceType | unannInterfaceType_lfno_unannClassOrInterfaceType)
+//	(unannClassType_lf_unannClassOrInterfaceType | unannInterfaceType_lf_unannClassOrInterfaceType)*;
+
+//unannInterfaceType_lf_unannClassOrInterfaceType:
+//	unannClassType_lf_unannClassOrInterfaceType;
+//
+//unannInterfaceType_lfno_unannClassOrInterfaceType:
+//	unannClassType_lfno_unannClassOrInterfaceType;
+
+//unannClassType_lf_unannClassOrInterfaceType:
+//	'.' annotations+=annotation* name=Identifier typeArguments+=typeArguments?;
+//
+//unannClassType_lfno_unannClassOrInterfaceType:
+//	name=Identifier typeArguments+=typeArguments?;
+unannClassOrInterfaceType:
+	unannClassType | unannInterfaceType;
+
+unannClassType:
+	classTypeSegment+=ClassTypeSegment ('.' classTypeSegment+=ClassTypeSegment)* ('.'
+	classTypeSegment+=ClassTypeSegmentWithAnnotations)?;
+
+ClassTypeSegment:
+	name=Identifier typeArguments=typeArguments?;
+
+ClassTypeSegmentWithAnnotations:
+	(annotations+=annotation)* name=Identifier typeArguments=typeArguments?;
+
+unannInterfaceType:
+	unannClassType;
+
+unannTypeVariable:
+	name=Identifier;
+
+unannArrayType:
+	(unannPrimitiveType | unannClassOrInterfaceType | unannTypeVariable) dims=dims;
+
+methodDeclaration:
+	methodModifiers+=methodModifier* methodHeader=methodHeader methodBody=methodBody;
+
+methodModifier:
+	annotation | JavaMethodModifier;
+
+JavaMethodModifier:
+	modifier=methodModifiers;
+
+enum methodModifiers:
+	PUBLIC='public'
+	| PROTECTED='protected'
+	| PRIVATE='private'
+	| ABSTRACT='abstract'
+	| STATIC='static'
+	| FINAL='final'
+	| SYNCHRONIZED='synchronized'
+	| NATIVE='native'
+	| STRICTFP='strictfp';
+
+methodHeader:
+	result=result methodDeclarator=methodDeclarator throws_=throws_? | typeParameters=typeParameters
+	annotations+=annotation* result=result methodDeclarator=methodDeclarator throws_=throws_?;
+
+result:
+	unannType | voidType;
+
+voidType:
+	name='void';
+
+methodDeclarator:
+	name=Identifier '(' parameters+=formalParameterList? ')' dims_=dims?;
+
+formalParameterList:
+	parameters+=formalParameters ',' parameters+=lastFormalParameter | parameters+=lastFormalParameter;
+
+formalParameters:
+	parameters+=formalParameter (',' parameters+=formalParameter)* | parameters+=receiverParameter (','
+	parameters+=formalParameter)*;
+
+formalParameter:
+	modifiers+=variableModifier* type=unannType name=variableDeclaratorId;
+
+variableModifier:
+	annotation | JavaVariableModifier;
+
+JavaVariableModifier:
+	modifier=VariableModifiers;
+
+enum VariableModifiers:
+	PUBLIC='final';
+
+lastFormalParameter:
+	modifiers+=variableModifier* type=unannType annotations+=annotation* varargs?='...' name=variableDeclaratorId |
+	formalParameter;
+
+receiverParameter:
+	annotations+=annotation* type=unannType (qualifier=Identifier '.')? name='this';
+
+throws_:
+	'throws' exceptionTypeList;
+
+exceptionTypeList:
+	exceptionTypes+=exceptionType (',' exceptionTypes+=exceptionType)*;
+
+exceptionType:
+	classType | typeVariable;
+
+methodBody:
+	block | {methodBody} ';';
+
+instanceInitializer:
+	block;
+
+staticInitializer:
+	'static' block;
+
+constructorDeclaration:
+	constructorModifiers+=constructorModifier* constructorDeclarator=constructorDeclarator throws_=throws_?
+	constructorBody=constructorBody;
+
+constructorModifier:
+	annotation | JavaConstructorModifier;
+
+JavaConstructorModifier:
+	modifier=ConstructorModifiers;
+
+enum ConstructorModifiers:
+	PUBLIC='public'
+	| PROTECTED='protected'
+	| PRIVATE='private';
+
+constructorDeclarator:
+	typeParameters+=typeParameters? simpleTypeName=simpleTypeName '(' formalParameterList=formalParameterList? ')';
+
+simpleTypeName:
+	Identifier;
+
+constructorBody:
+	{constructorBody} '{' explicitConstructorInvocation=explicitConstructorInvocation? blockStatements=blockStatements?
+	'}';
+
+explicitConstructorInvocation:
+	typeArguments=typeArguments? 'this' '(' argumentList=argumentList? ')' ';' | typeArguments=typeArguments? 'super' '('
+	argumentList=argumentList? ')' ';' | expressionName=expressionName '.' typeArguments=typeArguments? 'super' '('
+	argumentList=argumentList? ')' ';' | primary=primary '.' typeArguments=typeArguments? 'super' '('
+	argumentList=argumentList? ')' ';';
+
+enumDeclaration:
+	modifiers+=classModifier* 'enum' name=Identifier superinterfaces=superinterfaces? enumBody=enumBody;
+
+enumBody:
+	{enumBody} '{' enumConstantList=enumConstantList? ','? enumBodyDeclarations=enumBodyDeclarations? '}';
+
+enumConstantList:
+	enumConstants+=enumConstant (',' enumConstants+=enumConstant)*;
+
+enumConstant:
+	enumConstantModifiers+=enumConstantModifier* name=Identifier ('(' argumentList=argumentList? ')')?
+	classBody=classBody?;
+
+enumConstantModifier:
+	annotation;
+
+enumBodyDeclarations:
+	{enumBodyDeclarations} ';' classBodyDeclarations+=classBodyDeclaration*;
+
+	/*
+ * Productions from §9 (Interfaces)
+ */
+interfaceDeclaration:
+	normalInterfaceDeclaration | annotationTypeDeclaration;
+
+normalInterfaceDeclaration:
+	interfaceModifiers+=interfaceModifier* 'interface' name=Identifier typeParameters=typeParameters?
+	extendsInterfaces=extendsInterfaces? interfaceBody=interfaceBody;
+
+interfaceModifier:
+	annotation | JavaInterfaceModifier;
+
+JavaInterfaceModifier:
+	modifier=InterfaceModifiers;
+
+enum InterfaceModifiers:
+	PUBLIC='public'
+	| PROTECTED='protected'
+	| PRIVATE='private'
+	| ABSTRACT='abstract'
+	| STATIC='static'
+	| STRICTFP='strictfp';
+
+extendsInterfaces:
+	'extends' interfaceTypeList;
+
+interfaceBody:
+	{interfaceBody} '{' interfaceMemberDeclarations+=interfaceMemberDeclaration* '}';
+
+interfaceMemberDeclaration:
+	constantDeclaration | interfaceMethodDeclaration | classDeclaration | interfaceDeclaration |
+	{interfaceMemberDeclaration} ';';
+
+constantDeclaration:
+	constantModifiers+=constantModifier* unannType=unannType variableDeclaratorList=variableDeclaratorList ';';
+
+constantModifier:
+	annotation | JavaConstantModifier;
+
+JavaConstantModifier:
+	modifier=ConstantModifiers;
+
+enum ConstantModifiers:
+	PUBLIC='public'
+	| STATIC='static'
+	| FINAL='final';
+
+interfaceMethodDeclaration:
+	interfaceMethodModifiers+=interfaceMethodModifier* methodHeader=methodHeader methodBody=methodBody;
+
+interfaceMethodModifier:
+	annotation | JavaInterfaceMethodModifiers;
+
+JavaInterfaceMethodModifiers:
+	modifiers=InterfaceMethodModifiers;
+
+enum InterfaceMethodModifiers:
+	PUBLIC='public'
+	| ABSTRACT='abstract'
+	| DEFAULT='default'
+	| STATIC='static'
+	| STRICTFP='strictfp';
+
+annotationTypeDeclaration:
+	interfaceModifiers+=interfaceModifier* '@' 'interface' name=Identifier annotationTypeBody=annotationTypeBody;
+
+annotationTypeBody:
+	{annotationTypeBody} '{' annotationTypeMemberDeclarations+=annotationTypeMemberDeclaration* '}';
+
+annotationTypeMemberDeclaration:
+	annotationTypeElementDeclaration | constantDeclaration | classDeclaration | interfaceDeclaration |
+	{annotationTypeMemberDeclaration} ';';
+
+annotationTypeElementDeclaration:
+	annotationTypeElementModifiers+=annotationTypeElementModifier* unannType=unannType name=Identifier '(' ')' dims=dims?
+	defaultValue=defaultValue? ';';
+
+annotationTypeElementModifier:
+	annotation | JavaAnnotationTypeElementModifiers;
+
+JavaAnnotationTypeElementModifiers:
+	modifier=AnnotationTypeElementModifiers;
+
+enum AnnotationTypeElementModifiers:
+	PUBLIC='public'
+	| STATIC='abstract';
+
+defaultValue:
+	'default' elementValue;
+
+annotation:
+	normalAnnotation | markerAnnotation | singleElementAnnotation;
+
+normalAnnotation:
+	'@' typeName=typeName '(' elementValuePairList=elementValuePairList? ')';
+
+elementValuePairList:
+	elementValuePairs+=elementValuePair (',' elementValuePairs+=elementValuePair)*;
+
+elementValuePair:
+	name=Identifier '=' elementValue=elementValue;
+
+elementValue:
+	conditionalExpression | elementValueArrayInitializer | annotation;
+
+elementValueArrayInitializer:
+	{elementValueArrayInitializer} '{' elementValueList=elementValueList? ','? '}';
+
+elementValueList:
+	elementValues+=elementValue (',' elementValues+=elementValue)*;
+
+markerAnnotation:
+	'@' typeName=typeName;
+
+singleElementAnnotation:
+	'@' typeName=typeName '(' elementValue=elementValue ')';
+
+	/*
+ * Productions from §10 (Arrays)
+ */
+arrayInitializer:
+	{arrayInitializer}
+	'{' variableInitializerList=variableInitializerList? ','? '}';
+
+variableInitializerList:
+	variableInitializer+=variableInitializer (',' variableInitializer+=variableInitializer)*;
+
+block:
+	dummy='block';
+
+blockStatements:
+	dummy='blockStatements';
+
+argumentList:
+	dummy='argumentList';
+
+primary:
+	dummy='primary';
+
+expression:
+	dummy='expression';
+
+conditionalExpression:
+	dummy='conditionalExpression';
+

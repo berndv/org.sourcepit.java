@@ -7,6 +7,7 @@
     editorPluginID="org.sourcepit.java.literals.editor" runtimeVersion="2.10">
   <genPackages prefix="Literals" basePackage="org.sourcepit.java.literals" disposableProviderFactory="true"
       fileExtensions="literals" ecorePackage="Literals.ecore#/">
+    <genClasses ecoreClass="Literals.ecore#//Foo"/>
     <genClasses ecoreClass="Literals.ecore#//literal">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Literals.ecore#//literal/value"/>
     </genClasses>

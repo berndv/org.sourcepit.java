@@ -10,6 +10,7 @@ import org.eclipse.emf.ecore.EObject;
 import org.sourcepit.java.literals.literals.BooleanLiteral;
 import org.sourcepit.java.literals.literals.CharacterLiteral;
 import org.sourcepit.java.literals.literals.FloatingPointLiteral;
+import org.sourcepit.java.literals.literals.Foo;
 import org.sourcepit.java.literals.literals.IntegerLiteral;
 import org.sourcepit.java.literals.literals.LiteralsPackage;
 import org.sourcepit.java.literals.literals.NullLiteral;
@@ -78,6 +79,11 @@ public class LiteralsAdapterFactory extends AdapterFactoryImpl {
     */
    protected LiteralsSwitch<Adapter> modelSwitch = new LiteralsSwitch<Adapter>() {
       @Override
+      public Adapter caseFoo(Foo object) {
+         return createFooAdapter();
+      }
+
+      @Override
       public Adapter caseliteral(literal object) {
          return createliteralAdapter();
       }
@@ -132,6 +138,21 @@ public class LiteralsAdapterFactory extends AdapterFactoryImpl {
       return modelSwitch.doSwitch((EObject) target);
    }
 
+
+   /**
+    * Creates a new adapter for an object of class '{@link org.sourcepit.java.literals.literals.Foo <em>Foo</em>}'.
+    * <!-- begin-user-doc -->
+    * This default implementation returns null so that we can easily ignore cases;
+    * it's useful to ignore a case when inheritance will catch all the cases anyway.
+    * <!-- end-user-doc -->
+    * 
+    * @return the new adapter.
+    * @see org.sourcepit.java.literals.literals.Foo
+    * @generated
+    */
+   public Adapter createFooAdapter() {
+      return null;
+   }
 
    /**
     * Creates a new adapter for an object of class '{@link org.sourcepit.java.literals.literals.literal

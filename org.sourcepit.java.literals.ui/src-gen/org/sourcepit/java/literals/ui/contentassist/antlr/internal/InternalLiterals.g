@@ -56,6 +56,34 @@ import org.sourcepit.java.literals.services.LiteralsGrammarAccess;
 
 
 
+// Entry rule entryRuleFoo
+entryRuleFoo 
+:
+{ before(grammarAccess.getFooRule()); }
+	 ruleFoo
+{ after(grammarAccess.getFooRule()); } 
+	 EOF 
+;
+
+// Rule Foo
+ruleFoo
+    @init {
+		int stackSize = keepStackSize();
+    }
+	:
+(
+{ before(grammarAccess.getFooAccess().getGroup()); }
+(rule__Foo__Group__0)
+{ after(grammarAccess.getFooAccess().getGroup()); }
+)
+
+;
+finally {
+	restoreStackSize(stackSize);
+}
+
+
+
 // Entry rule entryRuleliteral
 entryRuleliteral 
 :
@@ -376,6 +404,133 @@ rule__BooleanLiteral__ValueAlternatives_0
 finally {
 	restoreStackSize(stackSize);
 }
+
+
+
+rule__Foo__Group__0
+    @init {
+		int stackSize = keepStackSize();
+    }
+:
+	rule__Foo__Group__0__Impl
+	rule__Foo__Group__1
+;
+finally {
+	restoreStackSize(stackSize);
+}
+
+rule__Foo__Group__0__Impl
+    @init {
+		int stackSize = keepStackSize();
+    }
+:
+(
+{ before(grammarAccess.getFooAccess().getCommercialAtKeyword_0()); }
+
+	'@' 
+
+{ after(grammarAccess.getFooAccess().getCommercialAtKeyword_0()); }
+)
+
+;
+finally {
+	restoreStackSize(stackSize);
+}
+
+
+rule__Foo__Group__1
+    @init {
+		int stackSize = keepStackSize();
+    }
+:
+	rule__Foo__Group__1__Impl
+	rule__Foo__Group__2
+;
+finally {
+	restoreStackSize(stackSize);
+}
+
+rule__Foo__Group__1__Impl
+    @init {
+		int stackSize = keepStackSize();
+    }
+:
+(
+{ before(grammarAccess.getFooAccess().getLiteralParserRuleCall_1()); }
+	ruleliteral
+{ after(grammarAccess.getFooAccess().getLiteralParserRuleCall_1()); }
+)
+
+;
+finally {
+	restoreStackSize(stackSize);
+}
+
+
+rule__Foo__Group__2
+    @init {
+		int stackSize = keepStackSize();
+    }
+:
+	rule__Foo__Group__2__Impl
+	rule__Foo__Group__3
+;
+finally {
+	restoreStackSize(stackSize);
+}
+
+rule__Foo__Group__2__Impl
+    @init {
+		int stackSize = keepStackSize();
+    }
+:
+(
+{ before(grammarAccess.getFooAccess().getPublicKeyword_2()); }
+
+	'public' 
+
+{ after(grammarAccess.getFooAccess().getPublicKeyword_2()); }
+)
+
+;
+finally {
+	restoreStackSize(stackSize);
+}
+
+
+rule__Foo__Group__3
+    @init {
+		int stackSize = keepStackSize();
+    }
+:
+	rule__Foo__Group__3__Impl
+;
+finally {
+	restoreStackSize(stackSize);
+}
+
+rule__Foo__Group__3__Impl
+    @init {
+		int stackSize = keepStackSize();
+    }
+:
+(
+{ before(grammarAccess.getFooAccess().getIdentifierTerminalRuleCall_3()); }
+	RULE_IDENTIFIER
+{ after(grammarAccess.getFooAccess().getIdentifierTerminalRuleCall_3()); }
+)
+
+;
+finally {
+	restoreStackSize(stackSize);
+}
+
+
+
+
+
+
+
 
 
 

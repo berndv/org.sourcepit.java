@@ -26,9 +26,20 @@ public class LiteralsSyntacticSequencer extends AbstractSyntacticSequencer {
 
    @Override
    protected String getUnassignedRuleCallToken(EObject semanticObject, RuleCall ruleCall, INode node) {
+      if (ruleCall.getRule() == grammarAccess.getIdentifierRule())
+         return getIdentifierToken(semanticObject, ruleCall, node);
       return "";
    }
 
+   /**
+    * terminal Identifier:
+    * JavaLetter JavaLetterOrDigit*;
+    */
+   protected String getIdentifierToken(EObject semanticObject, RuleCall ruleCall, INode node) {
+      if (node != null)
+         return getTokenText(node);
+      return "$";
+   }
 
    @Override
    protected void emitUnassignedTokens(EObject semanticObject, ISynTransition transition, INode fromNode, INode toNode) {

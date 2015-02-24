@@ -27,7 +27,7 @@ public class LiteralsParser extends org.eclipse.xtext.parser.antlr.AbstractAntlr
 
    @Override
    protected String getDefaultRuleName() {
-      return "literal";
+      return "Foo";
    }
 
    public LiteralsGrammarAccess getGrammarAccess() {

@@ -5,6 +5,7 @@ grammar InternalLiterals;
 
 options {
 	superClass=AbstractInternalAntlrParser;
+	backtrack=true;
 	
 }
 
@@ -34,6 +35,11 @@ import org.sourcepit.java.literals.services.LiteralsGrammarAccess;
 
 @parser::members {
 
+/*
+  This grammar contains a lot of empty actions to work around a bug in ANTLR.
+  Otherwise the ANTLR tool will create synpreds that cannot be compiled in some rare cases.
+*/
+ 
  	private LiteralsGrammarAccess grammarAccess;
  	
     public InternalLiteralsParser(TokenStream input, LiteralsGrammarAccess grammarAccess) {
@@ -44,7 +50,7 @@ import org.sourcepit.java.literals.services.LiteralsGrammarAccess;
     
     @Override
     protected String getFirstRuleName() {
-    	return "literal";	
+    	return "Foo";	
    	}
    	
    	@Override
@@ -59,6 +65,51 @@ import org.sourcepit.java.literals.services.LiteralsGrammarAccess;
         appendSkippedTokens();
     } 
 }
+
+
+
+
+// Entry rule entryRuleFoo
+entryRuleFoo returns [EObject current=null] 
+	:
+	{ newCompositeNode(grammarAccess.getFooRule()); }
+	 iv_ruleFoo=ruleFoo 
+	 { $current=$iv_ruleFoo.current; } 
+	 EOF 
+;
+
+// Rule Foo
+ruleFoo returns [EObject current=null] 
+    @init { enterRule(); 
+    }
+    @after { leaveRule(); }:
+(	otherlv_0='@' 
+    {
+    	newLeafNode(otherlv_0, grammarAccess.getFooAccess().getCommercialAtKeyword_0());
+    }
+
+	{ 
+	  /* */ 
+	}
+    { 
+        newCompositeNode(grammarAccess.getFooAccess().getLiteralParserRuleCall_1()); 
+    }
+    this_literal_1=ruleliteral
+    { 
+        $current = $this_literal_1.current; 
+        afterParserOrEnumRuleCall();
+    }
+	otherlv_2='public' 
+    {
+    	newLeafNode(otherlv_2, grammarAccess.getFooAccess().getPublicKeyword_2());
+    }
+this_Identifier_3=RULE_IDENTIFIER
+    { 
+    newLeafNode(this_Identifier_3, grammarAccess.getFooAccess().getIdentifierTerminalRuleCall_3()); 
+    }
+)
+;
+
 
 
 
@@ -78,6 +129,9 @@ ruleliteral returns [EObject current=null]
     }
     @after { leaveRule(); }:
 (
+	{ 
+	  /* */ 
+	}
     { 
         newCompositeNode(grammarAccess.getLiteralAccess().getIntegerLiteralParserRuleCall_0()); 
     }
@@ -88,6 +142,9 @@ ruleliteral returns [EObject current=null]
     }
 
     |
+	{ 
+	  /* */ 
+	}
     { 
         newCompositeNode(grammarAccess.getLiteralAccess().getFloatingPointLiteralParserRuleCall_1()); 
     }
@@ -98,6 +155,9 @@ ruleliteral returns [EObject current=null]
     }
 
     |
+	{ 
+	  /* */ 
+	}
     { 
         newCompositeNode(grammarAccess.getLiteralAccess().getBooleanLiteralParserRuleCall_2()); 
     }
@@ -108,6 +168,9 @@ ruleliteral returns [EObject current=null]
     }
 
     |
+	{ 
+	  /* */ 
+	}
     { 
         newCompositeNode(grammarAccess.getLiteralAccess().getCharacterLiteralParserRuleCall_3()); 
     }
@@ -118,6 +181,9 @@ ruleliteral returns [EObject current=null]
     }
 
     |
+	{ 
+	  /* */ 
+	}
     { 
         newCompositeNode(grammarAccess.getLiteralAccess().getStringLiteralParserRuleCall_4()); 
     }
@@ -128,6 +194,9 @@ ruleliteral returns [EObject current=null]
     }
 
     |
+	{ 
+	  /* */ 
+	}
     { 
         newCompositeNode(grammarAccess.getLiteralAccess().getNullLiteralParserRuleCall_5()); 
     }

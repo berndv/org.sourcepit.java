@@ -15,60 +15,62 @@ import org.eclipse.xtext.ui.editor.contentassist.antlr.internal.Lexer;
 
 @SuppressWarnings("all")
 public class InternalLiteralsLexer extends Lexer {
-   public static final int RULE_JAVALETTER = 51;
-   public static final int RULE_JAVALETTERORDIGIT = 52;
-   public static final int RULE_CHARACTER = 12;
-   public static final int RULE_HEXDIGITORUNDERSCORE = 29;
-   public static final int RULE_SIGN = 42;
-   public static final int RULE_BINARYDIGITS = 34;
+   public static final int RULE_JAVALETTER = 52;
+   public static final int RULE_JAVALETTERORDIGIT = 53;
+   public static final int RULE_CHARACTER = 13;
+   public static final int RULE_HEXDIGITORUNDERSCORE = 30;
+   public static final int RULE_SIGN = 43;
+   public static final int RULE_BINARYDIGITS = 35;
    public static final int RULE_OCTALINTEGERLITERAL = 6;
-   public static final int RULE_OCTALDIGITS = 30;
-   public static final int RULE_HEXSIGNIFICAND = 43;
+   public static final int RULE_OCTALDIGITS = 31;
+   public static final int RULE_HEXSIGNIFICAND = 44;
    public static final int RULE_DECIMALINTEGERLITERAL = 4;
-   public static final int RULE_ESCAPESEQUENCE = 46;
+   public static final int RULE_ESCAPESEQUENCE = 47;
+   public static final int T__57 = 57;
    public static final int RULE_HEXINTEGERLITERAL = 5;
-   public static final int RULE_UNDERSCORES = 22;
-   public static final int RULE_NONZERODIGIT = 20;
-   public static final int RULE_OCTALDIGITORUNDERSCORE = 33;
-   public static final int RULE_HEXDIGIT = 27;
-   public static final int RULE_UNICODEESCAPE = 47;
-   public static final int RULE_OCTALNUMERAL = 18;
-   public static final int RULE_ZEROTOTHREE = 49;
-   public static final int RULE_DIGIT = 23;
-   public static final int RULE_DECIMALNUMERAL = 15;
-   public static final int RULE_BINARYNUMERAL = 19;
-   public static final int RULE_DIGITORUNDERSCORE = 25;
+   public static final int T__58 = 58;
+   public static final int RULE_UNDERSCORES = 23;
+   public static final int RULE_NONZERODIGIT = 21;
+   public static final int RULE_OCTALDIGITORUNDERSCORE = 34;
+   public static final int RULE_HEXDIGIT = 28;
+   public static final int RULE_UNICODEESCAPE = 48;
+   public static final int RULE_OCTALNUMERAL = 19;
+   public static final int RULE_ZEROTOTHREE = 50;
+   public static final int RULE_DIGIT = 24;
+   public static final int RULE_DECIMALNUMERAL = 16;
+   public static final int RULE_BINARYNUMERAL = 20;
+   public static final int RULE_DIGITORUNDERSCORE = 26;
    public static final int RULE_ML_COMMENT = 54;
-   public static final int RULE_HEXDIGITSANDUNDERSCORES = 28;
-   public static final int RULE_BINARYDIGITORUNDERSCORE = 37;
-   public static final int RULE_UNICODEMARKER = 50;
-   public static final int RULE_INTEGERTYPESUFFIX = 16;
+   public static final int RULE_HEXDIGITSANDUNDERSCORES = 29;
+   public static final int RULE_BINARYDIGITORUNDERSCORE = 38;
+   public static final int RULE_UNICODEMARKER = 51;
+   public static final int RULE_INTEGERTYPESUFFIX = 17;
    public static final int RULE_FALSE = 11;
-   public static final int RULE_BINARYEXPONENT = 44;
-   public static final int RULE_DIGITSANDUNDERSCORES = 24;
-   public static final int RULE_IDENTIFIER = 53;
+   public static final int RULE_BINARYEXPONENT = 45;
+   public static final int RULE_DIGITSANDUNDERSCORES = 25;
+   public static final int RULE_IDENTIFIER = 12;
    public static final int RULE_DECIMALFLOATINGPOINTLITERAL = 8;
-   public static final int RULE_STRING = 13;
-   public static final int RULE_FLOATTYPESUFFIX = 39;
+   public static final int RULE_STRING = 14;
+   public static final int RULE_FLOATTYPESUFFIX = 40;
    public static final int RULE_BINARYINTEGERLITERAL = 7;
-   public static final int RULE_NULL = 14;
-   public static final int RULE_DIGITS = 21;
+   public static final int RULE_NULL = 15;
+   public static final int RULE_DIGITS = 22;
    public static final int RULE_SL_COMMENT = 55;
    public static final int RULE_HEXADECIMALFLOATINGPOINTLITERAL = 9;
    public static final int RULE_TRUE = 10;
    public static final int EOF = -1;
-   public static final int RULE_HEXNUMERAL = 17;
+   public static final int RULE_HEXNUMERAL = 18;
    public static final int RULE_WS = 56;
-   public static final int RULE_OCTALDIGIT = 31;
-   public static final int RULE_SIGNEDINTEGER = 41;
-   public static final int RULE_HEXDIGITS = 26;
-   public static final int RULE_BINARYEXPONENTINDICATOR = 45;
-   public static final int RULE_OCTALDIGITSANDUNDERSCORES = 32;
-   public static final int RULE_OCTALESCAPE = 48;
-   public static final int RULE_BINARYDIGITSANDUNDERSCORES = 36;
-   public static final int RULE_EXPONENTINDICATOR = 40;
-   public static final int RULE_BINARYDIGIT = 35;
-   public static final int RULE_EXPONENTPART = 38;
+   public static final int RULE_OCTALDIGIT = 32;
+   public static final int RULE_SIGNEDINTEGER = 42;
+   public static final int RULE_HEXDIGITS = 27;
+   public static final int RULE_BINARYEXPONENTINDICATOR = 46;
+   public static final int RULE_OCTALDIGITSANDUNDERSCORES = 33;
+   public static final int RULE_OCTALESCAPE = 49;
+   public static final int RULE_BINARYDIGITSANDUNDERSCORES = 37;
+   public static final int RULE_EXPONENTINDICATOR = 41;
+   public static final int RULE_BINARYDIGIT = 36;
+   public static final int RULE_EXPONENTPART = 39;
 
    // delegates
    // delegators
@@ -90,18 +92,65 @@ public class InternalLiteralsLexer extends Lexer {
       return "../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g";
    }
 
+   // $ANTLR start "T__57"
+   public final void mT__57() throws RecognitionException {
+      try {
+         int _type = T__57;
+         int _channel = DEFAULT_TOKEN_CHANNEL;
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:11:7:
+         // ( '@' )
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:11:9:
+         // '@'
+         {
+            match('@');
+
+         }
+
+         state.type = _type;
+         state.channel = _channel;
+      }
+      finally {
+      }
+   }
+
+   // $ANTLR end "T__57"
+
+   // $ANTLR start "T__58"
+   public final void mT__58() throws RecognitionException {
+      try {
+         int _type = T__58;
+         int _channel = DEFAULT_TOKEN_CHANNEL;
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:12:7:
+         // ( 'public' )
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:12:9:
+         // 'public'
+         {
+            match("public");
+
+
+         }
+
+         state.type = _type;
+         state.channel = _channel;
+      }
+      finally {
+      }
+   }
+
+   // $ANTLR end "T__58"
+
    // $ANTLR start "RULE_DECIMALINTEGERLITERAL"
    public final void mRULE_DECIMALINTEGERLITERAL() throws RecognitionException {
       try {
          int _type = RULE_DECIMALINTEGERLITERAL;
          int _channel = DEFAULT_TOKEN_CHANNEL;
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:477:28:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:632:28:
          // ( RULE_DECIMALNUMERAL ( RULE_INTEGERTYPESUFFIX )? )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:477:30:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:632:30:
          // RULE_DECIMALNUMERAL ( RULE_INTEGERTYPESUFFIX )?
          {
             mRULE_DECIMALNUMERAL();
-            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:477:50:
+            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:632:50:
             // ( RULE_INTEGERTYPESUFFIX )?
             int alt1 = 2;
             int LA1_0 = input.LA(1);
@@ -111,7 +160,7 @@ public class InternalLiteralsLexer extends Lexer {
             }
             switch (alt1) {
                case 1 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:477:50:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:632:50:
                // RULE_INTEGERTYPESUFFIX
                {
                   mRULE_INTEGERTYPESUFFIX();
@@ -138,13 +187,13 @@ public class InternalLiteralsLexer extends Lexer {
       try {
          int _type = RULE_HEXINTEGERLITERAL;
          int _channel = DEFAULT_TOKEN_CHANNEL;
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:479:24:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:634:24:
          // ( RULE_HEXNUMERAL ( RULE_INTEGERTYPESUFFIX )? )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:479:26:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:634:26:
          // RULE_HEXNUMERAL ( RULE_INTEGERTYPESUFFIX )?
          {
             mRULE_HEXNUMERAL();
-            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:479:42:
+            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:634:42:
             // ( RULE_INTEGERTYPESUFFIX )?
             int alt2 = 2;
             int LA2_0 = input.LA(1);
@@ -154,7 +203,7 @@ public class InternalLiteralsLexer extends Lexer {
             }
             switch (alt2) {
                case 1 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:479:42:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:634:42:
                // RULE_INTEGERTYPESUFFIX
                {
                   mRULE_INTEGERTYPESUFFIX();
@@ -181,13 +230,13 @@ public class InternalLiteralsLexer extends Lexer {
       try {
          int _type = RULE_OCTALINTEGERLITERAL;
          int _channel = DEFAULT_TOKEN_CHANNEL;
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:481:26:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:636:26:
          // ( RULE_OCTALNUMERAL ( RULE_INTEGERTYPESUFFIX )? )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:481:28:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:636:28:
          // RULE_OCTALNUMERAL ( RULE_INTEGERTYPESUFFIX )?
          {
             mRULE_OCTALNUMERAL();
-            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:481:46:
+            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:636:46:
             // ( RULE_INTEGERTYPESUFFIX )?
             int alt3 = 2;
             int LA3_0 = input.LA(1);
@@ -197,7 +246,7 @@ public class InternalLiteralsLexer extends Lexer {
             }
             switch (alt3) {
                case 1 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:481:46:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:636:46:
                // RULE_INTEGERTYPESUFFIX
                {
                   mRULE_INTEGERTYPESUFFIX();
@@ -224,13 +273,13 @@ public class InternalLiteralsLexer extends Lexer {
       try {
          int _type = RULE_BINARYINTEGERLITERAL;
          int _channel = DEFAULT_TOKEN_CHANNEL;
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:483:27:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:638:27:
          // ( RULE_BINARYNUMERAL ( RULE_INTEGERTYPESUFFIX )? )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:483:29:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:638:29:
          // RULE_BINARYNUMERAL ( RULE_INTEGERTYPESUFFIX )?
          {
             mRULE_BINARYNUMERAL();
-            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:483:48:
+            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:638:48:
             // ( RULE_INTEGERTYPESUFFIX )?
             int alt4 = 2;
             int LA4_0 = input.LA(1);
@@ -240,7 +289,7 @@ public class InternalLiteralsLexer extends Lexer {
             }
             switch (alt4) {
                case 1 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:483:48:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:638:48:
                // RULE_INTEGERTYPESUFFIX
                {
                   mRULE_INTEGERTYPESUFFIX();
@@ -265,9 +314,9 @@ public class InternalLiteralsLexer extends Lexer {
    // $ANTLR start "RULE_INTEGERTYPESUFFIX"
    public final void mRULE_INTEGERTYPESUFFIX() throws RecognitionException {
       try {
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:485:33:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:640:33:
          // ( ( 'l' | 'L' ) )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:485:35:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:640:35:
          // ( 'l' | 'L' )
          {
             if (input.LA(1) == 'L' || input.LA(1) == 'l') {
@@ -293,12 +342,12 @@ public class InternalLiteralsLexer extends Lexer {
    // $ANTLR start "RULE_DECIMALNUMERAL"
    public final void mRULE_DECIMALNUMERAL() throws RecognitionException {
       try {
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:487:30:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:642:30:
          // ( ( '0' | RULE_NONZERODIGIT ( RULE_DIGITS )? | RULE_NONZERODIGIT RULE_UNDERSCORES RULE_DIGITS ) )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:487:32:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:642:32:
          // ( '0' | RULE_NONZERODIGIT ( RULE_DIGITS )? | RULE_NONZERODIGIT RULE_UNDERSCORES RULE_DIGITS )
          {
-            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:487:32:
+            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:642:32:
             // ( '0' | RULE_NONZERODIGIT ( RULE_DIGITS )? | RULE_NONZERODIGIT RULE_UNDERSCORES RULE_DIGITS )
             int alt6 = 3;
             int LA6_0 = input.LA(1);
@@ -323,7 +372,7 @@ public class InternalLiteralsLexer extends Lexer {
             }
             switch (alt6) {
                case 1 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:487:33:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:642:33:
                // '0'
                {
                   match('0');
@@ -331,11 +380,11 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 2 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:487:37:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:642:37:
                // RULE_NONZERODIGIT ( RULE_DIGITS )?
                {
                   mRULE_NONZERODIGIT();
-                  // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:487:55:
+                  // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:642:55:
                   // ( RULE_DIGITS )?
                   int alt5 = 2;
                   int LA5_0 = input.LA(1);
@@ -345,7 +394,7 @@ public class InternalLiteralsLexer extends Lexer {
                   }
                   switch (alt5) {
                      case 1 :
-                     // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:487:55:
+                     // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:642:55:
                      // RULE_DIGITS
                      {
                         mRULE_DIGITS();
@@ -359,7 +408,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 3 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:487:68:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:642:68:
                // RULE_NONZERODIGIT RULE_UNDERSCORES RULE_DIGITS
                {
                   mRULE_NONZERODIGIT();
@@ -384,9 +433,9 @@ public class InternalLiteralsLexer extends Lexer {
    // $ANTLR start "RULE_NONZERODIGIT"
    public final void mRULE_NONZERODIGIT() throws RecognitionException {
       try {
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:489:28:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:644:28:
          // ( '1' .. '9' )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:489:30:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:644:30:
          // '1' .. '9'
          {
             matchRange('1', '9');
@@ -403,12 +452,12 @@ public class InternalLiteralsLexer extends Lexer {
    // $ANTLR start "RULE_DIGITS"
    public final void mRULE_DIGITS() throws RecognitionException {
       try {
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:491:22:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:646:22:
          // ( ( RULE_DIGIT | RULE_DIGIT ( RULE_DIGITSANDUNDERSCORES )? RULE_DIGIT ) )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:491:24:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:646:24:
          // ( RULE_DIGIT | RULE_DIGIT ( RULE_DIGITSANDUNDERSCORES )? RULE_DIGIT )
          {
-            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:491:24:
+            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:646:24:
             // ( RULE_DIGIT | RULE_DIGIT ( RULE_DIGITSANDUNDERSCORES )? RULE_DIGIT )
             int alt8 = 2;
             int LA8_0 = input.LA(1);
@@ -430,7 +479,7 @@ public class InternalLiteralsLexer extends Lexer {
             }
             switch (alt8) {
                case 1 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:491:25:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:646:25:
                // RULE_DIGIT
                {
                   mRULE_DIGIT();
@@ -438,11 +487,11 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 2 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:491:36:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:646:36:
                // RULE_DIGIT ( RULE_DIGITSANDUNDERSCORES )? RULE_DIGIT
                {
                   mRULE_DIGIT();
-                  // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:491:47:
+                  // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:646:47:
                   // ( RULE_DIGITSANDUNDERSCORES )?
                   int alt7 = 2;
                   int LA7_0 = input.LA(1);
@@ -459,7 +508,7 @@ public class InternalLiteralsLexer extends Lexer {
                   }
                   switch (alt7) {
                      case 1 :
-                     // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:491:47:
+                     // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:646:47:
                      // RULE_DIGITSANDUNDERSCORES
                      {
                         mRULE_DIGITSANDUNDERSCORES();
@@ -489,9 +538,9 @@ public class InternalLiteralsLexer extends Lexer {
    // $ANTLR start "RULE_DIGIT"
    public final void mRULE_DIGIT() throws RecognitionException {
       try {
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:493:21:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:648:21:
          // ( ( '0' | RULE_NONZERODIGIT ) )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:493:23:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:648:23:
          // ( '0' | RULE_NONZERODIGIT )
          {
             if ((input.LA(1) >= '0' && input.LA(1) <= '9')) {
@@ -517,13 +566,13 @@ public class InternalLiteralsLexer extends Lexer {
    // $ANTLR start "RULE_DIGITSANDUNDERSCORES"
    public final void mRULE_DIGITSANDUNDERSCORES() throws RecognitionException {
       try {
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:495:36:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:650:36:
          // ( RULE_DIGITORUNDERSCORE ( RULE_DIGITORUNDERSCORE )* )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:495:38:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:650:38:
          // RULE_DIGITORUNDERSCORE ( RULE_DIGITORUNDERSCORE )*
          {
             mRULE_DIGITORUNDERSCORE();
-            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:495:61:
+            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:650:61:
             // ( RULE_DIGITORUNDERSCORE )*
             loop9 : do {
                int alt9 = 2;
@@ -536,7 +585,7 @@ public class InternalLiteralsLexer extends Lexer {
 
                switch (alt9) {
                   case 1 :
-                  // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:495:61:
+                  // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:650:61:
                   // RULE_DIGITORUNDERSCORE
                   {
                      mRULE_DIGITORUNDERSCORE();
@@ -563,9 +612,9 @@ public class InternalLiteralsLexer extends Lexer {
    // $ANTLR start "RULE_DIGITORUNDERSCORE"
    public final void mRULE_DIGITORUNDERSCORE() throws RecognitionException {
       try {
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:497:33:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:652:33:
          // ( ( RULE_DIGIT | '_' ) )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:497:35:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:652:35:
          // ( RULE_DIGIT | '_' )
          {
             if ((input.LA(1) >= '0' && input.LA(1) <= '9') || input.LA(1) == '_') {
@@ -591,12 +640,12 @@ public class InternalLiteralsLexer extends Lexer {
    // $ANTLR start "RULE_UNDERSCORES"
    public final void mRULE_UNDERSCORES() throws RecognitionException {
       try {
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:499:27:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:654:27:
          // ( ( '_' )+ )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:499:29:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:654:29:
          // ( '_' )+
          {
-            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:499:29:
+            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:654:29:
             // ( '_' )+
             int cnt10 = 0;
             loop10 : do {
@@ -610,7 +659,7 @@ public class InternalLiteralsLexer extends Lexer {
 
                switch (alt10) {
                   case 1 :
-                  // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:499:29:
+                  // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:654:29:
                   // '_'
                   {
                      match('_');
@@ -641,9 +690,9 @@ public class InternalLiteralsLexer extends Lexer {
    // $ANTLR start "RULE_HEXNUMERAL"
    public final void mRULE_HEXNUMERAL() throws RecognitionException {
       try {
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:501:26:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:656:26:
          // ( '0' ( 'x' | 'X' ) RULE_HEXDIGITS )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:501:28:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:656:28:
          // '0' ( 'x' | 'X' ) RULE_HEXDIGITS
          {
             match('0');
@@ -671,12 +720,12 @@ public class InternalLiteralsLexer extends Lexer {
    // $ANTLR start "RULE_HEXDIGITS"
    public final void mRULE_HEXDIGITS() throws RecognitionException {
       try {
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:503:25:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:658:25:
          // ( ( RULE_HEXDIGIT | RULE_HEXDIGIT ( RULE_HEXDIGITSANDUNDERSCORES )? RULE_HEXDIGIT ) )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:503:27:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:658:27:
          // ( RULE_HEXDIGIT | RULE_HEXDIGIT ( RULE_HEXDIGITSANDUNDERSCORES )? RULE_HEXDIGIT )
          {
-            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:503:27:
+            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:658:27:
             // ( RULE_HEXDIGIT | RULE_HEXDIGIT ( RULE_HEXDIGITSANDUNDERSCORES )? RULE_HEXDIGIT )
             int alt12 = 2;
             int LA12_0 = input.LA(1);
@@ -698,7 +747,7 @@ public class InternalLiteralsLexer extends Lexer {
             }
             switch (alt12) {
                case 1 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:503:28:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:658:28:
                // RULE_HEXDIGIT
                {
                   mRULE_HEXDIGIT();
@@ -706,11 +755,11 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 2 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:503:42:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:658:42:
                // RULE_HEXDIGIT ( RULE_HEXDIGITSANDUNDERSCORES )? RULE_HEXDIGIT
                {
                   mRULE_HEXDIGIT();
-                  // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:503:56:
+                  // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:658:56:
                   // ( RULE_HEXDIGITSANDUNDERSCORES )?
                   int alt11 = 2;
                   int LA11_0 = input.LA(1);
@@ -727,7 +776,7 @@ public class InternalLiteralsLexer extends Lexer {
                   }
                   switch (alt11) {
                      case 1 :
-                     // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:503:56:
+                     // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:658:56:
                      // RULE_HEXDIGITSANDUNDERSCORES
                      {
                         mRULE_HEXDIGITSANDUNDERSCORES();
@@ -757,9 +806,9 @@ public class InternalLiteralsLexer extends Lexer {
    // $ANTLR start "RULE_HEXDIGIT"
    public final void mRULE_HEXDIGIT() throws RecognitionException {
       try {
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:505:24:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:660:24:
          // ( ( '0' .. '9' | 'a' .. 'f' | 'A' .. 'F' ) )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:505:26:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:660:26:
          // ( '0' .. '9' | 'a' .. 'f' | 'A' .. 'F' )
          {
             if ((input.LA(1) >= '0' && input.LA(1) <= '9') || (input.LA(1) >= 'A' && input.LA(1) <= 'F')
@@ -786,13 +835,13 @@ public class InternalLiteralsLexer extends Lexer {
    // $ANTLR start "RULE_HEXDIGITSANDUNDERSCORES"
    public final void mRULE_HEXDIGITSANDUNDERSCORES() throws RecognitionException {
       try {
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:507:39:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:662:39:
          // ( RULE_HEXDIGITORUNDERSCORE ( RULE_HEXDIGITORUNDERSCORE )* )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:507:41:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:662:41:
          // RULE_HEXDIGITORUNDERSCORE ( RULE_HEXDIGITORUNDERSCORE )*
          {
             mRULE_HEXDIGITORUNDERSCORE();
-            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:507:67:
+            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:662:67:
             // ( RULE_HEXDIGITORUNDERSCORE )*
             loop13 : do {
                int alt13 = 2;
@@ -805,7 +854,7 @@ public class InternalLiteralsLexer extends Lexer {
 
                switch (alt13) {
                   case 1 :
-                  // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:507:67:
+                  // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:662:67:
                   // RULE_HEXDIGITORUNDERSCORE
                   {
                      mRULE_HEXDIGITORUNDERSCORE();
@@ -832,9 +881,9 @@ public class InternalLiteralsLexer extends Lexer {
    // $ANTLR start "RULE_HEXDIGITORUNDERSCORE"
    public final void mRULE_HEXDIGITORUNDERSCORE() throws RecognitionException {
       try {
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:509:36:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:664:36:
          // ( ( RULE_HEXDIGIT | '_' ) )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:509:38:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:664:38:
          // ( RULE_HEXDIGIT | '_' )
          {
             if ((input.LA(1) >= '0' && input.LA(1) <= '9') || (input.LA(1) >= 'A' && input.LA(1) <= 'F')
@@ -861,12 +910,12 @@ public class InternalLiteralsLexer extends Lexer {
    // $ANTLR start "RULE_OCTALNUMERAL"
    public final void mRULE_OCTALNUMERAL() throws RecognitionException {
       try {
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:511:28:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:666:28:
          // ( ( '0' RULE_OCTALDIGITS | '0' RULE_UNDERSCORES RULE_OCTALDIGITS ) )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:511:30:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:666:30:
          // ( '0' RULE_OCTALDIGITS | '0' RULE_UNDERSCORES RULE_OCTALDIGITS )
          {
-            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:511:30:
+            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:666:30:
             // ( '0' RULE_OCTALDIGITS | '0' RULE_UNDERSCORES RULE_OCTALDIGITS )
             int alt14 = 2;
             int LA14_0 = input.LA(1);
@@ -893,7 +942,7 @@ public class InternalLiteralsLexer extends Lexer {
             }
             switch (alt14) {
                case 1 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:511:31:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:666:31:
                // '0' RULE_OCTALDIGITS
                {
                   match('0');
@@ -902,7 +951,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 2 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:511:52:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:666:52:
                // '0' RULE_UNDERSCORES RULE_OCTALDIGITS
                {
                   match('0');
@@ -927,12 +976,12 @@ public class InternalLiteralsLexer extends Lexer {
    // $ANTLR start "RULE_OCTALDIGITS"
    public final void mRULE_OCTALDIGITS() throws RecognitionException {
       try {
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:513:27:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:668:27:
          // ( ( RULE_OCTALDIGIT | RULE_OCTALDIGIT ( RULE_OCTALDIGITSANDUNDERSCORES )? RULE_OCTALDIGIT ) )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:513:29:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:668:29:
          // ( RULE_OCTALDIGIT | RULE_OCTALDIGIT ( RULE_OCTALDIGITSANDUNDERSCORES )? RULE_OCTALDIGIT )
          {
-            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:513:29:
+            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:668:29:
             // ( RULE_OCTALDIGIT | RULE_OCTALDIGIT ( RULE_OCTALDIGITSANDUNDERSCORES )? RULE_OCTALDIGIT )
             int alt16 = 2;
             int LA16_0 = input.LA(1);
@@ -954,7 +1003,7 @@ public class InternalLiteralsLexer extends Lexer {
             }
             switch (alt16) {
                case 1 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:513:30:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:668:30:
                // RULE_OCTALDIGIT
                {
                   mRULE_OCTALDIGIT();
@@ -962,11 +1011,11 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 2 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:513:46:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:668:46:
                // RULE_OCTALDIGIT ( RULE_OCTALDIGITSANDUNDERSCORES )? RULE_OCTALDIGIT
                {
                   mRULE_OCTALDIGIT();
-                  // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:513:62:
+                  // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:668:62:
                   // ( RULE_OCTALDIGITSANDUNDERSCORES )?
                   int alt15 = 2;
                   int LA15_0 = input.LA(1);
@@ -983,7 +1032,7 @@ public class InternalLiteralsLexer extends Lexer {
                   }
                   switch (alt15) {
                      case 1 :
-                     // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:513:62:
+                     // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:668:62:
                      // RULE_OCTALDIGITSANDUNDERSCORES
                      {
                         mRULE_OCTALDIGITSANDUNDERSCORES();
@@ -1013,9 +1062,9 @@ public class InternalLiteralsLexer extends Lexer {
    // $ANTLR start "RULE_OCTALDIGIT"
    public final void mRULE_OCTALDIGIT() throws RecognitionException {
       try {
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:515:26:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:670:26:
          // ( '0' .. '7' )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:515:28:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:670:28:
          // '0' .. '7'
          {
             matchRange('0', '7');
@@ -1032,13 +1081,13 @@ public class InternalLiteralsLexer extends Lexer {
    // $ANTLR start "RULE_OCTALDIGITSANDUNDERSCORES"
    public final void mRULE_OCTALDIGITSANDUNDERSCORES() throws RecognitionException {
       try {
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:517:41:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:672:41:
          // ( RULE_OCTALDIGITORUNDERSCORE ( RULE_OCTALDIGITORUNDERSCORE )* )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:517:43:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:672:43:
          // RULE_OCTALDIGITORUNDERSCORE ( RULE_OCTALDIGITORUNDERSCORE )*
          {
             mRULE_OCTALDIGITORUNDERSCORE();
-            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:517:71:
+            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:672:71:
             // ( RULE_OCTALDIGITORUNDERSCORE )*
             loop17 : do {
                int alt17 = 2;
@@ -1051,7 +1100,7 @@ public class InternalLiteralsLexer extends Lexer {
 
                switch (alt17) {
                   case 1 :
-                  // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:517:71:
+                  // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:672:71:
                   // RULE_OCTALDIGITORUNDERSCORE
                   {
                      mRULE_OCTALDIGITORUNDERSCORE();
@@ -1078,9 +1127,9 @@ public class InternalLiteralsLexer extends Lexer {
    // $ANTLR start "RULE_OCTALDIGITORUNDERSCORE"
    public final void mRULE_OCTALDIGITORUNDERSCORE() throws RecognitionException {
       try {
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:519:38:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:674:38:
          // ( ( RULE_OCTALDIGIT | '_' ) )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:519:40:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:674:40:
          // ( RULE_OCTALDIGIT | '_' )
          {
             if ((input.LA(1) >= '0' && input.LA(1) <= '7') || input.LA(1) == '_') {
@@ -1106,9 +1155,9 @@ public class InternalLiteralsLexer extends Lexer {
    // $ANTLR start "RULE_BINARYNUMERAL"
    public final void mRULE_BINARYNUMERAL() throws RecognitionException {
       try {
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:521:29:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:676:29:
          // ( '0' ( 'b' | 'B' ) RULE_BINARYDIGITS )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:521:31:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:676:31:
          // '0' ( 'b' | 'B' ) RULE_BINARYDIGITS
          {
             match('0');
@@ -1136,12 +1185,12 @@ public class InternalLiteralsLexer extends Lexer {
    // $ANTLR start "RULE_BINARYDIGITS"
    public final void mRULE_BINARYDIGITS() throws RecognitionException {
       try {
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:523:28:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:678:28:
          // ( ( RULE_BINARYDIGIT | RULE_BINARYDIGIT ( RULE_BINARYDIGITSANDUNDERSCORES )? RULE_BINARYDIGIT ) )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:523:30:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:678:30:
          // ( RULE_BINARYDIGIT | RULE_BINARYDIGIT ( RULE_BINARYDIGITSANDUNDERSCORES )? RULE_BINARYDIGIT )
          {
-            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:523:30:
+            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:678:30:
             // ( RULE_BINARYDIGIT | RULE_BINARYDIGIT ( RULE_BINARYDIGITSANDUNDERSCORES )? RULE_BINARYDIGIT )
             int alt19 = 2;
             int LA19_0 = input.LA(1);
@@ -1163,7 +1212,7 @@ public class InternalLiteralsLexer extends Lexer {
             }
             switch (alt19) {
                case 1 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:523:31:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:678:31:
                // RULE_BINARYDIGIT
                {
                   mRULE_BINARYDIGIT();
@@ -1171,11 +1220,11 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 2 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:523:48:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:678:48:
                // RULE_BINARYDIGIT ( RULE_BINARYDIGITSANDUNDERSCORES )? RULE_BINARYDIGIT
                {
                   mRULE_BINARYDIGIT();
-                  // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:523:65:
+                  // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:678:65:
                   // ( RULE_BINARYDIGITSANDUNDERSCORES )?
                   int alt18 = 2;
                   int LA18_0 = input.LA(1);
@@ -1192,7 +1241,7 @@ public class InternalLiteralsLexer extends Lexer {
                   }
                   switch (alt18) {
                      case 1 :
-                     // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:523:65:
+                     // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:678:65:
                      // RULE_BINARYDIGITSANDUNDERSCORES
                      {
                         mRULE_BINARYDIGITSANDUNDERSCORES();
@@ -1222,9 +1271,9 @@ public class InternalLiteralsLexer extends Lexer {
    // $ANTLR start "RULE_BINARYDIGIT"
    public final void mRULE_BINARYDIGIT() throws RecognitionException {
       try {
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:525:27:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:680:27:
          // ( ( '0' | '1' ) )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:525:29:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:680:29:
          // ( '0' | '1' )
          {
             if ((input.LA(1) >= '0' && input.LA(1) <= '1')) {
@@ -1250,13 +1299,13 @@ public class InternalLiteralsLexer extends Lexer {
    // $ANTLR start "RULE_BINARYDIGITSANDUNDERSCORES"
    public final void mRULE_BINARYDIGITSANDUNDERSCORES() throws RecognitionException {
       try {
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:527:42:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:682:42:
          // ( RULE_BINARYDIGITORUNDERSCORE ( RULE_BINARYDIGITORUNDERSCORE )* )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:527:44:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:682:44:
          // RULE_BINARYDIGITORUNDERSCORE ( RULE_BINARYDIGITORUNDERSCORE )*
          {
             mRULE_BINARYDIGITORUNDERSCORE();
-            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:527:73:
+            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:682:73:
             // ( RULE_BINARYDIGITORUNDERSCORE )*
             loop20 : do {
                int alt20 = 2;
@@ -1269,7 +1318,7 @@ public class InternalLiteralsLexer extends Lexer {
 
                switch (alt20) {
                   case 1 :
-                  // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:527:73:
+                  // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:682:73:
                   // RULE_BINARYDIGITORUNDERSCORE
                   {
                      mRULE_BINARYDIGITORUNDERSCORE();
@@ -1296,9 +1345,9 @@ public class InternalLiteralsLexer extends Lexer {
    // $ANTLR start "RULE_BINARYDIGITORUNDERSCORE"
    public final void mRULE_BINARYDIGITORUNDERSCORE() throws RecognitionException {
       try {
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:529:39:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:684:39:
          // ( ( RULE_BINARYDIGIT | '_' ) )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:529:41:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:684:41:
          // ( RULE_BINARYDIGIT | '_' )
          {
             if ((input.LA(1) >= '0' && input.LA(1) <= '1') || input.LA(1) == '_') {
@@ -1326,16 +1375,16 @@ public class InternalLiteralsLexer extends Lexer {
       try {
          int _type = RULE_DECIMALFLOATINGPOINTLITERAL;
          int _channel = DEFAULT_TOKEN_CHANNEL;
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:531:34:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:686:34:
          // ( ( RULE_DIGITS '.' ( RULE_DIGITS )? ( RULE_EXPONENTPART )? ( RULE_FLOATTYPESUFFIX )? | '.' RULE_DIGITS (
          // RULE_EXPONENTPART )? ( RULE_FLOATTYPESUFFIX )? | RULE_DIGITS RULE_EXPONENTPART ( RULE_FLOATTYPESUFFIX )? |
          // RULE_DIGITS RULE_FLOATTYPESUFFIX ) )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:531:36:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:686:36:
          // ( RULE_DIGITS '.' ( RULE_DIGITS )? ( RULE_EXPONENTPART )? ( RULE_FLOATTYPESUFFIX )? | '.' RULE_DIGITS (
          // RULE_EXPONENTPART )? ( RULE_FLOATTYPESUFFIX )? | RULE_DIGITS RULE_EXPONENTPART ( RULE_FLOATTYPESUFFIX )? |
          // RULE_DIGITS RULE_FLOATTYPESUFFIX )
          {
-            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:531:36:
+            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:686:36:
             // ( RULE_DIGITS '.' ( RULE_DIGITS )? ( RULE_EXPONENTPART )? ( RULE_FLOATTYPESUFFIX )? | '.' RULE_DIGITS (
             // RULE_EXPONENTPART )? ( RULE_FLOATTYPESUFFIX )? | RULE_DIGITS RULE_EXPONENTPART ( RULE_FLOATTYPESUFFIX )?
             // | RULE_DIGITS RULE_FLOATTYPESUFFIX )
@@ -1343,12 +1392,12 @@ public class InternalLiteralsLexer extends Lexer {
             alt27 = dfa27.predict(input);
             switch (alt27) {
                case 1 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:531:37:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:686:37:
                // RULE_DIGITS '.' ( RULE_DIGITS )? ( RULE_EXPONENTPART )? ( RULE_FLOATTYPESUFFIX )?
                {
                   mRULE_DIGITS();
                   match('.');
-                  // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:531:53:
+                  // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:686:53:
                   // ( RULE_DIGITS )?
                   int alt21 = 2;
                   int LA21_0 = input.LA(1);
@@ -1358,7 +1407,7 @@ public class InternalLiteralsLexer extends Lexer {
                   }
                   switch (alt21) {
                      case 1 :
-                     // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:531:53:
+                     // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:686:53:
                      // RULE_DIGITS
                      {
                         mRULE_DIGITS();
@@ -1368,7 +1417,7 @@ public class InternalLiteralsLexer extends Lexer {
 
                   }
 
-                  // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:531:66:
+                  // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:686:66:
                   // ( RULE_EXPONENTPART )?
                   int alt22 = 2;
                   int LA22_0 = input.LA(1);
@@ -1378,7 +1427,7 @@ public class InternalLiteralsLexer extends Lexer {
                   }
                   switch (alt22) {
                      case 1 :
-                     // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:531:66:
+                     // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:686:66:
                      // RULE_EXPONENTPART
                      {
                         mRULE_EXPONENTPART();
@@ -1388,7 +1437,7 @@ public class InternalLiteralsLexer extends Lexer {
 
                   }
 
-                  // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:531:85:
+                  // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:686:85:
                   // ( RULE_FLOATTYPESUFFIX )?
                   int alt23 = 2;
                   int LA23_0 = input.LA(1);
@@ -1398,7 +1447,7 @@ public class InternalLiteralsLexer extends Lexer {
                   }
                   switch (alt23) {
                      case 1 :
-                     // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:531:85:
+                     // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:686:85:
                      // RULE_FLOATTYPESUFFIX
                      {
                         mRULE_FLOATTYPESUFFIX();
@@ -1412,12 +1461,12 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 2 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:531:107:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:686:107:
                // '.' RULE_DIGITS ( RULE_EXPONENTPART )? ( RULE_FLOATTYPESUFFIX )?
                {
                   match('.');
                   mRULE_DIGITS();
-                  // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:531:123:
+                  // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:686:123:
                   // ( RULE_EXPONENTPART )?
                   int alt24 = 2;
                   int LA24_0 = input.LA(1);
@@ -1427,7 +1476,7 @@ public class InternalLiteralsLexer extends Lexer {
                   }
                   switch (alt24) {
                      case 1 :
-                     // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:531:123:
+                     // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:686:123:
                      // RULE_EXPONENTPART
                      {
                         mRULE_EXPONENTPART();
@@ -1437,7 +1486,7 @@ public class InternalLiteralsLexer extends Lexer {
 
                   }
 
-                  // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:531:142:
+                  // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:686:142:
                   // ( RULE_FLOATTYPESUFFIX )?
                   int alt25 = 2;
                   int LA25_0 = input.LA(1);
@@ -1447,7 +1496,7 @@ public class InternalLiteralsLexer extends Lexer {
                   }
                   switch (alt25) {
                      case 1 :
-                     // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:531:142:
+                     // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:686:142:
                      // RULE_FLOATTYPESUFFIX
                      {
                         mRULE_FLOATTYPESUFFIX();
@@ -1461,12 +1510,12 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 3 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:531:164:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:686:164:
                // RULE_DIGITS RULE_EXPONENTPART ( RULE_FLOATTYPESUFFIX )?
                {
                   mRULE_DIGITS();
                   mRULE_EXPONENTPART();
-                  // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:531:194:
+                  // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:686:194:
                   // ( RULE_FLOATTYPESUFFIX )?
                   int alt26 = 2;
                   int LA26_0 = input.LA(1);
@@ -1476,7 +1525,7 @@ public class InternalLiteralsLexer extends Lexer {
                   }
                   switch (alt26) {
                      case 1 :
-                     // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:531:194:
+                     // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:686:194:
                      // RULE_FLOATTYPESUFFIX
                      {
                         mRULE_FLOATTYPESUFFIX();
@@ -1490,7 +1539,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 4 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:531:216:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:686:216:
                // RULE_DIGITS RULE_FLOATTYPESUFFIX
                {
                   mRULE_DIGITS();
@@ -1516,9 +1565,9 @@ public class InternalLiteralsLexer extends Lexer {
    // $ANTLR start "RULE_EXPONENTPART"
    public final void mRULE_EXPONENTPART() throws RecognitionException {
       try {
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:533:28:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:688:28:
          // ( RULE_EXPONENTINDICATOR RULE_SIGNEDINTEGER )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:533:30:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:688:30:
          // RULE_EXPONENTINDICATOR RULE_SIGNEDINTEGER
          {
             mRULE_EXPONENTINDICATOR();
@@ -1536,9 +1585,9 @@ public class InternalLiteralsLexer extends Lexer {
    // $ANTLR start "RULE_EXPONENTINDICATOR"
    public final void mRULE_EXPONENTINDICATOR() throws RecognitionException {
       try {
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:535:33:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:690:33:
          // ( ( 'e' | 'E' ) )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:535:35:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:690:35:
          // ( 'e' | 'E' )
          {
             if (input.LA(1) == 'E' || input.LA(1) == 'e') {
@@ -1564,12 +1613,12 @@ public class InternalLiteralsLexer extends Lexer {
    // $ANTLR start "RULE_SIGNEDINTEGER"
    public final void mRULE_SIGNEDINTEGER() throws RecognitionException {
       try {
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:537:29:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:692:29:
          // ( ( RULE_SIGN )? RULE_DIGITS )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:537:31:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:692:31:
          // ( RULE_SIGN )? RULE_DIGITS
          {
-            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:537:31:
+            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:692:31:
             // ( RULE_SIGN )?
             int alt28 = 2;
             int LA28_0 = input.LA(1);
@@ -1579,7 +1628,7 @@ public class InternalLiteralsLexer extends Lexer {
             }
             switch (alt28) {
                case 1 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:537:31:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:692:31:
                // RULE_SIGN
                {
                   mRULE_SIGN();
@@ -1603,9 +1652,9 @@ public class InternalLiteralsLexer extends Lexer {
    // $ANTLR start "RULE_SIGN"
    public final void mRULE_SIGN() throws RecognitionException {
       try {
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:539:20:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:694:20:
          // ( ( '+' | '-' ) )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:539:22:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:694:22:
          // ( '+' | '-' )
          {
             if (input.LA(1) == '+' || input.LA(1) == '-') {
@@ -1631,9 +1680,9 @@ public class InternalLiteralsLexer extends Lexer {
    // $ANTLR start "RULE_FLOATTYPESUFFIX"
    public final void mRULE_FLOATTYPESUFFIX() throws RecognitionException {
       try {
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:541:31:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:696:31:
          // ( ( 'f' | 'F' | 'd' | 'D' ) )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:541:33:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:696:33:
          // ( 'f' | 'F' | 'd' | 'D' )
          {
             if (input.LA(1) == 'D' || input.LA(1) == 'F' || input.LA(1) == 'd' || input.LA(1) == 'f') {
@@ -1661,14 +1710,14 @@ public class InternalLiteralsLexer extends Lexer {
       try {
          int _type = RULE_HEXADECIMALFLOATINGPOINTLITERAL;
          int _channel = DEFAULT_TOKEN_CHANNEL;
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:543:38:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:698:38:
          // ( RULE_HEXSIGNIFICAND RULE_BINARYEXPONENT ( RULE_FLOATTYPESUFFIX )? )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:543:40:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:698:40:
          // RULE_HEXSIGNIFICAND RULE_BINARYEXPONENT ( RULE_FLOATTYPESUFFIX )?
          {
             mRULE_HEXSIGNIFICAND();
             mRULE_BINARYEXPONENT();
-            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:543:80:
+            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:698:80:
             // ( RULE_FLOATTYPESUFFIX )?
             int alt29 = 2;
             int LA29_0 = input.LA(1);
@@ -1678,7 +1727,7 @@ public class InternalLiteralsLexer extends Lexer {
             }
             switch (alt29) {
                case 1 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:543:80:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:698:80:
                // RULE_FLOATTYPESUFFIX
                {
                   mRULE_FLOATTYPESUFFIX();
@@ -1703,22 +1752,22 @@ public class InternalLiteralsLexer extends Lexer {
    // $ANTLR start "RULE_HEXSIGNIFICAND"
    public final void mRULE_HEXSIGNIFICAND() throws RecognitionException {
       try {
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:545:30:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:700:30:
          // ( ( RULE_HEXNUMERAL ( '.' )? | '0' ( 'x' | 'X' ) ( RULE_HEXDIGIT )* '.' ( RULE_HEXDIGIT )+ ) )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:545:32:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:700:32:
          // ( RULE_HEXNUMERAL ( '.' )? | '0' ( 'x' | 'X' ) ( RULE_HEXDIGIT )* '.' ( RULE_HEXDIGIT )+ )
          {
-            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:545:32:
+            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:700:32:
             // ( RULE_HEXNUMERAL ( '.' )? | '0' ( 'x' | 'X' ) ( RULE_HEXDIGIT )* '.' ( RULE_HEXDIGIT )+ )
             int alt33 = 2;
             alt33 = dfa33.predict(input);
             switch (alt33) {
                case 1 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:545:33:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:700:33:
                // RULE_HEXNUMERAL ( '.' )?
                {
                   mRULE_HEXNUMERAL();
-                  // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:545:49:
+                  // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:700:49:
                   // ( '.' )?
                   int alt30 = 2;
                   int LA30_0 = input.LA(1);
@@ -1728,7 +1777,7 @@ public class InternalLiteralsLexer extends Lexer {
                   }
                   switch (alt30) {
                      case 1 :
-                     // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:545:49:
+                     // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:700:49:
                      // '.'
                      {
                         match('.');
@@ -1742,7 +1791,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 2 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:545:54:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:700:54:
                // '0' ( 'x' | 'X' ) ( RULE_HEXDIGIT )* '.' ( RULE_HEXDIGIT )+
                {
                   match('0');
@@ -1756,7 +1805,7 @@ public class InternalLiteralsLexer extends Lexer {
                      throw mse;
                   }
 
-                  // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:545:68:
+                  // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:700:68:
                   // ( RULE_HEXDIGIT )*
                   loop31 : do {
                      int alt31 = 2;
@@ -1769,7 +1818,7 @@ public class InternalLiteralsLexer extends Lexer {
 
                      switch (alt31) {
                         case 1 :
-                        // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:545:68:
+                        // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:700:68:
                         // RULE_HEXDIGIT
                         {
                            mRULE_HEXDIGIT();
@@ -1784,7 +1833,7 @@ public class InternalLiteralsLexer extends Lexer {
                   while (true);
 
                   match('.');
-                  // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:545:87:
+                  // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:700:87:
                   // ( RULE_HEXDIGIT )+
                   int cnt32 = 0;
                   loop32 : do {
@@ -1798,7 +1847,7 @@ public class InternalLiteralsLexer extends Lexer {
 
                      switch (alt32) {
                         case 1 :
-                        // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:545:87:
+                        // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:700:87:
                         // RULE_HEXDIGIT
                         {
                            mRULE_HEXDIGIT();
@@ -1835,9 +1884,9 @@ public class InternalLiteralsLexer extends Lexer {
    // $ANTLR start "RULE_BINARYEXPONENT"
    public final void mRULE_BINARYEXPONENT() throws RecognitionException {
       try {
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:547:30:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:702:30:
          // ( RULE_BINARYEXPONENTINDICATOR RULE_SIGNEDINTEGER )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:547:32:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:702:32:
          // RULE_BINARYEXPONENTINDICATOR RULE_SIGNEDINTEGER
          {
             mRULE_BINARYEXPONENTINDICATOR();
@@ -1855,9 +1904,9 @@ public class InternalLiteralsLexer extends Lexer {
    // $ANTLR start "RULE_BINARYEXPONENTINDICATOR"
    public final void mRULE_BINARYEXPONENTINDICATOR() throws RecognitionException {
       try {
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:549:39:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:704:39:
          // ( ( 'p' | 'P' ) )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:549:41:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:704:41:
          // ( 'p' | 'P' )
          {
             if (input.LA(1) == 'P' || input.LA(1) == 'p') {
@@ -1885,9 +1934,9 @@ public class InternalLiteralsLexer extends Lexer {
       try {
          int _type = RULE_TRUE;
          int _channel = DEFAULT_TOKEN_CHANNEL;
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:551:11:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:706:11:
          // ( 'true' )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:551:13:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:706:13:
          // 'true'
          {
             match("true");
@@ -1909,9 +1958,9 @@ public class InternalLiteralsLexer extends Lexer {
       try {
          int _type = RULE_FALSE;
          int _channel = DEFAULT_TOKEN_CHANNEL;
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:553:12:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:708:12:
          // ( 'false' )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:553:14:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:708:14:
          // 'false'
          {
             match("false");
@@ -1933,13 +1982,13 @@ public class InternalLiteralsLexer extends Lexer {
       try {
          int _type = RULE_CHARACTER;
          int _channel = DEFAULT_TOKEN_CHANNEL;
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:555:16:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:710:16:
          // ( '\\'' ( RULE_ESCAPESEQUENCE | ~ ( ( '\\'' | '\\\\' ) ) ) '\\'' )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:555:18:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:710:18:
          // '\\'' ( RULE_ESCAPESEQUENCE | ~ ( ( '\\'' | '\\\\' ) ) ) '\\''
          {
             match('\'');
-            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:555:23:
+            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:710:23:
             // ( RULE_ESCAPESEQUENCE | ~ ( ( '\\'' | '\\\\' ) ) )
             int alt34 = 2;
             int LA34_0 = input.LA(1);
@@ -1957,7 +2006,7 @@ public class InternalLiteralsLexer extends Lexer {
             }
             switch (alt34) {
                case 1 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:555:24:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:710:24:
                // RULE_ESCAPESEQUENCE
                {
                   mRULE_ESCAPESEQUENCE();
@@ -1965,7 +2014,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 2 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:555:44:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:710:44:
                // ~ ( ( '\\'' | '\\\\' ) )
                {
                   if ((input.LA(1) >= '\u0000' && input.LA(1) <= '&') || (input.LA(1) >= '(' && input.LA(1) <= '[')
@@ -2003,13 +2052,13 @@ public class InternalLiteralsLexer extends Lexer {
       try {
          int _type = RULE_STRING;
          int _channel = DEFAULT_TOKEN_CHANNEL;
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:557:13:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:712:13:
          // ( '\"' ( RULE_ESCAPESEQUENCE | ~ ( ( '\\\\' | '\"' ) ) )* '\"' )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:557:15:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:712:15:
          // '\"' ( RULE_ESCAPESEQUENCE | ~ ( ( '\\\\' | '\"' ) ) )* '\"'
          {
             match('\"');
-            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:557:19:
+            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:712:19:
             // ( RULE_ESCAPESEQUENCE | ~ ( ( '\\\\' | '\"' ) ) )*
             loop35 : do {
                int alt35 = 3;
@@ -2025,7 +2074,7 @@ public class InternalLiteralsLexer extends Lexer {
 
                switch (alt35) {
                   case 1 :
-                  // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:557:20:
+                  // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:712:20:
                   // RULE_ESCAPESEQUENCE
                   {
                      mRULE_ESCAPESEQUENCE();
@@ -2033,7 +2082,7 @@ public class InternalLiteralsLexer extends Lexer {
                   }
                      break;
                   case 2 :
-                  // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:557:40:
+                  // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:712:40:
                   // ~ ( ( '\\\\' | '\"' ) )
                   {
                      if ((input.LA(1) >= '\u0000' && input.LA(1) <= '!') || (input.LA(1) >= '#' && input.LA(1) <= '[')
@@ -2073,13 +2122,13 @@ public class InternalLiteralsLexer extends Lexer {
    // $ANTLR start "RULE_ESCAPESEQUENCE"
    public final void mRULE_ESCAPESEQUENCE() throws RecognitionException {
       try {
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:559:30:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:714:30:
          // ( ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\"' | '\\'' | '\\\\' ) | RULE_UNICODEESCAPE | RULE_OCTALESCAPE )
          // )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:559:32:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:714:32:
          // ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\"' | '\\'' | '\\\\' ) | RULE_UNICODEESCAPE | RULE_OCTALESCAPE )
          {
-            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:559:32:
+            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:714:32:
             // ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\"' | '\\'' | '\\\\' ) | RULE_UNICODEESCAPE | RULE_OCTALESCAPE
             // )
             int alt36 = 3;
@@ -2127,7 +2176,7 @@ public class InternalLiteralsLexer extends Lexer {
             }
             switch (alt36) {
                case 1 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:559:33:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:714:33:
                // '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\"' | '\\'' | '\\\\' )
                {
                   match('\\');
@@ -2146,7 +2195,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 2 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:559:74:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:714:74:
                // RULE_UNICODEESCAPE
                {
                   mRULE_UNICODEESCAPE();
@@ -2154,7 +2203,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 3 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:559:93:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:714:93:
                // RULE_OCTALESCAPE
                {
                   mRULE_OCTALESCAPE();
@@ -2177,14 +2226,14 @@ public class InternalLiteralsLexer extends Lexer {
    // $ANTLR start "RULE_OCTALESCAPE"
    public final void mRULE_OCTALESCAPE() throws RecognitionException {
       try {
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:561:27:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:716:27:
          // ( ( '\\\\' RULE_ZEROTOTHREE RULE_OCTALDIGIT RULE_OCTALDIGIT | '\\\\' RULE_OCTALDIGIT RULE_OCTALDIGIT |
          // '\\\\' RULE_OCTALDIGIT ) )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:561:29:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:716:29:
          // ( '\\\\' RULE_ZEROTOTHREE RULE_OCTALDIGIT RULE_OCTALDIGIT | '\\\\' RULE_OCTALDIGIT RULE_OCTALDIGIT | '\\\\'
          // RULE_OCTALDIGIT )
          {
-            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:561:29:
+            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:716:29:
             // ( '\\\\' RULE_ZEROTOTHREE RULE_OCTALDIGIT RULE_OCTALDIGIT | '\\\\' RULE_OCTALDIGIT RULE_OCTALDIGIT |
             // '\\\\' RULE_OCTALDIGIT )
             int alt37 = 3;
@@ -2233,7 +2282,7 @@ public class InternalLiteralsLexer extends Lexer {
             }
             switch (alt37) {
                case 1 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:561:30:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:716:30:
                // '\\\\' RULE_ZEROTOTHREE RULE_OCTALDIGIT RULE_OCTALDIGIT
                {
                   match('\\');
@@ -2244,7 +2293,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 2 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:561:84:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:716:84:
                // '\\\\' RULE_OCTALDIGIT RULE_OCTALDIGIT
                {
                   match('\\');
@@ -2254,7 +2303,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 3 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:561:121:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:716:121:
                // '\\\\' RULE_OCTALDIGIT
                {
                   match('\\');
@@ -2278,9 +2327,9 @@ public class InternalLiteralsLexer extends Lexer {
    // $ANTLR start "RULE_ZEROTOTHREE"
    public final void mRULE_ZEROTOTHREE() throws RecognitionException {
       try {
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:563:27:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:718:27:
          // ( '0' .. '3' )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:563:29:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:718:29:
          // '0' .. '3'
          {
             matchRange('0', '3');
@@ -2297,9 +2346,9 @@ public class InternalLiteralsLexer extends Lexer {
    // $ANTLR start "RULE_UNICODEESCAPE"
    public final void mRULE_UNICODEESCAPE() throws RecognitionException {
       try {
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:565:29:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:720:29:
          // ( '\\\\' RULE_UNICODEMARKER RULE_HEXDIGIT RULE_HEXDIGIT RULE_HEXDIGIT RULE_HEXDIGIT )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:565:31:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:720:31:
          // '\\\\' RULE_UNICODEMARKER RULE_HEXDIGIT RULE_HEXDIGIT RULE_HEXDIGIT RULE_HEXDIGIT
          {
             match('\\');
@@ -2321,13 +2370,13 @@ public class InternalLiteralsLexer extends Lexer {
    // $ANTLR start "RULE_UNICODEMARKER"
    public final void mRULE_UNICODEMARKER() throws RecognitionException {
       try {
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:567:29:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:722:29:
          // ( 'u' ( 'u' )* )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:567:31:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:722:31:
          // 'u' ( 'u' )*
          {
             match('u');
-            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:567:35:
+            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:722:35:
             // ( 'u' )*
             loop38 : do {
                int alt38 = 2;
@@ -2340,7 +2389,7 @@ public class InternalLiteralsLexer extends Lexer {
 
                switch (alt38) {
                   case 1 :
-                  // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:567:35:
+                  // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:722:35:
                   // 'u'
                   {
                      match('u');
@@ -2369,9 +2418,9 @@ public class InternalLiteralsLexer extends Lexer {
       try {
          int _type = RULE_NULL;
          int _channel = DEFAULT_TOKEN_CHANNEL;
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:569:11:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:724:11:
          // ( 'null' )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:569:13:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:724:13:
          // 'null'
          {
             match("null");
@@ -2393,13 +2442,13 @@ public class InternalLiteralsLexer extends Lexer {
       try {
          int _type = RULE_IDENTIFIER;
          int _channel = DEFAULT_TOKEN_CHANNEL;
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:571:17:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:726:17:
          // ( RULE_JAVALETTER ( RULE_JAVALETTERORDIGIT )* )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:571:19:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:726:19:
          // RULE_JAVALETTER ( RULE_JAVALETTERORDIGIT )*
          {
             mRULE_JAVALETTER();
-            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:571:35:
+            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:726:35:
             // ( RULE_JAVALETTERORDIGIT )*
             loop39 : do {
                int alt39 = 2;
@@ -2596,7 +2645,7 @@ public class InternalLiteralsLexer extends Lexer {
 
                switch (alt39) {
                   case 1 :
-                  // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:571:35:
+                  // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:726:35:
                   // RULE_JAVALETTERORDIGIT
                   {
                      mRULE_JAVALETTERORDIGIT();
@@ -2625,7 +2674,7 @@ public class InternalLiteralsLexer extends Lexer {
    // $ANTLR start "RULE_JAVALETTER"
    public final void mRULE_JAVALETTER() throws RecognitionException {
       try {
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:26:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:26:
          // ( ( '$' | 'A' .. 'Z' | '_' | 'a' .. 'z' | '\\u00A2' .. '\\u00A5' | '\\u00AA' | '\\u00B5' | '\\u00BA' |
          // '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u0236' | '\\u0250' .. '\\u02C1' |
          // '\\u02C6' .. '\\u02D1' | '\\u02E0' .. '\\u02E4' | '\\u02EE' | '\\u037A' | '\\u0386' | '\\u0388' .. '\\u038A'
@@ -2690,7 +2739,7 @@ public class InternalLiteralsLexer extends Lexer {
          // | '\\uFF65' .. '\\uFFBE' | '\\uFFC2' .. '\\uFFC7' | '\\uFFCA' .. '\\uFFCF' | '\\uFFD2' .. '\\uFFD7' |
          // '\\uFFDA' .. '\\uFFDC' | '\\uFFE0' .. '\\uFFE1' | '\\uFFE5' .. '\\uFFE6' | '\\uD800' .. '\\uDBFF' '\\uDC00'
          // .. '\\uDFFF' ) )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:28:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:28:
          // ( '$' | 'A' .. 'Z' | '_' | 'a' .. 'z' | '\\u00A2' .. '\\u00A5' | '\\u00AA' | '\\u00B5' | '\\u00BA' |
          // '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u0236' | '\\u0250' .. '\\u02C1' |
          // '\\u02C6' .. '\\u02D1' | '\\u02E0' .. '\\u02E4' | '\\u02EE' | '\\u037A' | '\\u0386' | '\\u0388' .. '\\u038A'
@@ -2756,7 +2805,7 @@ public class InternalLiteralsLexer extends Lexer {
          // '\\uFFDA' .. '\\uFFDC' | '\\uFFE0' .. '\\uFFE1' | '\\uFFE5' .. '\\uFFE6' | '\\uD800' .. '\\uDBFF' '\\uDC00'
          // .. '\\uDFFF' )
          {
-            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:28:
+            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:28:
             // ( '$' | 'A' .. 'Z' | '_' | 'a' .. 'z' | '\\u00A2' .. '\\u00A5' | '\\u00AA' | '\\u00B5' | '\\u00BA' |
             // '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u0236' | '\\u0250' .. '\\u02C1' |
             // '\\u02C6' .. '\\u02D1' | '\\u02E0' .. '\\u02E4' | '\\u02EE' | '\\u037A' | '\\u0386' | '\\u0388' ..
@@ -3715,7 +3764,7 @@ public class InternalLiteralsLexer extends Lexer {
             }
             switch (alt40) {
                case 1 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:29:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:29:
                // '$'
                {
                   match('$');
@@ -3723,7 +3772,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 2 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:33:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:33:
                // 'A' .. 'Z'
                {
                   matchRange('A', 'Z');
@@ -3731,7 +3780,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 3 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:42:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:42:
                // '_'
                {
                   match('_');
@@ -3739,7 +3788,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 4 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:46:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:46:
                // 'a' .. 'z'
                {
                   matchRange('a', 'z');
@@ -3747,7 +3796,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 5 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:55:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:55:
                // '\\u00A2' .. '\\u00A5'
                {
                   matchRange('\u00A2', '\u00A5');
@@ -3755,7 +3804,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 6 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:74:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:74:
                // '\\u00AA'
                {
                   match('\u00AA');
@@ -3763,7 +3812,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 7 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:83:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:83:
                // '\\u00B5'
                {
                   match('\u00B5');
@@ -3771,7 +3820,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 8 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:92:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:92:
                // '\\u00BA'
                {
                   match('\u00BA');
@@ -3779,7 +3828,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 9 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:101:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:101:
                // '\\u00C0' .. '\\u00D6'
                {
                   matchRange('\u00C0', '\u00D6');
@@ -3787,7 +3836,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 10 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:120:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:120:
                // '\\u00D8' .. '\\u00F6'
                {
                   matchRange('\u00D8', '\u00F6');
@@ -3795,7 +3844,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 11 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:139:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:139:
                // '\\u00F8' .. '\\u0236'
                {
                   matchRange('\u00F8', '\u0236');
@@ -3803,7 +3852,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 12 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:158:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:158:
                // '\\u0250' .. '\\u02C1'
                {
                   matchRange('\u0250', '\u02C1');
@@ -3811,7 +3860,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 13 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:177:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:177:
                // '\\u02C6' .. '\\u02D1'
                {
                   matchRange('\u02C6', '\u02D1');
@@ -3819,7 +3868,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 14 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:196:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:196:
                // '\\u02E0' .. '\\u02E4'
                {
                   matchRange('\u02E0', '\u02E4');
@@ -3827,7 +3876,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 15 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:215:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:215:
                // '\\u02EE'
                {
                   match('\u02EE');
@@ -3835,7 +3884,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 16 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:224:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:224:
                // '\\u037A'
                {
                   match('\u037A');
@@ -3843,7 +3892,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 17 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:233:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:233:
                // '\\u0386'
                {
                   match('\u0386');
@@ -3851,7 +3900,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 18 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:242:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:242:
                // '\\u0388' .. '\\u038A'
                {
                   matchRange('\u0388', '\u038A');
@@ -3859,7 +3908,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 19 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:261:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:261:
                // '\\u038C'
                {
                   match('\u038C');
@@ -3867,7 +3916,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 20 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:270:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:270:
                // '\\u038E' .. '\\u03A1'
                {
                   matchRange('\u038E', '\u03A1');
@@ -3875,7 +3924,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 21 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:289:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:289:
                // '\\u03A3' .. '\\u03CE'
                {
                   matchRange('\u03A3', '\u03CE');
@@ -3883,7 +3932,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 22 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:308:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:308:
                // '\\u03D0' .. '\\u03F5'
                {
                   matchRange('\u03D0', '\u03F5');
@@ -3891,7 +3940,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 23 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:327:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:327:
                // '\\u03F7' .. '\\u03FB'
                {
                   matchRange('\u03F7', '\u03FB');
@@ -3899,7 +3948,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 24 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:346:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:346:
                // '\\u0400' .. '\\u0481'
                {
                   matchRange('\u0400', '\u0481');
@@ -3907,7 +3956,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 25 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:365:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:365:
                // '\\u048A' .. '\\u04CE'
                {
                   matchRange('\u048A', '\u04CE');
@@ -3915,7 +3964,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 26 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:384:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:384:
                // '\\u04D0' .. '\\u04F5'
                {
                   matchRange('\u04D0', '\u04F5');
@@ -3923,7 +3972,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 27 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:403:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:403:
                // '\\u04F8' .. '\\u04F9'
                {
                   matchRange('\u04F8', '\u04F9');
@@ -3931,7 +3980,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 28 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:422:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:422:
                // '\\u0500' .. '\\u050F'
                {
                   matchRange('\u0500', '\u050F');
@@ -3939,7 +3988,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 29 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:441:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:441:
                // '\\u0531' .. '\\u0556'
                {
                   matchRange('\u0531', '\u0556');
@@ -3947,7 +3996,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 30 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:460:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:460:
                // '\\u0559'
                {
                   match('\u0559');
@@ -3955,7 +4004,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 31 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:469:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:469:
                // '\\u0561' .. '\\u0587'
                {
                   matchRange('\u0561', '\u0587');
@@ -3963,7 +4012,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 32 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:488:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:488:
                // '\\u05D0' .. '\\u05EA'
                {
                   matchRange('\u05D0', '\u05EA');
@@ -3971,7 +4020,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 33 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:507:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:507:
                // '\\u05F0' .. '\\u05F2'
                {
                   matchRange('\u05F0', '\u05F2');
@@ -3979,7 +4028,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 34 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:526:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:526:
                // '\\u0621' .. '\\u063A'
                {
                   matchRange('\u0621', '\u063A');
@@ -3987,7 +4036,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 35 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:545:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:545:
                // '\\u0640' .. '\\u064A'
                {
                   matchRange('\u0640', '\u064A');
@@ -3995,7 +4044,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 36 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:564:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:564:
                // '\\u066E' .. '\\u066F'
                {
                   matchRange('\u066E', '\u066F');
@@ -4003,7 +4052,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 37 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:583:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:583:
                // '\\u0671' .. '\\u06D3'
                {
                   matchRange('\u0671', '\u06D3');
@@ -4011,7 +4060,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 38 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:602:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:602:
                // '\\u06D5'
                {
                   match('\u06D5');
@@ -4019,7 +4068,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 39 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:611:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:611:
                // '\\u06E5' .. '\\u06E6'
                {
                   matchRange('\u06E5', '\u06E6');
@@ -4027,7 +4076,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 40 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:630:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:630:
                // '\\u06EE' .. '\\u06EF'
                {
                   matchRange('\u06EE', '\u06EF');
@@ -4035,7 +4084,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 41 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:649:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:649:
                // '\\u06FA' .. '\\u06FC'
                {
                   matchRange('\u06FA', '\u06FC');
@@ -4043,7 +4092,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 42 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:668:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:668:
                // '\\u06FF'
                {
                   match('\u06FF');
@@ -4051,7 +4100,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 43 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:677:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:677:
                // '\\u0710'
                {
                   match('\u0710');
@@ -4059,7 +4108,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 44 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:686:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:686:
                // '\\u0712' .. '\\u072F'
                {
                   matchRange('\u0712', '\u072F');
@@ -4067,7 +4116,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 45 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:705:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:705:
                // '\\u074D' .. '\\u074F'
                {
                   matchRange('\u074D', '\u074F');
@@ -4075,7 +4124,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 46 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:724:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:724:
                // '\\u0780' .. '\\u07A5'
                {
                   matchRange('\u0780', '\u07A5');
@@ -4083,7 +4132,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 47 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:743:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:743:
                // '\\u07B1'
                {
                   match('\u07B1');
@@ -4091,7 +4140,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 48 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:752:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:752:
                // '\\u0904' .. '\\u0939'
                {
                   matchRange('\u0904', '\u0939');
@@ -4099,7 +4148,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 49 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:771:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:771:
                // '\\u093D'
                {
                   match('\u093D');
@@ -4107,7 +4156,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 50 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:780:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:780:
                // '\\u0950'
                {
                   match('\u0950');
@@ -4115,7 +4164,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 51 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:789:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:789:
                // '\\u0958' .. '\\u0961'
                {
                   matchRange('\u0958', '\u0961');
@@ -4123,7 +4172,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 52 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:808:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:808:
                // '\\u0985' .. '\\u098C'
                {
                   matchRange('\u0985', '\u098C');
@@ -4131,7 +4180,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 53 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:827:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:827:
                // '\\u098F' .. '\\u0990'
                {
                   matchRange('\u098F', '\u0990');
@@ -4139,7 +4188,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 54 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:846:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:846:
                // '\\u0993' .. '\\u09A8'
                {
                   matchRange('\u0993', '\u09A8');
@@ -4147,7 +4196,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 55 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:865:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:865:
                // '\\u09AA' .. '\\u09B0'
                {
                   matchRange('\u09AA', '\u09B0');
@@ -4155,7 +4204,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 56 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:884:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:884:
                // '\\u09B2'
                {
                   match('\u09B2');
@@ -4163,7 +4212,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 57 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:893:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:893:
                // '\\u09B6' .. '\\u09B9'
                {
                   matchRange('\u09B6', '\u09B9');
@@ -4171,7 +4220,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 58 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:912:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:912:
                // '\\u09BD'
                {
                   match('\u09BD');
@@ -4179,7 +4228,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 59 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:921:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:921:
                // '\\u09DC' .. '\\u09DD'
                {
                   matchRange('\u09DC', '\u09DD');
@@ -4187,7 +4236,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 60 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:940:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:940:
                // '\\u09DF' .. '\\u09E1'
                {
                   matchRange('\u09DF', '\u09E1');
@@ -4195,7 +4244,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 61 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:959:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:959:
                // '\\u09F0' .. '\\u09F3'
                {
                   matchRange('\u09F0', '\u09F3');
@@ -4203,7 +4252,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 62 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:978:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:978:
                // '\\u0A05' .. '\\u0A0A'
                {
                   matchRange('\u0A05', '\u0A0A');
@@ -4211,7 +4260,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 63 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:997:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:997:
                // '\\u0A0F' .. '\\u0A10'
                {
                   matchRange('\u0A0F', '\u0A10');
@@ -4219,7 +4268,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 64 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1016:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1016:
                // '\\u0A13' .. '\\u0A28'
                {
                   matchRange('\u0A13', '\u0A28');
@@ -4227,7 +4276,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 65 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1035:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1035:
                // '\\u0A2A' .. '\\u0A30'
                {
                   matchRange('\u0A2A', '\u0A30');
@@ -4235,7 +4284,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 66 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1054:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1054:
                // '\\u0A32' .. '\\u0A33'
                {
                   matchRange('\u0A32', '\u0A33');
@@ -4243,7 +4292,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 67 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1073:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1073:
                // '\\u0A35' .. '\\u0A36'
                {
                   matchRange('\u0A35', '\u0A36');
@@ -4251,7 +4300,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 68 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1092:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1092:
                // '\\u0A38' .. '\\u0A39'
                {
                   matchRange('\u0A38', '\u0A39');
@@ -4259,7 +4308,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 69 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1111:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1111:
                // '\\u0A59' .. '\\u0A5C'
                {
                   matchRange('\u0A59', '\u0A5C');
@@ -4267,7 +4316,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 70 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1130:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1130:
                // '\\u0A5E'
                {
                   match('\u0A5E');
@@ -4275,7 +4324,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 71 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1139:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1139:
                // '\\u0A72' .. '\\u0A74'
                {
                   matchRange('\u0A72', '\u0A74');
@@ -4283,7 +4332,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 72 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1158:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1158:
                // '\\u0A85' .. '\\u0A8D'
                {
                   matchRange('\u0A85', '\u0A8D');
@@ -4291,7 +4340,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 73 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1177:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1177:
                // '\\u0A8F' .. '\\u0A91'
                {
                   matchRange('\u0A8F', '\u0A91');
@@ -4299,7 +4348,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 74 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1196:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1196:
                // '\\u0A93' .. '\\u0AA8'
                {
                   matchRange('\u0A93', '\u0AA8');
@@ -4307,7 +4356,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 75 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1215:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1215:
                // '\\u0AAA' .. '\\u0AB0'
                {
                   matchRange('\u0AAA', '\u0AB0');
@@ -4315,7 +4364,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 76 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1234:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1234:
                // '\\u0AB2' .. '\\u0AB3'
                {
                   matchRange('\u0AB2', '\u0AB3');
@@ -4323,7 +4372,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 77 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1253:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1253:
                // '\\u0AB5' .. '\\u0AB9'
                {
                   matchRange('\u0AB5', '\u0AB9');
@@ -4331,7 +4380,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 78 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1272:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1272:
                // '\\u0ABD'
                {
                   match('\u0ABD');
@@ -4339,7 +4388,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 79 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1281:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1281:
                // '\\u0AD0'
                {
                   match('\u0AD0');
@@ -4347,7 +4396,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 80 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1290:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1290:
                // '\\u0AE0' .. '\\u0AE1'
                {
                   matchRange('\u0AE0', '\u0AE1');
@@ -4355,7 +4404,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 81 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1309:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1309:
                // '\\u0AF1'
                {
                   match('\u0AF1');
@@ -4363,7 +4412,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 82 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1318:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1318:
                // '\\u0B05' .. '\\u0B0C'
                {
                   matchRange('\u0B05', '\u0B0C');
@@ -4371,7 +4420,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 83 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1337:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1337:
                // '\\u0B0F' .. '\\u0B10'
                {
                   matchRange('\u0B0F', '\u0B10');
@@ -4379,7 +4428,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 84 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1356:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1356:
                // '\\u0B13' .. '\\u0B28'
                {
                   matchRange('\u0B13', '\u0B28');
@@ -4387,7 +4436,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 85 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1375:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1375:
                // '\\u0B2A' .. '\\u0B30'
                {
                   matchRange('\u0B2A', '\u0B30');
@@ -4395,7 +4444,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 86 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1394:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1394:
                // '\\u0B32' .. '\\u0B33'
                {
                   matchRange('\u0B32', '\u0B33');
@@ -4403,7 +4452,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 87 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1413:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1413:
                // '\\u0B35' .. '\\u0B39'
                {
                   matchRange('\u0B35', '\u0B39');
@@ -4411,7 +4460,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 88 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1432:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1432:
                // '\\u0B3D'
                {
                   match('\u0B3D');
@@ -4419,7 +4468,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 89 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1441:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1441:
                // '\\u0B5C' .. '\\u0B5D'
                {
                   matchRange('\u0B5C', '\u0B5D');
@@ -4427,7 +4476,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 90 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1460:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1460:
                // '\\u0B5F' .. '\\u0B61'
                {
                   matchRange('\u0B5F', '\u0B61');
@@ -4435,7 +4484,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 91 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1479:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1479:
                // '\\u0B71'
                {
                   match('\u0B71');
@@ -4443,7 +4492,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 92 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1488:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1488:
                // '\\u0B83'
                {
                   match('\u0B83');
@@ -4451,7 +4500,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 93 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1497:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1497:
                // '\\u0B85' .. '\\u0B8A'
                {
                   matchRange('\u0B85', '\u0B8A');
@@ -4459,7 +4508,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 94 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1516:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1516:
                // '\\u0B8E' .. '\\u0B90'
                {
                   matchRange('\u0B8E', '\u0B90');
@@ -4467,7 +4516,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 95 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1535:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1535:
                // '\\u0B92' .. '\\u0B95'
                {
                   matchRange('\u0B92', '\u0B95');
@@ -4475,7 +4524,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 96 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1554:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1554:
                // '\\u0B99' .. '\\u0B9A'
                {
                   matchRange('\u0B99', '\u0B9A');
@@ -4483,7 +4532,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 97 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1573:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1573:
                // '\\u0B9C'
                {
                   match('\u0B9C');
@@ -4491,7 +4540,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 98 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1582:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1582:
                // '\\u0B9E' .. '\\u0B9F'
                {
                   matchRange('\u0B9E', '\u0B9F');
@@ -4499,7 +4548,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 99 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1601:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1601:
                // '\\u0BA3' .. '\\u0BA4'
                {
                   matchRange('\u0BA3', '\u0BA4');
@@ -4507,7 +4556,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 100 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1620:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1620:
                // '\\u0BA8' .. '\\u0BAA'
                {
                   matchRange('\u0BA8', '\u0BAA');
@@ -4515,7 +4564,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 101 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1639:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1639:
                // '\\u0BAE' .. '\\u0BB5'
                {
                   matchRange('\u0BAE', '\u0BB5');
@@ -4523,7 +4572,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 102 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1658:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1658:
                // '\\u0BB7' .. '\\u0BB9'
                {
                   matchRange('\u0BB7', '\u0BB9');
@@ -4531,7 +4580,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 103 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1677:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1677:
                // '\\u0BF9'
                {
                   match('\u0BF9');
@@ -4539,7 +4588,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 104 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1686:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1686:
                // '\\u0C05' .. '\\u0C0C'
                {
                   matchRange('\u0C05', '\u0C0C');
@@ -4547,7 +4596,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 105 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1705:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1705:
                // '\\u0C0E' .. '\\u0C10'
                {
                   matchRange('\u0C0E', '\u0C10');
@@ -4555,7 +4604,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 106 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1724:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1724:
                // '\\u0C12' .. '\\u0C28'
                {
                   matchRange('\u0C12', '\u0C28');
@@ -4563,7 +4612,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 107 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1743:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1743:
                // '\\u0C2A' .. '\\u0C33'
                {
                   matchRange('\u0C2A', '\u0C33');
@@ -4571,7 +4620,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 108 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1762:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1762:
                // '\\u0C35' .. '\\u0C39'
                {
                   matchRange('\u0C35', '\u0C39');
@@ -4579,7 +4628,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 109 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1781:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1781:
                // '\\u0C60' .. '\\u0C61'
                {
                   matchRange('\u0C60', '\u0C61');
@@ -4587,7 +4636,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 110 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1800:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1800:
                // '\\u0C85' .. '\\u0C8C'
                {
                   matchRange('\u0C85', '\u0C8C');
@@ -4595,7 +4644,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 111 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1819:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1819:
                // '\\u0C8E' .. '\\u0C90'
                {
                   matchRange('\u0C8E', '\u0C90');
@@ -4603,7 +4652,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 112 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1838:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1838:
                // '\\u0C92' .. '\\u0CA8'
                {
                   matchRange('\u0C92', '\u0CA8');
@@ -4611,7 +4660,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 113 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1857:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1857:
                // '\\u0CAA' .. '\\u0CB3'
                {
                   matchRange('\u0CAA', '\u0CB3');
@@ -4619,7 +4668,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 114 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1876:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1876:
                // '\\u0CB5' .. '\\u0CB9'
                {
                   matchRange('\u0CB5', '\u0CB9');
@@ -4627,7 +4676,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 115 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1895:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1895:
                // '\\u0CBD'
                {
                   match('\u0CBD');
@@ -4635,7 +4684,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 116 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1904:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1904:
                // '\\u0CDE'
                {
                   match('\u0CDE');
@@ -4643,7 +4692,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 117 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1913:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1913:
                // '\\u0CE0' .. '\\u0CE1'
                {
                   matchRange('\u0CE0', '\u0CE1');
@@ -4651,7 +4700,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 118 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1932:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1932:
                // '\\u0D05' .. '\\u0D0C'
                {
                   matchRange('\u0D05', '\u0D0C');
@@ -4659,7 +4708,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 119 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1951:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1951:
                // '\\u0D0E' .. '\\u0D10'
                {
                   matchRange('\u0D0E', '\u0D10');
@@ -4667,7 +4716,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 120 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1970:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1970:
                // '\\u0D12' .. '\\u0D28'
                {
                   matchRange('\u0D12', '\u0D28');
@@ -4675,7 +4724,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 121 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:1989:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:1989:
                // '\\u0D2A' .. '\\u0D39'
                {
                   matchRange('\u0D2A', '\u0D39');
@@ -4683,7 +4732,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 122 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2008:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2008:
                // '\\u0D60' .. '\\u0D61'
                {
                   matchRange('\u0D60', '\u0D61');
@@ -4691,7 +4740,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 123 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2027:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2027:
                // '\\u0D85' .. '\\u0D96'
                {
                   matchRange('\u0D85', '\u0D96');
@@ -4699,7 +4748,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 124 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2046:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2046:
                // '\\u0D9A' .. '\\u0DB1'
                {
                   matchRange('\u0D9A', '\u0DB1');
@@ -4707,7 +4756,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 125 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2065:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2065:
                // '\\u0DB3' .. '\\u0DBB'
                {
                   matchRange('\u0DB3', '\u0DBB');
@@ -4715,7 +4764,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 126 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2084:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2084:
                // '\\u0DBD'
                {
                   match('\u0DBD');
@@ -4723,7 +4772,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 127 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2093:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2093:
                // '\\u0DC0' .. '\\u0DC6'
                {
                   matchRange('\u0DC0', '\u0DC6');
@@ -4731,7 +4780,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 128 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2112:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2112:
                // '\\u0E01' .. '\\u0E30'
                {
                   matchRange('\u0E01', '\u0E30');
@@ -4739,7 +4788,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 129 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2131:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2131:
                // '\\u0E32' .. '\\u0E33'
                {
                   matchRange('\u0E32', '\u0E33');
@@ -4747,7 +4796,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 130 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2150:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2150:
                // '\\u0E3F' .. '\\u0E46'
                {
                   matchRange('\u0E3F', '\u0E46');
@@ -4755,7 +4804,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 131 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2169:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2169:
                // '\\u0E81' .. '\\u0E82'
                {
                   matchRange('\u0E81', '\u0E82');
@@ -4763,7 +4812,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 132 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2188:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2188:
                // '\\u0E84'
                {
                   match('\u0E84');
@@ -4771,7 +4820,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 133 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2197:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2197:
                // '\\u0E87' .. '\\u0E88'
                {
                   matchRange('\u0E87', '\u0E88');
@@ -4779,7 +4828,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 134 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2216:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2216:
                // '\\u0E8A'
                {
                   match('\u0E8A');
@@ -4787,7 +4836,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 135 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2225:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2225:
                // '\\u0E8D'
                {
                   match('\u0E8D');
@@ -4795,7 +4844,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 136 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2234:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2234:
                // '\\u0E94' .. '\\u0E97'
                {
                   matchRange('\u0E94', '\u0E97');
@@ -4803,7 +4852,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 137 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2253:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2253:
                // '\\u0E99' .. '\\u0E9F'
                {
                   matchRange('\u0E99', '\u0E9F');
@@ -4811,7 +4860,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 138 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2272:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2272:
                // '\\u0EA1' .. '\\u0EA3'
                {
                   matchRange('\u0EA1', '\u0EA3');
@@ -4819,7 +4868,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 139 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2291:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2291:
                // '\\u0EA5'
                {
                   match('\u0EA5');
@@ -4827,7 +4876,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 140 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2300:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2300:
                // '\\u0EA7'
                {
                   match('\u0EA7');
@@ -4835,7 +4884,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 141 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2309:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2309:
                // '\\u0EAA' .. '\\u0EAB'
                {
                   matchRange('\u0EAA', '\u0EAB');
@@ -4843,7 +4892,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 142 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2328:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2328:
                // '\\u0EAD' .. '\\u0EB0'
                {
                   matchRange('\u0EAD', '\u0EB0');
@@ -4851,7 +4900,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 143 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2347:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2347:
                // '\\u0EB2' .. '\\u0EB3'
                {
                   matchRange('\u0EB2', '\u0EB3');
@@ -4859,7 +4908,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 144 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2366:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2366:
                // '\\u0EBD'
                {
                   match('\u0EBD');
@@ -4867,7 +4916,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 145 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2375:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2375:
                // '\\u0EC0' .. '\\u0EC4'
                {
                   matchRange('\u0EC0', '\u0EC4');
@@ -4875,7 +4924,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 146 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2394:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2394:
                // '\\u0EC6'
                {
                   match('\u0EC6');
@@ -4883,7 +4932,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 147 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2403:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2403:
                // '\\u0EDC' .. '\\u0EDD'
                {
                   matchRange('\u0EDC', '\u0EDD');
@@ -4891,7 +4940,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 148 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2422:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2422:
                // '\\u0F00'
                {
                   match('\u0F00');
@@ -4899,7 +4948,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 149 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2431:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2431:
                // '\\u0F40' .. '\\u0F47'
                {
                   matchRange('\u0F40', '\u0F47');
@@ -4907,7 +4956,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 150 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2450:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2450:
                // '\\u0F49' .. '\\u0F6A'
                {
                   matchRange('\u0F49', '\u0F6A');
@@ -4915,7 +4964,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 151 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2469:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2469:
                // '\\u0F88' .. '\\u0F8B'
                {
                   matchRange('\u0F88', '\u0F8B');
@@ -4923,7 +4972,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 152 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2488:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2488:
                // '\\u1000' .. '\\u1021'
                {
                   matchRange('\u1000', '\u1021');
@@ -4931,7 +4980,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 153 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2507:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2507:
                // '\\u1023' .. '\\u1027'
                {
                   matchRange('\u1023', '\u1027');
@@ -4939,7 +4988,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 154 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2526:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2526:
                // '\\u1029' .. '\\u102A'
                {
                   matchRange('\u1029', '\u102A');
@@ -4947,7 +4996,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 155 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2545:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2545:
                // '\\u1050' .. '\\u1055'
                {
                   matchRange('\u1050', '\u1055');
@@ -4955,7 +5004,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 156 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2564:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2564:
                // '\\u10A0' .. '\\u10C5'
                {
                   matchRange('\u10A0', '\u10C5');
@@ -4963,7 +5012,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 157 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2583:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2583:
                // '\\u10D0' .. '\\u10F8'
                {
                   matchRange('\u10D0', '\u10F8');
@@ -4971,7 +5020,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 158 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2602:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2602:
                // '\\u1100' .. '\\u1159'
                {
                   matchRange('\u1100', '\u1159');
@@ -4979,7 +5028,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 159 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2621:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2621:
                // '\\u115F' .. '\\u11A2'
                {
                   matchRange('\u115F', '\u11A2');
@@ -4987,7 +5036,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 160 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2640:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2640:
                // '\\u11A8' .. '\\u11F9'
                {
                   matchRange('\u11A8', '\u11F9');
@@ -4995,7 +5044,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 161 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2659:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2659:
                // '\\u1200' .. '\\u1206'
                {
                   matchRange('\u1200', '\u1206');
@@ -5003,7 +5052,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 162 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2678:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2678:
                // '\\u1208' .. '\\u1246'
                {
                   matchRange('\u1208', '\u1246');
@@ -5011,7 +5060,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 163 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2697:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2697:
                // '\\u1248'
                {
                   match('\u1248');
@@ -5019,7 +5068,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 164 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2706:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2706:
                // '\\u124A' .. '\\u124D'
                {
                   matchRange('\u124A', '\u124D');
@@ -5027,7 +5076,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 165 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2725:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2725:
                // '\\u1250' .. '\\u1256'
                {
                   matchRange('\u1250', '\u1256');
@@ -5035,7 +5084,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 166 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2744:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2744:
                // '\\u1258'
                {
                   match('\u1258');
@@ -5043,7 +5092,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 167 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2753:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2753:
                // '\\u125A' .. '\\u125D'
                {
                   matchRange('\u125A', '\u125D');
@@ -5051,7 +5100,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 168 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2772:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2772:
                // '\\u1260' .. '\\u1286'
                {
                   matchRange('\u1260', '\u1286');
@@ -5059,7 +5108,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 169 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2791:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2791:
                // '\\u1288'
                {
                   match('\u1288');
@@ -5067,7 +5116,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 170 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2800:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2800:
                // '\\u128A' .. '\\u128D'
                {
                   matchRange('\u128A', '\u128D');
@@ -5075,7 +5124,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 171 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2819:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2819:
                // '\\u1290' .. '\\u12AE'
                {
                   matchRange('\u1290', '\u12AE');
@@ -5083,7 +5132,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 172 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2838:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2838:
                // '\\u12B0'
                {
                   match('\u12B0');
@@ -5091,7 +5140,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 173 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2847:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2847:
                // '\\u12B2' .. '\\u12B5'
                {
                   matchRange('\u12B2', '\u12B5');
@@ -5099,7 +5148,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 174 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2866:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2866:
                // '\\u12B8' .. '\\u12BE'
                {
                   matchRange('\u12B8', '\u12BE');
@@ -5107,7 +5156,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 175 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2885:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2885:
                // '\\u12C0'
                {
                   match('\u12C0');
@@ -5115,7 +5164,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 176 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2894:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2894:
                // '\\u12C2' .. '\\u12C5'
                {
                   matchRange('\u12C2', '\u12C5');
@@ -5123,7 +5172,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 177 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2913:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2913:
                // '\\u12C8' .. '\\u12CE'
                {
                   matchRange('\u12C8', '\u12CE');
@@ -5131,7 +5180,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 178 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2932:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2932:
                // '\\u12D0' .. '\\u12D6'
                {
                   matchRange('\u12D0', '\u12D6');
@@ -5139,7 +5188,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 179 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2951:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2951:
                // '\\u12D8' .. '\\u12EE'
                {
                   matchRange('\u12D8', '\u12EE');
@@ -5147,7 +5196,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 180 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2970:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2970:
                // '\\u12F0' .. '\\u130E'
                {
                   matchRange('\u12F0', '\u130E');
@@ -5155,7 +5204,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 181 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2989:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2989:
                // '\\u1310'
                {
                   match('\u1310');
@@ -5163,7 +5212,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 182 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:2998:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:2998:
                // '\\u1312' .. '\\u1315'
                {
                   matchRange('\u1312', '\u1315');
@@ -5171,7 +5220,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 183 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3017:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3017:
                // '\\u1318' .. '\\u131E'
                {
                   matchRange('\u1318', '\u131E');
@@ -5179,7 +5228,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 184 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3036:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3036:
                // '\\u1320' .. '\\u1346'
                {
                   matchRange('\u1320', '\u1346');
@@ -5187,7 +5236,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 185 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3055:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3055:
                // '\\u1348' .. '\\u135A'
                {
                   matchRange('\u1348', '\u135A');
@@ -5195,7 +5244,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 186 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3074:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3074:
                // '\\u13A0' .. '\\u13F4'
                {
                   matchRange('\u13A0', '\u13F4');
@@ -5203,7 +5252,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 187 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3093:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3093:
                // '\\u1401' .. '\\u166C'
                {
                   matchRange('\u1401', '\u166C');
@@ -5211,7 +5260,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 188 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3112:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3112:
                // '\\u166F' .. '\\u1676'
                {
                   matchRange('\u166F', '\u1676');
@@ -5219,7 +5268,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 189 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3131:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3131:
                // '\\u1681' .. '\\u169A'
                {
                   matchRange('\u1681', '\u169A');
@@ -5227,7 +5276,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 190 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3150:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3150:
                // '\\u16A0' .. '\\u16EA'
                {
                   matchRange('\u16A0', '\u16EA');
@@ -5235,7 +5284,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 191 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3169:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3169:
                // '\\u16EE' .. '\\u16F0'
                {
                   matchRange('\u16EE', '\u16F0');
@@ -5243,7 +5292,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 192 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3188:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3188:
                // '\\u1700' .. '\\u170C'
                {
                   matchRange('\u1700', '\u170C');
@@ -5251,7 +5300,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 193 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3207:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3207:
                // '\\u170E' .. '\\u1711'
                {
                   matchRange('\u170E', '\u1711');
@@ -5259,7 +5308,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 194 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3226:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3226:
                // '\\u1720' .. '\\u1731'
                {
                   matchRange('\u1720', '\u1731');
@@ -5267,7 +5316,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 195 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3245:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3245:
                // '\\u1740' .. '\\u1751'
                {
                   matchRange('\u1740', '\u1751');
@@ -5275,7 +5324,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 196 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3264:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3264:
                // '\\u1760' .. '\\u176C'
                {
                   matchRange('\u1760', '\u176C');
@@ -5283,7 +5332,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 197 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3283:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3283:
                // '\\u176E' .. '\\u1770'
                {
                   matchRange('\u176E', '\u1770');
@@ -5291,7 +5340,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 198 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3302:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3302:
                // '\\u1780' .. '\\u17B3'
                {
                   matchRange('\u1780', '\u17B3');
@@ -5299,7 +5348,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 199 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3321:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3321:
                // '\\u17D7'
                {
                   match('\u17D7');
@@ -5307,7 +5356,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 200 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3330:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3330:
                // '\\u17DB' .. '\\u17DC'
                {
                   matchRange('\u17DB', '\u17DC');
@@ -5315,7 +5364,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 201 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3349:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3349:
                // '\\u1820' .. '\\u1877'
                {
                   matchRange('\u1820', '\u1877');
@@ -5323,7 +5372,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 202 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3368:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3368:
                // '\\u1880' .. '\\u18A8'
                {
                   matchRange('\u1880', '\u18A8');
@@ -5331,7 +5380,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 203 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3387:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3387:
                // '\\u1900' .. '\\u191C'
                {
                   matchRange('\u1900', '\u191C');
@@ -5339,7 +5388,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 204 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3406:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3406:
                // '\\u1950' .. '\\u196D'
                {
                   matchRange('\u1950', '\u196D');
@@ -5347,7 +5396,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 205 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3425:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3425:
                // '\\u1970' .. '\\u1974'
                {
                   matchRange('\u1970', '\u1974');
@@ -5355,7 +5404,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 206 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3444:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3444:
                // '\\u1D00' .. '\\u1D6B'
                {
                   matchRange('\u1D00', '\u1D6B');
@@ -5363,7 +5412,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 207 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3463:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3463:
                // '\\u1E00' .. '\\u1E9B'
                {
                   matchRange('\u1E00', '\u1E9B');
@@ -5371,7 +5420,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 208 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3482:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3482:
                // '\\u1EA0' .. '\\u1EF9'
                {
                   matchRange('\u1EA0', '\u1EF9');
@@ -5379,7 +5428,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 209 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3501:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3501:
                // '\\u1F00' .. '\\u1F15'
                {
                   matchRange('\u1F00', '\u1F15');
@@ -5387,7 +5436,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 210 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3520:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3520:
                // '\\u1F18' .. '\\u1F1D'
                {
                   matchRange('\u1F18', '\u1F1D');
@@ -5395,7 +5444,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 211 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3539:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3539:
                // '\\u1F20' .. '\\u1F45'
                {
                   matchRange('\u1F20', '\u1F45');
@@ -5403,7 +5452,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 212 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3558:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3558:
                // '\\u1F48' .. '\\u1F4D'
                {
                   matchRange('\u1F48', '\u1F4D');
@@ -5411,7 +5460,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 213 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3577:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3577:
                // '\\u1F50' .. '\\u1F57'
                {
                   matchRange('\u1F50', '\u1F57');
@@ -5419,7 +5468,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 214 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3596:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3596:
                // '\\u1F59'
                {
                   match('\u1F59');
@@ -5427,7 +5476,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 215 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3605:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3605:
                // '\\u1F5B'
                {
                   match('\u1F5B');
@@ -5435,7 +5484,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 216 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3614:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3614:
                // '\\u1F5D'
                {
                   match('\u1F5D');
@@ -5443,7 +5492,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 217 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3623:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3623:
                // '\\u1F5F' .. '\\u1F7D'
                {
                   matchRange('\u1F5F', '\u1F7D');
@@ -5451,7 +5500,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 218 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3642:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3642:
                // '\\u1F80' .. '\\u1FB4'
                {
                   matchRange('\u1F80', '\u1FB4');
@@ -5459,7 +5508,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 219 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3661:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3661:
                // '\\u1FB6' .. '\\u1FBC'
                {
                   matchRange('\u1FB6', '\u1FBC');
@@ -5467,7 +5516,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 220 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3680:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3680:
                // '\\u1FBE'
                {
                   match('\u1FBE');
@@ -5475,7 +5524,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 221 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3689:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3689:
                // '\\u1FC2' .. '\\u1FC4'
                {
                   matchRange('\u1FC2', '\u1FC4');
@@ -5483,7 +5532,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 222 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3708:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3708:
                // '\\u1FC6' .. '\\u1FCC'
                {
                   matchRange('\u1FC6', '\u1FCC');
@@ -5491,7 +5540,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 223 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3727:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3727:
                // '\\u1FD0' .. '\\u1FD3'
                {
                   matchRange('\u1FD0', '\u1FD3');
@@ -5499,7 +5548,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 224 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3746:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3746:
                // '\\u1FD6' .. '\\u1FDB'
                {
                   matchRange('\u1FD6', '\u1FDB');
@@ -5507,7 +5556,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 225 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3765:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3765:
                // '\\u1FE0' .. '\\u1FEC'
                {
                   matchRange('\u1FE0', '\u1FEC');
@@ -5515,7 +5564,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 226 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3784:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3784:
                // '\\u1FF2' .. '\\u1FF4'
                {
                   matchRange('\u1FF2', '\u1FF4');
@@ -5523,7 +5572,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 227 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3803:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3803:
                // '\\u1FF6' .. '\\u1FFC'
                {
                   matchRange('\u1FF6', '\u1FFC');
@@ -5531,7 +5580,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 228 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3822:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3822:
                // '\\u203F' .. '\\u2040'
                {
                   matchRange('\u203F', '\u2040');
@@ -5539,7 +5588,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 229 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3841:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3841:
                // '\\u2054'
                {
                   match('\u2054');
@@ -5547,7 +5596,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 230 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3850:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3850:
                // '\\u2071'
                {
                   match('\u2071');
@@ -5555,7 +5604,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 231 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3859:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3859:
                // '\\u207F'
                {
                   match('\u207F');
@@ -5563,7 +5612,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 232 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3868:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3868:
                // '\\u20A0' .. '\\u20B1'
                {
                   matchRange('\u20A0', '\u20B1');
@@ -5571,7 +5620,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 233 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3887:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3887:
                // '\\u2102'
                {
                   match('\u2102');
@@ -5579,7 +5628,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 234 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3896:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3896:
                // '\\u2107'
                {
                   match('\u2107');
@@ -5587,7 +5636,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 235 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3905:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3905:
                // '\\u210A' .. '\\u2113'
                {
                   matchRange('\u210A', '\u2113');
@@ -5595,7 +5644,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 236 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3924:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3924:
                // '\\u2115'
                {
                   match('\u2115');
@@ -5603,7 +5652,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 237 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3933:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3933:
                // '\\u2119' .. '\\u211D'
                {
                   matchRange('\u2119', '\u211D');
@@ -5611,7 +5660,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 238 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3952:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3952:
                // '\\u2124'
                {
                   match('\u2124');
@@ -5619,7 +5668,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 239 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3961:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3961:
                // '\\u2126'
                {
                   match('\u2126');
@@ -5627,7 +5676,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 240 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3970:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3970:
                // '\\u2128'
                {
                   match('\u2128');
@@ -5635,7 +5684,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 241 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3979:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3979:
                // '\\u212A' .. '\\u212D'
                {
                   matchRange('\u212A', '\u212D');
@@ -5643,7 +5692,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 242 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:3998:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:3998:
                // '\\u212F' .. '\\u2131'
                {
                   matchRange('\u212F', '\u2131');
@@ -5651,7 +5700,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 243 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:4017:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:4017:
                // '\\u2133' .. '\\u2139'
                {
                   matchRange('\u2133', '\u2139');
@@ -5659,7 +5708,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 244 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:4036:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:4036:
                // '\\u213D' .. '\\u213F'
                {
                   matchRange('\u213D', '\u213F');
@@ -5667,7 +5716,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 245 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:4055:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:4055:
                // '\\u2145' .. '\\u2149'
                {
                   matchRange('\u2145', '\u2149');
@@ -5675,7 +5724,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 246 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:4074:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:4074:
                // '\\u2160' .. '\\u2183'
                {
                   matchRange('\u2160', '\u2183');
@@ -5683,7 +5732,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 247 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:4093:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:4093:
                // '\\u3005' .. '\\u3007'
                {
                   matchRange('\u3005', '\u3007');
@@ -5691,7 +5740,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 248 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:4112:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:4112:
                // '\\u3021' .. '\\u3029'
                {
                   matchRange('\u3021', '\u3029');
@@ -5699,7 +5748,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 249 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:4131:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:4131:
                // '\\u3031' .. '\\u3035'
                {
                   matchRange('\u3031', '\u3035');
@@ -5707,7 +5756,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 250 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:4150:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:4150:
                // '\\u3038' .. '\\u303C'
                {
                   matchRange('\u3038', '\u303C');
@@ -5715,7 +5764,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 251 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:4169:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:4169:
                // '\\u3041' .. '\\u3096'
                {
                   matchRange('\u3041', '\u3096');
@@ -5723,7 +5772,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 252 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:4188:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:4188:
                // '\\u309D' .. '\\u309F'
                {
                   matchRange('\u309D', '\u309F');
@@ -5731,7 +5780,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 253 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:4207:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:4207:
                // '\\u30A1' .. '\\u30FF'
                {
                   matchRange('\u30A1', '\u30FF');
@@ -5739,7 +5788,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 254 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:4226:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:4226:
                // '\\u3105' .. '\\u312C'
                {
                   matchRange('\u3105', '\u312C');
@@ -5747,7 +5796,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 255 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:4245:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:4245:
                // '\\u3131' .. '\\u318E'
                {
                   matchRange('\u3131', '\u318E');
@@ -5755,7 +5804,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 256 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:4264:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:4264:
                // '\\u31A0' .. '\\u31B7'
                {
                   matchRange('\u31A0', '\u31B7');
@@ -5763,7 +5812,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 257 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:4283:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:4283:
                // '\\u31F0' .. '\\u31FF'
                {
                   matchRange('\u31F0', '\u31FF');
@@ -5771,7 +5820,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 258 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:4302:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:4302:
                // '\\u3400' .. '\\u4DB5'
                {
                   matchRange('\u3400', '\u4DB5');
@@ -5779,7 +5828,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 259 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:4321:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:4321:
                // '\\u4E00' .. '\\u9FA5'
                {
                   matchRange('\u4E00', '\u9FA5');
@@ -5787,7 +5836,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 260 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:4340:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:4340:
                // '\\uA000' .. '\\uA48C'
                {
                   matchRange('\uA000', '\uA48C');
@@ -5795,7 +5844,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 261 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:4359:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:4359:
                // '\\uAC00' .. '\\uD7A3'
                {
                   matchRange('\uAC00', '\uD7A3');
@@ -5803,7 +5852,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 262 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:4378:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:4378:
                // '\\uF900' .. '\\uFA2D'
                {
                   matchRange('\uF900', '\uFA2D');
@@ -5811,7 +5860,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 263 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:4397:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:4397:
                // '\\uFA30' .. '\\uFA6A'
                {
                   matchRange('\uFA30', '\uFA6A');
@@ -5819,7 +5868,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 264 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:4416:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:4416:
                // '\\uFB00' .. '\\uFB06'
                {
                   matchRange('\uFB00', '\uFB06');
@@ -5827,7 +5876,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 265 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:4435:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:4435:
                // '\\uFB13' .. '\\uFB17'
                {
                   matchRange('\uFB13', '\uFB17');
@@ -5835,7 +5884,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 266 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:4454:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:4454:
                // '\\uFB1D'
                {
                   match('\uFB1D');
@@ -5843,7 +5892,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 267 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:4463:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:4463:
                // '\\uFB1F' .. '\\uFB28'
                {
                   matchRange('\uFB1F', '\uFB28');
@@ -5851,7 +5900,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 268 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:4482:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:4482:
                // '\\uFB2A' .. '\\uFB36'
                {
                   matchRange('\uFB2A', '\uFB36');
@@ -5859,7 +5908,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 269 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:4501:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:4501:
                // '\\uFB38' .. '\\uFB3C'
                {
                   matchRange('\uFB38', '\uFB3C');
@@ -5867,7 +5916,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 270 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:4520:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:4520:
                // '\\uFB3E'
                {
                   match('\uFB3E');
@@ -5875,7 +5924,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 271 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:4529:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:4529:
                // '\\uFB40' .. '\\uFB41'
                {
                   matchRange('\uFB40', '\uFB41');
@@ -5883,7 +5932,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 272 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:4548:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:4548:
                // '\\uFB43' .. '\\uFB44'
                {
                   matchRange('\uFB43', '\uFB44');
@@ -5891,7 +5940,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 273 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:4567:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:4567:
                // '\\uFB46' .. '\\uFBB1'
                {
                   matchRange('\uFB46', '\uFBB1');
@@ -5899,7 +5948,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 274 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:4586:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:4586:
                // '\\uFBD3' .. '\\uFD3D'
                {
                   matchRange('\uFBD3', '\uFD3D');
@@ -5907,7 +5956,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 275 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:4605:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:4605:
                // '\\uFD50' .. '\\uFD8F'
                {
                   matchRange('\uFD50', '\uFD8F');
@@ -5915,7 +5964,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 276 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:4624:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:4624:
                // '\\uFD92' .. '\\uFDC7'
                {
                   matchRange('\uFD92', '\uFDC7');
@@ -5923,7 +5972,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 277 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:4643:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:4643:
                // '\\uFDF0' .. '\\uFDFC'
                {
                   matchRange('\uFDF0', '\uFDFC');
@@ -5931,7 +5980,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 278 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:4662:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:4662:
                // '\\uFE33' .. '\\uFE34'
                {
                   matchRange('\uFE33', '\uFE34');
@@ -5939,7 +5988,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 279 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:4681:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:4681:
                // '\\uFE4D' .. '\\uFE4F'
                {
                   matchRange('\uFE4D', '\uFE4F');
@@ -5947,7 +5996,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 280 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:4700:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:4700:
                // '\\uFE69'
                {
                   match('\uFE69');
@@ -5955,7 +6004,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 281 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:4709:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:4709:
                // '\\uFE70' .. '\\uFE74'
                {
                   matchRange('\uFE70', '\uFE74');
@@ -5963,7 +6012,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 282 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:4728:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:4728:
                // '\\uFE76' .. '\\uFEFC'
                {
                   matchRange('\uFE76', '\uFEFC');
@@ -5971,7 +6020,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 283 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:4747:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:4747:
                // '\\uFF04'
                {
                   match('\uFF04');
@@ -5979,7 +6028,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 284 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:4756:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:4756:
                // '\\uFF21' .. '\\uFF3A'
                {
                   matchRange('\uFF21', '\uFF3A');
@@ -5987,7 +6036,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 285 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:4775:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:4775:
                // '\\uFF3F'
                {
                   match('\uFF3F');
@@ -5995,7 +6044,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 286 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:4784:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:4784:
                // '\\uFF41' .. '\\uFF5A'
                {
                   matchRange('\uFF41', '\uFF5A');
@@ -6003,7 +6052,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 287 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:4803:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:4803:
                // '\\uFF65' .. '\\uFFBE'
                {
                   matchRange('\uFF65', '\uFFBE');
@@ -6011,7 +6060,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 288 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:4822:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:4822:
                // '\\uFFC2' .. '\\uFFC7'
                {
                   matchRange('\uFFC2', '\uFFC7');
@@ -6019,7 +6068,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 289 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:4841:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:4841:
                // '\\uFFCA' .. '\\uFFCF'
                {
                   matchRange('\uFFCA', '\uFFCF');
@@ -6027,7 +6076,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 290 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:4860:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:4860:
                // '\\uFFD2' .. '\\uFFD7'
                {
                   matchRange('\uFFD2', '\uFFD7');
@@ -6035,7 +6084,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 291 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:4879:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:4879:
                // '\\uFFDA' .. '\\uFFDC'
                {
                   matchRange('\uFFDA', '\uFFDC');
@@ -6043,7 +6092,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 292 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:4898:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:4898:
                // '\\uFFE0' .. '\\uFFE1'
                {
                   matchRange('\uFFE0', '\uFFE1');
@@ -6051,7 +6100,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 293 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:4917:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:4917:
                // '\\uFFE5' .. '\\uFFE6'
                {
                   matchRange('\uFFE5', '\uFFE6');
@@ -6059,7 +6108,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 294 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:573:4936:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:728:4936:
                // '\\uD800' .. '\\uDBFF' '\\uDC00' .. '\\uDFFF'
                {
                   matchRange('\uD800', '\uDBFF');
@@ -6083,7 +6132,7 @@ public class InternalLiteralsLexer extends Lexer {
    // $ANTLR start "RULE_JAVALETTERORDIGIT"
    public final void mRULE_JAVALETTERORDIGIT() throws RecognitionException {
       try {
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:33:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:33:
          // ( ( '\\u0000' .. '\\b' | '\\u000E' .. '\\u001B' | '$' | '0' .. '9' | 'A' .. 'Z' | '_' | 'a' .. 'z' |
          // '\\u007F' .. '\\u009F' | '\\u00A2' .. '\\u00A5' | '\\u00AA' | '\\u00AD' | '\\u00B5' | '\\u00BA' | '\\u00C0'
          // .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u0236' | '\\u0250' .. '\\u02C1' | '\\u02C6' ..
@@ -6170,7 +6219,7 @@ public class InternalLiteralsLexer extends Lexer {
          // '\\uFF65' .. '\\uFFBE' | '\\uFFC2' .. '\\uFFC7' | '\\uFFCA' .. '\\uFFCF' | '\\uFFD2' .. '\\uFFD7' |
          // '\\uFFDA' .. '\\uFFDC' | '\\uFFE0' .. '\\uFFE1' | '\\uFFE5' .. '\\uFFE6' | '\\uFFF9' .. '\\uFFFB' |
          // '\\uD800' .. '\\uDBFF' '\\uDC00' .. '\\uDFFF' ) )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:35:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:35:
          // ( '\\u0000' .. '\\b' | '\\u000E' .. '\\u001B' | '$' | '0' .. '9' | 'A' .. 'Z' | '_' | 'a' .. 'z' | '\\u007F'
          // .. '\\u009F' | '\\u00A2' .. '\\u00A5' | '\\u00AA' | '\\u00AD' | '\\u00B5' | '\\u00BA' | '\\u00C0' ..
          // '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u0236' | '\\u0250' .. '\\u02C1' | '\\u02C6' ..
@@ -6258,7 +6307,7 @@ public class InternalLiteralsLexer extends Lexer {
          // '\\uFFDA' .. '\\uFFDC' | '\\uFFE0' .. '\\uFFE1' | '\\uFFE5' .. '\\uFFE6' | '\\uFFF9' .. '\\uFFFB' |
          // '\\uD800' .. '\\uDBFF' '\\uDC00' .. '\\uDFFF' )
          {
-            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:35:
+            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:35:
             // ( '\\u0000' .. '\\b' | '\\u000E' .. '\\u001B' | '$' | '0' .. '9' | 'A' .. 'Z' | '_' | 'a' .. 'z' |
             // '\\u007F' .. '\\u009F' | '\\u00A2' .. '\\u00A5' | '\\u00AA' | '\\u00AD' | '\\u00B5' | '\\u00BA' |
             // '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u0236' | '\\u0250' .. '\\u02C1' |
@@ -7515,7 +7564,7 @@ public class InternalLiteralsLexer extends Lexer {
             }
             switch (alt41) {
                case 1 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:36:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:36:
                // '\\u0000' .. '\\b'
                {
                   matchRange('\u0000', '\b');
@@ -7523,7 +7572,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 2 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:51:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:51:
                // '\\u000E' .. '\\u001B'
                {
                   matchRange('\u000E', '\u001B');
@@ -7531,7 +7580,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 3 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:70:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:70:
                // '$'
                {
                   match('$');
@@ -7539,7 +7588,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 4 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:74:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:74:
                // '0' .. '9'
                {
                   matchRange('0', '9');
@@ -7547,7 +7596,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 5 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:83:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:83:
                // 'A' .. 'Z'
                {
                   matchRange('A', 'Z');
@@ -7555,7 +7604,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 6 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:92:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:92:
                // '_'
                {
                   match('_');
@@ -7563,7 +7612,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 7 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:96:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:96:
                // 'a' .. 'z'
                {
                   matchRange('a', 'z');
@@ -7571,7 +7620,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 8 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:105:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:105:
                // '\\u007F' .. '\\u009F'
                {
                   matchRange('\u007F', '\u009F');
@@ -7579,7 +7628,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 9 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:124:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:124:
                // '\\u00A2' .. '\\u00A5'
                {
                   matchRange('\u00A2', '\u00A5');
@@ -7587,7 +7636,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 10 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:143:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:143:
                // '\\u00AA'
                {
                   match('\u00AA');
@@ -7595,7 +7644,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 11 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:152:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:152:
                // '\\u00AD'
                {
                   match('\u00AD');
@@ -7603,7 +7652,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 12 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:161:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:161:
                // '\\u00B5'
                {
                   match('\u00B5');
@@ -7611,7 +7660,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 13 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:170:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:170:
                // '\\u00BA'
                {
                   match('\u00BA');
@@ -7619,7 +7668,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 14 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:179:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:179:
                // '\\u00C0' .. '\\u00D6'
                {
                   matchRange('\u00C0', '\u00D6');
@@ -7627,7 +7676,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 15 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:198:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:198:
                // '\\u00D8' .. '\\u00F6'
                {
                   matchRange('\u00D8', '\u00F6');
@@ -7635,7 +7684,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 16 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:217:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:217:
                // '\\u00F8' .. '\\u0236'
                {
                   matchRange('\u00F8', '\u0236');
@@ -7643,7 +7692,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 17 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:236:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:236:
                // '\\u0250' .. '\\u02C1'
                {
                   matchRange('\u0250', '\u02C1');
@@ -7651,7 +7700,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 18 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:255:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:255:
                // '\\u02C6' .. '\\u02D1'
                {
                   matchRange('\u02C6', '\u02D1');
@@ -7659,7 +7708,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 19 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:274:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:274:
                // '\\u02E0' .. '\\u02E4'
                {
                   matchRange('\u02E0', '\u02E4');
@@ -7667,7 +7716,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 20 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:293:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:293:
                // '\\u02EE'
                {
                   match('\u02EE');
@@ -7675,7 +7724,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 21 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:302:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:302:
                // '\\u0300' .. '\\u0357'
                {
                   matchRange('\u0300', '\u0357');
@@ -7683,7 +7732,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 22 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:321:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:321:
                // '\\u035D' .. '\\u036F'
                {
                   matchRange('\u035D', '\u036F');
@@ -7691,7 +7740,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 23 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:340:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:340:
                // '\\u037A'
                {
                   match('\u037A');
@@ -7699,7 +7748,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 24 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:349:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:349:
                // '\\u0386'
                {
                   match('\u0386');
@@ -7707,7 +7756,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 25 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:358:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:358:
                // '\\u0388' .. '\\u038A'
                {
                   matchRange('\u0388', '\u038A');
@@ -7715,7 +7764,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 26 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:377:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:377:
                // '\\u038C'
                {
                   match('\u038C');
@@ -7723,7 +7772,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 27 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:386:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:386:
                // '\\u038E' .. '\\u03A1'
                {
                   matchRange('\u038E', '\u03A1');
@@ -7731,7 +7780,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 28 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:405:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:405:
                // '\\u03A3' .. '\\u03CE'
                {
                   matchRange('\u03A3', '\u03CE');
@@ -7739,7 +7788,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 29 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:424:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:424:
                // '\\u03D0' .. '\\u03F5'
                {
                   matchRange('\u03D0', '\u03F5');
@@ -7747,7 +7796,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 30 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:443:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:443:
                // '\\u03F7' .. '\\u03FB'
                {
                   matchRange('\u03F7', '\u03FB');
@@ -7755,7 +7804,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 31 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:462:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:462:
                // '\\u0400' .. '\\u0481'
                {
                   matchRange('\u0400', '\u0481');
@@ -7763,7 +7812,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 32 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:481:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:481:
                // '\\u0483' .. '\\u0486'
                {
                   matchRange('\u0483', '\u0486');
@@ -7771,7 +7820,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 33 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:500:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:500:
                // '\\u048A' .. '\\u04CE'
                {
                   matchRange('\u048A', '\u04CE');
@@ -7779,7 +7828,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 34 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:519:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:519:
                // '\\u04D0' .. '\\u04F5'
                {
                   matchRange('\u04D0', '\u04F5');
@@ -7787,7 +7836,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 35 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:538:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:538:
                // '\\u04F8' .. '\\u04F9'
                {
                   matchRange('\u04F8', '\u04F9');
@@ -7795,7 +7844,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 36 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:557:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:557:
                // '\\u0500' .. '\\u050F'
                {
                   matchRange('\u0500', '\u050F');
@@ -7803,7 +7852,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 37 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:576:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:576:
                // '\\u0531' .. '\\u0556'
                {
                   matchRange('\u0531', '\u0556');
@@ -7811,7 +7860,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 38 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:595:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:595:
                // '\\u0559'
                {
                   match('\u0559');
@@ -7819,7 +7868,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 39 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:604:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:604:
                // '\\u0561' .. '\\u0587'
                {
                   matchRange('\u0561', '\u0587');
@@ -7827,7 +7876,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 40 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:623:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:623:
                // '\\u0591' .. '\\u05A1'
                {
                   matchRange('\u0591', '\u05A1');
@@ -7835,7 +7884,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 41 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:642:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:642:
                // '\\u05A3' .. '\\u05B9'
                {
                   matchRange('\u05A3', '\u05B9');
@@ -7843,7 +7892,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 42 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:661:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:661:
                // '\\u05BB' .. '\\u05BD'
                {
                   matchRange('\u05BB', '\u05BD');
@@ -7851,7 +7900,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 43 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:680:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:680:
                // '\\u05BF'
                {
                   match('\u05BF');
@@ -7859,7 +7908,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 44 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:689:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:689:
                // '\\u05C1' .. '\\u05C2'
                {
                   matchRange('\u05C1', '\u05C2');
@@ -7867,7 +7916,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 45 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:708:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:708:
                // '\\u05C4'
                {
                   match('\u05C4');
@@ -7875,7 +7924,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 46 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:717:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:717:
                // '\\u05D0' .. '\\u05EA'
                {
                   matchRange('\u05D0', '\u05EA');
@@ -7883,7 +7932,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 47 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:736:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:736:
                // '\\u05F0' .. '\\u05F2'
                {
                   matchRange('\u05F0', '\u05F2');
@@ -7891,7 +7940,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 48 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:755:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:755:
                // '\\u0600' .. '\\u0603'
                {
                   matchRange('\u0600', '\u0603');
@@ -7899,7 +7948,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 49 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:774:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:774:
                // '\\u0610' .. '\\u0615'
                {
                   matchRange('\u0610', '\u0615');
@@ -7907,7 +7956,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 50 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:793:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:793:
                // '\\u0621' .. '\\u063A'
                {
                   matchRange('\u0621', '\u063A');
@@ -7915,7 +7964,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 51 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:812:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:812:
                // '\\u0640' .. '\\u0658'
                {
                   matchRange('\u0640', '\u0658');
@@ -7923,7 +7972,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 52 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:831:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:831:
                // '\\u0660' .. '\\u0669'
                {
                   matchRange('\u0660', '\u0669');
@@ -7931,7 +7980,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 53 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:850:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:850:
                // '\\u066E' .. '\\u06D3'
                {
                   matchRange('\u066E', '\u06D3');
@@ -7939,7 +7988,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 54 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:869:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:869:
                // '\\u06D5' .. '\\u06DD'
                {
                   matchRange('\u06D5', '\u06DD');
@@ -7947,7 +7996,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 55 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:888:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:888:
                // '\\u06DF' .. '\\u06E8'
                {
                   matchRange('\u06DF', '\u06E8');
@@ -7955,7 +8004,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 56 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:907:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:907:
                // '\\u06EA' .. '\\u06FC'
                {
                   matchRange('\u06EA', '\u06FC');
@@ -7963,7 +8012,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 57 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:926:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:926:
                // '\\u06FF'
                {
                   match('\u06FF');
@@ -7971,7 +8020,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 58 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:935:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:935:
                // '\\u070F' .. '\\u074A'
                {
                   matchRange('\u070F', '\u074A');
@@ -7979,7 +8028,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 59 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:954:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:954:
                // '\\u074D' .. '\\u074F'
                {
                   matchRange('\u074D', '\u074F');
@@ -7987,7 +8036,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 60 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:973:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:973:
                // '\\u0780' .. '\\u07B1'
                {
                   matchRange('\u0780', '\u07B1');
@@ -7995,7 +8044,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 61 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:992:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:992:
                // '\\u0901' .. '\\u0939'
                {
                   matchRange('\u0901', '\u0939');
@@ -8003,7 +8052,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 62 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1011:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1011:
                // '\\u093C' .. '\\u094D'
                {
                   matchRange('\u093C', '\u094D');
@@ -8011,7 +8060,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 63 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1030:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1030:
                // '\\u0950' .. '\\u0954'
                {
                   matchRange('\u0950', '\u0954');
@@ -8019,7 +8068,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 64 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1049:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1049:
                // '\\u0958' .. '\\u0963'
                {
                   matchRange('\u0958', '\u0963');
@@ -8027,7 +8076,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 65 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1068:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1068:
                // '\\u0966' .. '\\u096F'
                {
                   matchRange('\u0966', '\u096F');
@@ -8035,7 +8084,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 66 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1087:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1087:
                // '\\u0981' .. '\\u0983'
                {
                   matchRange('\u0981', '\u0983');
@@ -8043,7 +8092,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 67 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1106:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1106:
                // '\\u0985' .. '\\u098C'
                {
                   matchRange('\u0985', '\u098C');
@@ -8051,7 +8100,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 68 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1125:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1125:
                // '\\u098F' .. '\\u0990'
                {
                   matchRange('\u098F', '\u0990');
@@ -8059,7 +8108,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 69 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1144:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1144:
                // '\\u0993' .. '\\u09A8'
                {
                   matchRange('\u0993', '\u09A8');
@@ -8067,7 +8116,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 70 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1163:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1163:
                // '\\u09AA' .. '\\u09B0'
                {
                   matchRange('\u09AA', '\u09B0');
@@ -8075,7 +8124,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 71 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1182:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1182:
                // '\\u09B2'
                {
                   match('\u09B2');
@@ -8083,7 +8132,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 72 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1191:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1191:
                // '\\u09B6' .. '\\u09B9'
                {
                   matchRange('\u09B6', '\u09B9');
@@ -8091,7 +8140,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 73 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1210:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1210:
                // '\\u09BC' .. '\\u09C4'
                {
                   matchRange('\u09BC', '\u09C4');
@@ -8099,7 +8148,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 74 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1229:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1229:
                // '\\u09C7' .. '\\u09C8'
                {
                   matchRange('\u09C7', '\u09C8');
@@ -8107,7 +8156,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 75 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1248:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1248:
                // '\\u09CB' .. '\\u09CD'
                {
                   matchRange('\u09CB', '\u09CD');
@@ -8115,7 +8164,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 76 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1267:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1267:
                // '\\u09D7'
                {
                   match('\u09D7');
@@ -8123,7 +8172,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 77 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1276:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1276:
                // '\\u09DC' .. '\\u09DD'
                {
                   matchRange('\u09DC', '\u09DD');
@@ -8131,7 +8180,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 78 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1295:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1295:
                // '\\u09DF' .. '\\u09E3'
                {
                   matchRange('\u09DF', '\u09E3');
@@ -8139,7 +8188,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 79 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1314:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1314:
                // '\\u09E6' .. '\\u09F3'
                {
                   matchRange('\u09E6', '\u09F3');
@@ -8147,7 +8196,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 80 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1333:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1333:
                // '\\u0A01' .. '\\u0A03'
                {
                   matchRange('\u0A01', '\u0A03');
@@ -8155,7 +8204,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 81 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1352:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1352:
                // '\\u0A05' .. '\\u0A0A'
                {
                   matchRange('\u0A05', '\u0A0A');
@@ -8163,7 +8212,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 82 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1371:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1371:
                // '\\u0A0F' .. '\\u0A10'
                {
                   matchRange('\u0A0F', '\u0A10');
@@ -8171,7 +8220,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 83 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1390:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1390:
                // '\\u0A13' .. '\\u0A28'
                {
                   matchRange('\u0A13', '\u0A28');
@@ -8179,7 +8228,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 84 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1409:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1409:
                // '\\u0A2A' .. '\\u0A30'
                {
                   matchRange('\u0A2A', '\u0A30');
@@ -8187,7 +8236,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 85 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1428:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1428:
                // '\\u0A32' .. '\\u0A33'
                {
                   matchRange('\u0A32', '\u0A33');
@@ -8195,7 +8244,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 86 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1447:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1447:
                // '\\u0A35' .. '\\u0A36'
                {
                   matchRange('\u0A35', '\u0A36');
@@ -8203,7 +8252,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 87 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1466:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1466:
                // '\\u0A38' .. '\\u0A39'
                {
                   matchRange('\u0A38', '\u0A39');
@@ -8211,7 +8260,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 88 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1485:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1485:
                // '\\u0A3C'
                {
                   match('\u0A3C');
@@ -8219,7 +8268,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 89 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1494:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1494:
                // '\\u0A3E' .. '\\u0A42'
                {
                   matchRange('\u0A3E', '\u0A42');
@@ -8227,7 +8276,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 90 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1513:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1513:
                // '\\u0A47' .. '\\u0A48'
                {
                   matchRange('\u0A47', '\u0A48');
@@ -8235,7 +8284,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 91 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1532:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1532:
                // '\\u0A4B' .. '\\u0A4D'
                {
                   matchRange('\u0A4B', '\u0A4D');
@@ -8243,7 +8292,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 92 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1551:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1551:
                // '\\u0A59' .. '\\u0A5C'
                {
                   matchRange('\u0A59', '\u0A5C');
@@ -8251,7 +8300,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 93 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1570:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1570:
                // '\\u0A5E'
                {
                   match('\u0A5E');
@@ -8259,7 +8308,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 94 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1579:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1579:
                // '\\u0A66' .. '\\u0A74'
                {
                   matchRange('\u0A66', '\u0A74');
@@ -8267,7 +8316,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 95 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1598:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1598:
                // '\\u0A81' .. '\\u0A83'
                {
                   matchRange('\u0A81', '\u0A83');
@@ -8275,7 +8324,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 96 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1617:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1617:
                // '\\u0A85' .. '\\u0A8D'
                {
                   matchRange('\u0A85', '\u0A8D');
@@ -8283,7 +8332,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 97 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1636:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1636:
                // '\\u0A8F' .. '\\u0A91'
                {
                   matchRange('\u0A8F', '\u0A91');
@@ -8291,7 +8340,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 98 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1655:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1655:
                // '\\u0A93' .. '\\u0AA8'
                {
                   matchRange('\u0A93', '\u0AA8');
@@ -8299,7 +8348,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 99 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1674:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1674:
                // '\\u0AAA' .. '\\u0AB0'
                {
                   matchRange('\u0AAA', '\u0AB0');
@@ -8307,7 +8356,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 100 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1693:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1693:
                // '\\u0AB2' .. '\\u0AB3'
                {
                   matchRange('\u0AB2', '\u0AB3');
@@ -8315,7 +8364,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 101 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1712:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1712:
                // '\\u0AB5' .. '\\u0AB9'
                {
                   matchRange('\u0AB5', '\u0AB9');
@@ -8323,7 +8372,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 102 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1731:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1731:
                // '\\u0ABC' .. '\\u0AC5'
                {
                   matchRange('\u0ABC', '\u0AC5');
@@ -8331,7 +8380,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 103 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1750:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1750:
                // '\\u0AC7' .. '\\u0AC9'
                {
                   matchRange('\u0AC7', '\u0AC9');
@@ -8339,7 +8388,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 104 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1769:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1769:
                // '\\u0ACB' .. '\\u0ACD'
                {
                   matchRange('\u0ACB', '\u0ACD');
@@ -8347,7 +8396,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 105 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1788:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1788:
                // '\\u0AD0'
                {
                   match('\u0AD0');
@@ -8355,7 +8404,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 106 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1797:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1797:
                // '\\u0AE0' .. '\\u0AE3'
                {
                   matchRange('\u0AE0', '\u0AE3');
@@ -8363,7 +8412,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 107 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1816:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1816:
                // '\\u0AE6' .. '\\u0AEF'
                {
                   matchRange('\u0AE6', '\u0AEF');
@@ -8371,7 +8420,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 108 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1835:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1835:
                // '\\u0AF1'
                {
                   match('\u0AF1');
@@ -8379,7 +8428,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 109 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1844:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1844:
                // '\\u0B01' .. '\\u0B03'
                {
                   matchRange('\u0B01', '\u0B03');
@@ -8387,7 +8436,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 110 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1863:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1863:
                // '\\u0B05' .. '\\u0B0C'
                {
                   matchRange('\u0B05', '\u0B0C');
@@ -8395,7 +8444,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 111 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1882:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1882:
                // '\\u0B0F' .. '\\u0B10'
                {
                   matchRange('\u0B0F', '\u0B10');
@@ -8403,7 +8452,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 112 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1901:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1901:
                // '\\u0B13' .. '\\u0B28'
                {
                   matchRange('\u0B13', '\u0B28');
@@ -8411,7 +8460,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 113 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1920:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1920:
                // '\\u0B2A' .. '\\u0B30'
                {
                   matchRange('\u0B2A', '\u0B30');
@@ -8419,7 +8468,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 114 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1939:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1939:
                // '\\u0B32' .. '\\u0B33'
                {
                   matchRange('\u0B32', '\u0B33');
@@ -8427,7 +8476,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 115 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1958:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1958:
                // '\\u0B35' .. '\\u0B39'
                {
                   matchRange('\u0B35', '\u0B39');
@@ -8435,7 +8484,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 116 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1977:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1977:
                // '\\u0B3C' .. '\\u0B43'
                {
                   matchRange('\u0B3C', '\u0B43');
@@ -8443,7 +8492,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 117 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:1996:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:1996:
                // '\\u0B47' .. '\\u0B48'
                {
                   matchRange('\u0B47', '\u0B48');
@@ -8451,7 +8500,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 118 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2015:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2015:
                // '\\u0B4B' .. '\\u0B4D'
                {
                   matchRange('\u0B4B', '\u0B4D');
@@ -8459,7 +8508,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 119 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2034:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2034:
                // '\\u0B56' .. '\\u0B57'
                {
                   matchRange('\u0B56', '\u0B57');
@@ -8467,7 +8516,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 120 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2053:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2053:
                // '\\u0B5C' .. '\\u0B5D'
                {
                   matchRange('\u0B5C', '\u0B5D');
@@ -8475,7 +8524,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 121 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2072:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2072:
                // '\\u0B5F' .. '\\u0B61'
                {
                   matchRange('\u0B5F', '\u0B61');
@@ -8483,7 +8532,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 122 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2091:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2091:
                // '\\u0B66' .. '\\u0B6F'
                {
                   matchRange('\u0B66', '\u0B6F');
@@ -8491,7 +8540,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 123 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2110:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2110:
                // '\\u0B71'
                {
                   match('\u0B71');
@@ -8499,7 +8548,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 124 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2119:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2119:
                // '\\u0B82' .. '\\u0B83'
                {
                   matchRange('\u0B82', '\u0B83');
@@ -8507,7 +8556,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 125 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2138:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2138:
                // '\\u0B85' .. '\\u0B8A'
                {
                   matchRange('\u0B85', '\u0B8A');
@@ -8515,7 +8564,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 126 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2157:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2157:
                // '\\u0B8E' .. '\\u0B90'
                {
                   matchRange('\u0B8E', '\u0B90');
@@ -8523,7 +8572,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 127 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2176:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2176:
                // '\\u0B92' .. '\\u0B95'
                {
                   matchRange('\u0B92', '\u0B95');
@@ -8531,7 +8580,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 128 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2195:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2195:
                // '\\u0B99' .. '\\u0B9A'
                {
                   matchRange('\u0B99', '\u0B9A');
@@ -8539,7 +8588,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 129 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2214:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2214:
                // '\\u0B9C'
                {
                   match('\u0B9C');
@@ -8547,7 +8596,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 130 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2223:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2223:
                // '\\u0B9E' .. '\\u0B9F'
                {
                   matchRange('\u0B9E', '\u0B9F');
@@ -8555,7 +8604,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 131 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2242:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2242:
                // '\\u0BA3' .. '\\u0BA4'
                {
                   matchRange('\u0BA3', '\u0BA4');
@@ -8563,7 +8612,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 132 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2261:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2261:
                // '\\u0BA8' .. '\\u0BAA'
                {
                   matchRange('\u0BA8', '\u0BAA');
@@ -8571,7 +8620,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 133 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2280:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2280:
                // '\\u0BAE' .. '\\u0BB5'
                {
                   matchRange('\u0BAE', '\u0BB5');
@@ -8579,7 +8628,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 134 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2299:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2299:
                // '\\u0BB7' .. '\\u0BB9'
                {
                   matchRange('\u0BB7', '\u0BB9');
@@ -8587,7 +8636,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 135 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2318:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2318:
                // '\\u0BBE' .. '\\u0BC2'
                {
                   matchRange('\u0BBE', '\u0BC2');
@@ -8595,7 +8644,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 136 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2337:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2337:
                // '\\u0BC6' .. '\\u0BC8'
                {
                   matchRange('\u0BC6', '\u0BC8');
@@ -8603,7 +8652,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 137 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2356:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2356:
                // '\\u0BCA' .. '\\u0BCD'
                {
                   matchRange('\u0BCA', '\u0BCD');
@@ -8611,7 +8660,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 138 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2375:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2375:
                // '\\u0BD7'
                {
                   match('\u0BD7');
@@ -8619,7 +8668,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 139 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2384:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2384:
                // '\\u0BE7' .. '\\u0BEF'
                {
                   matchRange('\u0BE7', '\u0BEF');
@@ -8627,7 +8676,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 140 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2403:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2403:
                // '\\u0BF9'
                {
                   match('\u0BF9');
@@ -8635,7 +8684,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 141 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2412:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2412:
                // '\\u0C01' .. '\\u0C03'
                {
                   matchRange('\u0C01', '\u0C03');
@@ -8643,7 +8692,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 142 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2431:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2431:
                // '\\u0C05' .. '\\u0C0C'
                {
                   matchRange('\u0C05', '\u0C0C');
@@ -8651,7 +8700,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 143 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2450:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2450:
                // '\\u0C0E' .. '\\u0C10'
                {
                   matchRange('\u0C0E', '\u0C10');
@@ -8659,7 +8708,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 144 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2469:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2469:
                // '\\u0C12' .. '\\u0C28'
                {
                   matchRange('\u0C12', '\u0C28');
@@ -8667,7 +8716,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 145 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2488:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2488:
                // '\\u0C2A' .. '\\u0C33'
                {
                   matchRange('\u0C2A', '\u0C33');
@@ -8675,7 +8724,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 146 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2507:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2507:
                // '\\u0C35' .. '\\u0C39'
                {
                   matchRange('\u0C35', '\u0C39');
@@ -8683,7 +8732,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 147 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2526:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2526:
                // '\\u0C3E' .. '\\u0C44'
                {
                   matchRange('\u0C3E', '\u0C44');
@@ -8691,7 +8740,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 148 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2545:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2545:
                // '\\u0C46' .. '\\u0C48'
                {
                   matchRange('\u0C46', '\u0C48');
@@ -8699,7 +8748,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 149 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2564:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2564:
                // '\\u0C4A' .. '\\u0C4D'
                {
                   matchRange('\u0C4A', '\u0C4D');
@@ -8707,7 +8756,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 150 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2583:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2583:
                // '\\u0C55' .. '\\u0C56'
                {
                   matchRange('\u0C55', '\u0C56');
@@ -8715,7 +8764,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 151 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2602:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2602:
                // '\\u0C60' .. '\\u0C61'
                {
                   matchRange('\u0C60', '\u0C61');
@@ -8723,7 +8772,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 152 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2621:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2621:
                // '\\u0C66' .. '\\u0C6F'
                {
                   matchRange('\u0C66', '\u0C6F');
@@ -8731,7 +8780,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 153 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2640:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2640:
                // '\\u0C82' .. '\\u0C83'
                {
                   matchRange('\u0C82', '\u0C83');
@@ -8739,7 +8788,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 154 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2659:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2659:
                // '\\u0C85' .. '\\u0C8C'
                {
                   matchRange('\u0C85', '\u0C8C');
@@ -8747,7 +8796,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 155 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2678:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2678:
                // '\\u0C8E' .. '\\u0C90'
                {
                   matchRange('\u0C8E', '\u0C90');
@@ -8755,7 +8804,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 156 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2697:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2697:
                // '\\u0C92' .. '\\u0CA8'
                {
                   matchRange('\u0C92', '\u0CA8');
@@ -8763,7 +8812,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 157 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2716:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2716:
                // '\\u0CAA' .. '\\u0CB3'
                {
                   matchRange('\u0CAA', '\u0CB3');
@@ -8771,7 +8820,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 158 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2735:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2735:
                // '\\u0CB5' .. '\\u0CB9'
                {
                   matchRange('\u0CB5', '\u0CB9');
@@ -8779,7 +8828,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 159 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2754:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2754:
                // '\\u0CBC' .. '\\u0CC4'
                {
                   matchRange('\u0CBC', '\u0CC4');
@@ -8787,7 +8836,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 160 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2773:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2773:
                // '\\u0CC6' .. '\\u0CC8'
                {
                   matchRange('\u0CC6', '\u0CC8');
@@ -8795,7 +8844,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 161 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2792:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2792:
                // '\\u0CCA' .. '\\u0CCD'
                {
                   matchRange('\u0CCA', '\u0CCD');
@@ -8803,7 +8852,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 162 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2811:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2811:
                // '\\u0CD5' .. '\\u0CD6'
                {
                   matchRange('\u0CD5', '\u0CD6');
@@ -8811,7 +8860,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 163 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2830:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2830:
                // '\\u0CDE'
                {
                   match('\u0CDE');
@@ -8819,7 +8868,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 164 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2839:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2839:
                // '\\u0CE0' .. '\\u0CE1'
                {
                   matchRange('\u0CE0', '\u0CE1');
@@ -8827,7 +8876,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 165 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2858:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2858:
                // '\\u0CE6' .. '\\u0CEF'
                {
                   matchRange('\u0CE6', '\u0CEF');
@@ -8835,7 +8884,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 166 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2877:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2877:
                // '\\u0D02' .. '\\u0D03'
                {
                   matchRange('\u0D02', '\u0D03');
@@ -8843,7 +8892,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 167 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2896:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2896:
                // '\\u0D05' .. '\\u0D0C'
                {
                   matchRange('\u0D05', '\u0D0C');
@@ -8851,7 +8900,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 168 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2915:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2915:
                // '\\u0D0E' .. '\\u0D10'
                {
                   matchRange('\u0D0E', '\u0D10');
@@ -8859,7 +8908,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 169 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2934:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2934:
                // '\\u0D12' .. '\\u0D28'
                {
                   matchRange('\u0D12', '\u0D28');
@@ -8867,7 +8916,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 170 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2953:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2953:
                // '\\u0D2A' .. '\\u0D39'
                {
                   matchRange('\u0D2A', '\u0D39');
@@ -8875,7 +8924,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 171 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2972:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2972:
                // '\\u0D3E' .. '\\u0D43'
                {
                   matchRange('\u0D3E', '\u0D43');
@@ -8883,7 +8932,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 172 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:2991:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:2991:
                // '\\u0D46' .. '\\u0D48'
                {
                   matchRange('\u0D46', '\u0D48');
@@ -8891,7 +8940,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 173 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3010:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3010:
                // '\\u0D4A' .. '\\u0D4D'
                {
                   matchRange('\u0D4A', '\u0D4D');
@@ -8899,7 +8948,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 174 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3029:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3029:
                // '\\u0D57'
                {
                   match('\u0D57');
@@ -8907,7 +8956,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 175 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3038:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3038:
                // '\\u0D60' .. '\\u0D61'
                {
                   matchRange('\u0D60', '\u0D61');
@@ -8915,7 +8964,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 176 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3057:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3057:
                // '\\u0D66' .. '\\u0D6F'
                {
                   matchRange('\u0D66', '\u0D6F');
@@ -8923,7 +8972,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 177 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3076:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3076:
                // '\\u0D82' .. '\\u0D83'
                {
                   matchRange('\u0D82', '\u0D83');
@@ -8931,7 +8980,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 178 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3095:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3095:
                // '\\u0D85' .. '\\u0D96'
                {
                   matchRange('\u0D85', '\u0D96');
@@ -8939,7 +8988,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 179 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3114:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3114:
                // '\\u0D9A' .. '\\u0DB1'
                {
                   matchRange('\u0D9A', '\u0DB1');
@@ -8947,7 +8996,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 180 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3133:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3133:
                // '\\u0DB3' .. '\\u0DBB'
                {
                   matchRange('\u0DB3', '\u0DBB');
@@ -8955,7 +9004,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 181 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3152:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3152:
                // '\\u0DBD'
                {
                   match('\u0DBD');
@@ -8963,7 +9012,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 182 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3161:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3161:
                // '\\u0DC0' .. '\\u0DC6'
                {
                   matchRange('\u0DC0', '\u0DC6');
@@ -8971,7 +9020,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 183 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3180:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3180:
                // '\\u0DCA'
                {
                   match('\u0DCA');
@@ -8979,7 +9028,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 184 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3189:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3189:
                // '\\u0DCF' .. '\\u0DD4'
                {
                   matchRange('\u0DCF', '\u0DD4');
@@ -8987,7 +9036,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 185 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3208:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3208:
                // '\\u0DD6'
                {
                   match('\u0DD6');
@@ -8995,7 +9044,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 186 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3217:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3217:
                // '\\u0DD8' .. '\\u0DDF'
                {
                   matchRange('\u0DD8', '\u0DDF');
@@ -9003,7 +9052,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 187 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3236:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3236:
                // '\\u0DF2' .. '\\u0DF3'
                {
                   matchRange('\u0DF2', '\u0DF3');
@@ -9011,7 +9060,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 188 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3255:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3255:
                // '\\u0E01' .. '\\u0E3A'
                {
                   matchRange('\u0E01', '\u0E3A');
@@ -9019,7 +9068,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 189 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3274:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3274:
                // '\\u0E3F' .. '\\u0E4E'
                {
                   matchRange('\u0E3F', '\u0E4E');
@@ -9027,7 +9076,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 190 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3293:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3293:
                // '\\u0E50' .. '\\u0E59'
                {
                   matchRange('\u0E50', '\u0E59');
@@ -9035,7 +9084,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 191 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3312:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3312:
                // '\\u0E81' .. '\\u0E82'
                {
                   matchRange('\u0E81', '\u0E82');
@@ -9043,7 +9092,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 192 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3331:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3331:
                // '\\u0E84'
                {
                   match('\u0E84');
@@ -9051,7 +9100,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 193 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3340:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3340:
                // '\\u0E87' .. '\\u0E88'
                {
                   matchRange('\u0E87', '\u0E88');
@@ -9059,7 +9108,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 194 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3359:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3359:
                // '\\u0E8A'
                {
                   match('\u0E8A');
@@ -9067,7 +9116,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 195 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3368:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3368:
                // '\\u0E8D'
                {
                   match('\u0E8D');
@@ -9075,7 +9124,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 196 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3377:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3377:
                // '\\u0E94' .. '\\u0E97'
                {
                   matchRange('\u0E94', '\u0E97');
@@ -9083,7 +9132,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 197 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3396:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3396:
                // '\\u0E99' .. '\\u0E9F'
                {
                   matchRange('\u0E99', '\u0E9F');
@@ -9091,7 +9140,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 198 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3415:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3415:
                // '\\u0EA1' .. '\\u0EA3'
                {
                   matchRange('\u0EA1', '\u0EA3');
@@ -9099,7 +9148,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 199 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3434:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3434:
                // '\\u0EA5'
                {
                   match('\u0EA5');
@@ -9107,7 +9156,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 200 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3443:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3443:
                // '\\u0EA7'
                {
                   match('\u0EA7');
@@ -9115,7 +9164,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 201 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3452:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3452:
                // '\\u0EAA' .. '\\u0EAB'
                {
                   matchRange('\u0EAA', '\u0EAB');
@@ -9123,7 +9172,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 202 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3471:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3471:
                // '\\u0EAD' .. '\\u0EB9'
                {
                   matchRange('\u0EAD', '\u0EB9');
@@ -9131,7 +9180,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 203 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3490:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3490:
                // '\\u0EBB' .. '\\u0EBD'
                {
                   matchRange('\u0EBB', '\u0EBD');
@@ -9139,7 +9188,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 204 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3509:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3509:
                // '\\u0EC0' .. '\\u0EC4'
                {
                   matchRange('\u0EC0', '\u0EC4');
@@ -9147,7 +9196,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 205 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3528:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3528:
                // '\\u0EC6'
                {
                   match('\u0EC6');
@@ -9155,7 +9204,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 206 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3537:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3537:
                // '\\u0EC8' .. '\\u0ECD'
                {
                   matchRange('\u0EC8', '\u0ECD');
@@ -9163,7 +9212,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 207 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3556:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3556:
                // '\\u0ED0' .. '\\u0ED9'
                {
                   matchRange('\u0ED0', '\u0ED9');
@@ -9171,7 +9220,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 208 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3575:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3575:
                // '\\u0EDC' .. '\\u0EDD'
                {
                   matchRange('\u0EDC', '\u0EDD');
@@ -9179,7 +9228,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 209 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3594:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3594:
                // '\\u0F00'
                {
                   match('\u0F00');
@@ -9187,7 +9236,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 210 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3603:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3603:
                // '\\u0F18' .. '\\u0F19'
                {
                   matchRange('\u0F18', '\u0F19');
@@ -9195,7 +9244,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 211 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3622:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3622:
                // '\\u0F20' .. '\\u0F29'
                {
                   matchRange('\u0F20', '\u0F29');
@@ -9203,7 +9252,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 212 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3641:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3641:
                // '\\u0F35'
                {
                   match('\u0F35');
@@ -9211,7 +9260,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 213 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3650:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3650:
                // '\\u0F37'
                {
                   match('\u0F37');
@@ -9219,7 +9268,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 214 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3659:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3659:
                // '\\u0F39'
                {
                   match('\u0F39');
@@ -9227,7 +9276,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 215 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3668:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3668:
                // '\\u0F3E' .. '\\u0F47'
                {
                   matchRange('\u0F3E', '\u0F47');
@@ -9235,7 +9284,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 216 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3687:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3687:
                // '\\u0F49' .. '\\u0F6A'
                {
                   matchRange('\u0F49', '\u0F6A');
@@ -9243,7 +9292,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 217 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3706:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3706:
                // '\\u0F71' .. '\\u0F84'
                {
                   matchRange('\u0F71', '\u0F84');
@@ -9251,7 +9300,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 218 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3725:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3725:
                // '\\u0F86' .. '\\u0F8B'
                {
                   matchRange('\u0F86', '\u0F8B');
@@ -9259,7 +9308,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 219 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3744:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3744:
                // '\\u0F90' .. '\\u0F97'
                {
                   matchRange('\u0F90', '\u0F97');
@@ -9267,7 +9316,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 220 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3763:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3763:
                // '\\u0F99' .. '\\u0FBC'
                {
                   matchRange('\u0F99', '\u0FBC');
@@ -9275,7 +9324,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 221 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3782:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3782:
                // '\\u0FC6'
                {
                   match('\u0FC6');
@@ -9283,7 +9332,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 222 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3791:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3791:
                // '\\u1000' .. '\\u1021'
                {
                   matchRange('\u1000', '\u1021');
@@ -9291,7 +9340,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 223 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3810:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3810:
                // '\\u1023' .. '\\u1027'
                {
                   matchRange('\u1023', '\u1027');
@@ -9299,7 +9348,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 224 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3829:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3829:
                // '\\u1029' .. '\\u102A'
                {
                   matchRange('\u1029', '\u102A');
@@ -9307,7 +9356,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 225 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3848:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3848:
                // '\\u102C' .. '\\u1032'
                {
                   matchRange('\u102C', '\u1032');
@@ -9315,7 +9364,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 226 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3867:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3867:
                // '\\u1036' .. '\\u1039'
                {
                   matchRange('\u1036', '\u1039');
@@ -9323,7 +9372,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 227 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3886:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3886:
                // '\\u1040' .. '\\u1049'
                {
                   matchRange('\u1040', '\u1049');
@@ -9331,7 +9380,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 228 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3905:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3905:
                // '\\u1050' .. '\\u1059'
                {
                   matchRange('\u1050', '\u1059');
@@ -9339,7 +9388,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 229 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3924:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3924:
                // '\\u10A0' .. '\\u10C5'
                {
                   matchRange('\u10A0', '\u10C5');
@@ -9347,7 +9396,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 230 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3943:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3943:
                // '\\u10D0' .. '\\u10F8'
                {
                   matchRange('\u10D0', '\u10F8');
@@ -9355,7 +9404,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 231 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3962:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3962:
                // '\\u1100' .. '\\u1159'
                {
                   matchRange('\u1100', '\u1159');
@@ -9363,7 +9412,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 232 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:3981:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:3981:
                // '\\u115F' .. '\\u11A2'
                {
                   matchRange('\u115F', '\u11A2');
@@ -9371,7 +9420,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 233 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4000:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4000:
                // '\\u11A8' .. '\\u11F9'
                {
                   matchRange('\u11A8', '\u11F9');
@@ -9379,7 +9428,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 234 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4019:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4019:
                // '\\u1200' .. '\\u1206'
                {
                   matchRange('\u1200', '\u1206');
@@ -9387,7 +9436,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 235 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4038:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4038:
                // '\\u1208' .. '\\u1246'
                {
                   matchRange('\u1208', '\u1246');
@@ -9395,7 +9444,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 236 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4057:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4057:
                // '\\u1248'
                {
                   match('\u1248');
@@ -9403,7 +9452,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 237 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4066:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4066:
                // '\\u124A' .. '\\u124D'
                {
                   matchRange('\u124A', '\u124D');
@@ -9411,7 +9460,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 238 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4085:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4085:
                // '\\u1250' .. '\\u1256'
                {
                   matchRange('\u1250', '\u1256');
@@ -9419,7 +9468,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 239 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4104:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4104:
                // '\\u1258'
                {
                   match('\u1258');
@@ -9427,7 +9476,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 240 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4113:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4113:
                // '\\u125A' .. '\\u125D'
                {
                   matchRange('\u125A', '\u125D');
@@ -9435,7 +9484,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 241 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4132:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4132:
                // '\\u1260' .. '\\u1286'
                {
                   matchRange('\u1260', '\u1286');
@@ -9443,7 +9492,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 242 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4151:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4151:
                // '\\u1288'
                {
                   match('\u1288');
@@ -9451,7 +9500,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 243 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4160:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4160:
                // '\\u128A' .. '\\u128D'
                {
                   matchRange('\u128A', '\u128D');
@@ -9459,7 +9508,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 244 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4179:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4179:
                // '\\u1290' .. '\\u12AE'
                {
                   matchRange('\u1290', '\u12AE');
@@ -9467,7 +9516,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 245 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4198:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4198:
                // '\\u12B0'
                {
                   match('\u12B0');
@@ -9475,7 +9524,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 246 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4207:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4207:
                // '\\u12B2' .. '\\u12B5'
                {
                   matchRange('\u12B2', '\u12B5');
@@ -9483,7 +9532,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 247 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4226:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4226:
                // '\\u12B8' .. '\\u12BE'
                {
                   matchRange('\u12B8', '\u12BE');
@@ -9491,7 +9540,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 248 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4245:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4245:
                // '\\u12C0'
                {
                   match('\u12C0');
@@ -9499,7 +9548,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 249 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4254:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4254:
                // '\\u12C2' .. '\\u12C5'
                {
                   matchRange('\u12C2', '\u12C5');
@@ -9507,7 +9556,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 250 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4273:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4273:
                // '\\u12C8' .. '\\u12CE'
                {
                   matchRange('\u12C8', '\u12CE');
@@ -9515,7 +9564,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 251 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4292:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4292:
                // '\\u12D0' .. '\\u12D6'
                {
                   matchRange('\u12D0', '\u12D6');
@@ -9523,7 +9572,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 252 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4311:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4311:
                // '\\u12D8' .. '\\u12EE'
                {
                   matchRange('\u12D8', '\u12EE');
@@ -9531,7 +9580,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 253 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4330:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4330:
                // '\\u12F0' .. '\\u130E'
                {
                   matchRange('\u12F0', '\u130E');
@@ -9539,7 +9588,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 254 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4349:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4349:
                // '\\u1310'
                {
                   match('\u1310');
@@ -9547,7 +9596,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 255 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4358:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4358:
                // '\\u1312' .. '\\u1315'
                {
                   matchRange('\u1312', '\u1315');
@@ -9555,7 +9604,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 256 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4377:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4377:
                // '\\u1318' .. '\\u131E'
                {
                   matchRange('\u1318', '\u131E');
@@ -9563,7 +9612,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 257 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4396:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4396:
                // '\\u1320' .. '\\u1346'
                {
                   matchRange('\u1320', '\u1346');
@@ -9571,7 +9620,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 258 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4415:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4415:
                // '\\u1348' .. '\\u135A'
                {
                   matchRange('\u1348', '\u135A');
@@ -9579,7 +9628,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 259 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4434:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4434:
                // '\\u1369' .. '\\u1371'
                {
                   matchRange('\u1369', '\u1371');
@@ -9587,7 +9636,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 260 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4453:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4453:
                // '\\u13A0' .. '\\u13F4'
                {
                   matchRange('\u13A0', '\u13F4');
@@ -9595,7 +9644,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 261 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4472:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4472:
                // '\\u1401' .. '\\u166C'
                {
                   matchRange('\u1401', '\u166C');
@@ -9603,7 +9652,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 262 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4491:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4491:
                // '\\u166F' .. '\\u1676'
                {
                   matchRange('\u166F', '\u1676');
@@ -9611,7 +9660,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 263 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4510:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4510:
                // '\\u1681' .. '\\u169A'
                {
                   matchRange('\u1681', '\u169A');
@@ -9619,7 +9668,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 264 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4529:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4529:
                // '\\u16A0' .. '\\u16EA'
                {
                   matchRange('\u16A0', '\u16EA');
@@ -9627,7 +9676,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 265 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4548:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4548:
                // '\\u16EE' .. '\\u16F0'
                {
                   matchRange('\u16EE', '\u16F0');
@@ -9635,7 +9684,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 266 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4567:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4567:
                // '\\u1700' .. '\\u170C'
                {
                   matchRange('\u1700', '\u170C');
@@ -9643,7 +9692,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 267 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4586:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4586:
                // '\\u170E' .. '\\u1714'
                {
                   matchRange('\u170E', '\u1714');
@@ -9651,7 +9700,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 268 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4605:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4605:
                // '\\u1720' .. '\\u1734'
                {
                   matchRange('\u1720', '\u1734');
@@ -9659,7 +9708,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 269 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4624:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4624:
                // '\\u1740' .. '\\u1753'
                {
                   matchRange('\u1740', '\u1753');
@@ -9667,7 +9716,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 270 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4643:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4643:
                // '\\u1760' .. '\\u176C'
                {
                   matchRange('\u1760', '\u176C');
@@ -9675,7 +9724,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 271 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4662:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4662:
                // '\\u176E' .. '\\u1770'
                {
                   matchRange('\u176E', '\u1770');
@@ -9683,7 +9732,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 272 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4681:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4681:
                // '\\u1772' .. '\\u1773'
                {
                   matchRange('\u1772', '\u1773');
@@ -9691,7 +9740,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 273 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4700:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4700:
                // '\\u1780' .. '\\u17D3'
                {
                   matchRange('\u1780', '\u17D3');
@@ -9699,7 +9748,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 274 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4719:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4719:
                // '\\u17D7'
                {
                   match('\u17D7');
@@ -9707,7 +9756,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 275 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4728:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4728:
                // '\\u17DB' .. '\\u17DD'
                {
                   matchRange('\u17DB', '\u17DD');
@@ -9715,7 +9764,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 276 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4747:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4747:
                // '\\u17E0' .. '\\u17E9'
                {
                   matchRange('\u17E0', '\u17E9');
@@ -9723,7 +9772,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 277 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4766:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4766:
                // '\\u180B' .. '\\u180D'
                {
                   matchRange('\u180B', '\u180D');
@@ -9731,7 +9780,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 278 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4785:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4785:
                // '\\u1810' .. '\\u1819'
                {
                   matchRange('\u1810', '\u1819');
@@ -9739,7 +9788,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 279 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4804:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4804:
                // '\\u1820' .. '\\u1877'
                {
                   matchRange('\u1820', '\u1877');
@@ -9747,7 +9796,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 280 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4823:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4823:
                // '\\u1880' .. '\\u18A9'
                {
                   matchRange('\u1880', '\u18A9');
@@ -9755,7 +9804,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 281 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4842:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4842:
                // '\\u1900' .. '\\u191C'
                {
                   matchRange('\u1900', '\u191C');
@@ -9763,7 +9812,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 282 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4861:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4861:
                // '\\u1920' .. '\\u192B'
                {
                   matchRange('\u1920', '\u192B');
@@ -9771,7 +9820,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 283 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4880:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4880:
                // '\\u1930' .. '\\u193B'
                {
                   matchRange('\u1930', '\u193B');
@@ -9779,7 +9828,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 284 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4899:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4899:
                // '\\u1946' .. '\\u196D'
                {
                   matchRange('\u1946', '\u196D');
@@ -9787,7 +9836,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 285 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4918:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4918:
                // '\\u1970' .. '\\u1974'
                {
                   matchRange('\u1970', '\u1974');
@@ -9795,7 +9844,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 286 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4937:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4937:
                // '\\u1D00' .. '\\u1D6B'
                {
                   matchRange('\u1D00', '\u1D6B');
@@ -9803,7 +9852,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 287 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4956:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4956:
                // '\\u1E00' .. '\\u1E9B'
                {
                   matchRange('\u1E00', '\u1E9B');
@@ -9811,7 +9860,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 288 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4975:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4975:
                // '\\u1EA0' .. '\\u1EF9'
                {
                   matchRange('\u1EA0', '\u1EF9');
@@ -9819,7 +9868,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 289 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:4994:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:4994:
                // '\\u1F00' .. '\\u1F15'
                {
                   matchRange('\u1F00', '\u1F15');
@@ -9827,7 +9876,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 290 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5013:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5013:
                // '\\u1F18' .. '\\u1F1D'
                {
                   matchRange('\u1F18', '\u1F1D');
@@ -9835,7 +9884,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 291 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5032:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5032:
                // '\\u1F20' .. '\\u1F45'
                {
                   matchRange('\u1F20', '\u1F45');
@@ -9843,7 +9892,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 292 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5051:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5051:
                // '\\u1F48' .. '\\u1F4D'
                {
                   matchRange('\u1F48', '\u1F4D');
@@ -9851,7 +9900,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 293 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5070:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5070:
                // '\\u1F50' .. '\\u1F57'
                {
                   matchRange('\u1F50', '\u1F57');
@@ -9859,7 +9908,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 294 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5089:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5089:
                // '\\u1F59'
                {
                   match('\u1F59');
@@ -9867,7 +9916,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 295 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5098:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5098:
                // '\\u1F5B'
                {
                   match('\u1F5B');
@@ -9875,7 +9924,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 296 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5107:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5107:
                // '\\u1F5D'
                {
                   match('\u1F5D');
@@ -9883,7 +9932,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 297 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5116:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5116:
                // '\\u1F5F' .. '\\u1F7D'
                {
                   matchRange('\u1F5F', '\u1F7D');
@@ -9891,7 +9940,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 298 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5135:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5135:
                // '\\u1F80' .. '\\u1FB4'
                {
                   matchRange('\u1F80', '\u1FB4');
@@ -9899,7 +9948,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 299 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5154:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5154:
                // '\\u1FB6' .. '\\u1FBC'
                {
                   matchRange('\u1FB6', '\u1FBC');
@@ -9907,7 +9956,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 300 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5173:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5173:
                // '\\u1FBE'
                {
                   match('\u1FBE');
@@ -9915,7 +9964,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 301 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5182:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5182:
                // '\\u1FC2' .. '\\u1FC4'
                {
                   matchRange('\u1FC2', '\u1FC4');
@@ -9923,7 +9972,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 302 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5201:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5201:
                // '\\u1FC6' .. '\\u1FCC'
                {
                   matchRange('\u1FC6', '\u1FCC');
@@ -9931,7 +9980,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 303 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5220:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5220:
                // '\\u1FD0' .. '\\u1FD3'
                {
                   matchRange('\u1FD0', '\u1FD3');
@@ -9939,7 +9988,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 304 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5239:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5239:
                // '\\u1FD6' .. '\\u1FDB'
                {
                   matchRange('\u1FD6', '\u1FDB');
@@ -9947,7 +9996,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 305 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5258:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5258:
                // '\\u1FE0' .. '\\u1FEC'
                {
                   matchRange('\u1FE0', '\u1FEC');
@@ -9955,7 +10004,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 306 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5277:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5277:
                // '\\u1FF2' .. '\\u1FF4'
                {
                   matchRange('\u1FF2', '\u1FF4');
@@ -9963,7 +10012,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 307 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5296:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5296:
                // '\\u1FF6' .. '\\u1FFC'
                {
                   matchRange('\u1FF6', '\u1FFC');
@@ -9971,7 +10020,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 308 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5315:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5315:
                // '\\u200C' .. '\\u200F'
                {
                   matchRange('\u200C', '\u200F');
@@ -9979,7 +10028,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 309 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5334:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5334:
                // '\\u202A' .. '\\u202E'
                {
                   matchRange('\u202A', '\u202E');
@@ -9987,7 +10036,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 310 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5353:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5353:
                // '\\u203F' .. '\\u2040'
                {
                   matchRange('\u203F', '\u2040');
@@ -9995,7 +10044,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 311 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5372:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5372:
                // '\\u2054'
                {
                   match('\u2054');
@@ -10003,7 +10052,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 312 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5381:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5381:
                // '\\u2060' .. '\\u2063'
                {
                   matchRange('\u2060', '\u2063');
@@ -10011,7 +10060,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 313 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5400:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5400:
                // '\\u206A' .. '\\u206F'
                {
                   matchRange('\u206A', '\u206F');
@@ -10019,7 +10068,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 314 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5419:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5419:
                // '\\u2071'
                {
                   match('\u2071');
@@ -10027,7 +10076,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 315 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5428:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5428:
                // '\\u207F'
                {
                   match('\u207F');
@@ -10035,7 +10084,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 316 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5437:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5437:
                // '\\u20A0' .. '\\u20B1'
                {
                   matchRange('\u20A0', '\u20B1');
@@ -10043,7 +10092,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 317 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5456:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5456:
                // '\\u20D0' .. '\\u20DC'
                {
                   matchRange('\u20D0', '\u20DC');
@@ -10051,7 +10100,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 318 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5475:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5475:
                // '\\u20E1'
                {
                   match('\u20E1');
@@ -10059,7 +10108,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 319 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5484:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5484:
                // '\\u20E5' .. '\\u20EA'
                {
                   matchRange('\u20E5', '\u20EA');
@@ -10067,7 +10116,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 320 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5503:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5503:
                // '\\u2102'
                {
                   match('\u2102');
@@ -10075,7 +10124,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 321 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5512:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5512:
                // '\\u2107'
                {
                   match('\u2107');
@@ -10083,7 +10132,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 322 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5521:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5521:
                // '\\u210A' .. '\\u2113'
                {
                   matchRange('\u210A', '\u2113');
@@ -10091,7 +10140,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 323 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5540:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5540:
                // '\\u2115'
                {
                   match('\u2115');
@@ -10099,7 +10148,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 324 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5549:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5549:
                // '\\u2119' .. '\\u211D'
                {
                   matchRange('\u2119', '\u211D');
@@ -10107,7 +10156,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 325 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5568:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5568:
                // '\\u2124'
                {
                   match('\u2124');
@@ -10115,7 +10164,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 326 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5577:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5577:
                // '\\u2126'
                {
                   match('\u2126');
@@ -10123,7 +10172,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 327 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5586:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5586:
                // '\\u2128'
                {
                   match('\u2128');
@@ -10131,7 +10180,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 328 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5595:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5595:
                // '\\u212A' .. '\\u212D'
                {
                   matchRange('\u212A', '\u212D');
@@ -10139,7 +10188,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 329 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5614:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5614:
                // '\\u212F' .. '\\u2131'
                {
                   matchRange('\u212F', '\u2131');
@@ -10147,7 +10196,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 330 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5633:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5633:
                // '\\u2133' .. '\\u2139'
                {
                   matchRange('\u2133', '\u2139');
@@ -10155,7 +10204,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 331 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5652:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5652:
                // '\\u213D' .. '\\u213F'
                {
                   matchRange('\u213D', '\u213F');
@@ -10163,7 +10212,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 332 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5671:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5671:
                // '\\u2145' .. '\\u2149'
                {
                   matchRange('\u2145', '\u2149');
@@ -10171,7 +10220,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 333 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5690:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5690:
                // '\\u2160' .. '\\u2183'
                {
                   matchRange('\u2160', '\u2183');
@@ -10179,7 +10228,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 334 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5709:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5709:
                // '\\u3005' .. '\\u3007'
                {
                   matchRange('\u3005', '\u3007');
@@ -10187,7 +10236,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 335 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5728:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5728:
                // '\\u3021' .. '\\u302F'
                {
                   matchRange('\u3021', '\u302F');
@@ -10195,7 +10244,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 336 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5747:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5747:
                // '\\u3031' .. '\\u3035'
                {
                   matchRange('\u3031', '\u3035');
@@ -10203,7 +10252,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 337 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5766:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5766:
                // '\\u3038' .. '\\u303C'
                {
                   matchRange('\u3038', '\u303C');
@@ -10211,7 +10260,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 338 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5785:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5785:
                // '\\u3041' .. '\\u3096'
                {
                   matchRange('\u3041', '\u3096');
@@ -10219,7 +10268,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 339 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5804:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5804:
                // '\\u3099' .. '\\u309A'
                {
                   matchRange('\u3099', '\u309A');
@@ -10227,7 +10276,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 340 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5823:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5823:
                // '\\u309D' .. '\\u309F'
                {
                   matchRange('\u309D', '\u309F');
@@ -10235,7 +10284,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 341 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5842:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5842:
                // '\\u30A1' .. '\\u30FF'
                {
                   matchRange('\u30A1', '\u30FF');
@@ -10243,7 +10292,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 342 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5861:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5861:
                // '\\u3105' .. '\\u312C'
                {
                   matchRange('\u3105', '\u312C');
@@ -10251,7 +10300,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 343 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5880:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5880:
                // '\\u3131' .. '\\u318E'
                {
                   matchRange('\u3131', '\u318E');
@@ -10259,7 +10308,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 344 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5899:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5899:
                // '\\u31A0' .. '\\u31B7'
                {
                   matchRange('\u31A0', '\u31B7');
@@ -10267,7 +10316,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 345 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5918:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5918:
                // '\\u31F0' .. '\\u31FF'
                {
                   matchRange('\u31F0', '\u31FF');
@@ -10275,7 +10324,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 346 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5937:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5937:
                // '\\u3400' .. '\\u4DB5'
                {
                   matchRange('\u3400', '\u4DB5');
@@ -10283,7 +10332,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 347 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5956:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5956:
                // '\\u4E00' .. '\\u9FA5'
                {
                   matchRange('\u4E00', '\u9FA5');
@@ -10291,7 +10340,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 348 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5975:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5975:
                // '\\uA000' .. '\\uA48C'
                {
                   matchRange('\uA000', '\uA48C');
@@ -10299,7 +10348,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 349 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:5994:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:5994:
                // '\\uAC00' .. '\\uD7A3'
                {
                   matchRange('\uAC00', '\uD7A3');
@@ -10307,7 +10356,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 350 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:6013:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:6013:
                // '\\uF900' .. '\\uFA2D'
                {
                   matchRange('\uF900', '\uFA2D');
@@ -10315,7 +10364,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 351 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:6032:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:6032:
                // '\\uFA30' .. '\\uFA6A'
                {
                   matchRange('\uFA30', '\uFA6A');
@@ -10323,7 +10372,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 352 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:6051:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:6051:
                // '\\uFB00' .. '\\uFB06'
                {
                   matchRange('\uFB00', '\uFB06');
@@ -10331,7 +10380,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 353 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:6070:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:6070:
                // '\\uFB13' .. '\\uFB17'
                {
                   matchRange('\uFB13', '\uFB17');
@@ -10339,7 +10388,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 354 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:6089:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:6089:
                // '\\uFB1D' .. '\\uFB28'
                {
                   matchRange('\uFB1D', '\uFB28');
@@ -10347,7 +10396,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 355 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:6108:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:6108:
                // '\\uFB2A' .. '\\uFB36'
                {
                   matchRange('\uFB2A', '\uFB36');
@@ -10355,7 +10404,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 356 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:6127:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:6127:
                // '\\uFB38' .. '\\uFB3C'
                {
                   matchRange('\uFB38', '\uFB3C');
@@ -10363,7 +10412,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 357 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:6146:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:6146:
                // '\\uFB3E'
                {
                   match('\uFB3E');
@@ -10371,7 +10420,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 358 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:6155:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:6155:
                // '\\uFB40' .. '\\uFB41'
                {
                   matchRange('\uFB40', '\uFB41');
@@ -10379,7 +10428,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 359 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:6174:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:6174:
                // '\\uFB43' .. '\\uFB44'
                {
                   matchRange('\uFB43', '\uFB44');
@@ -10387,7 +10436,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 360 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:6193:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:6193:
                // '\\uFB46' .. '\\uFBB1'
                {
                   matchRange('\uFB46', '\uFBB1');
@@ -10395,7 +10444,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 361 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:6212:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:6212:
                // '\\uFBD3' .. '\\uFD3D'
                {
                   matchRange('\uFBD3', '\uFD3D');
@@ -10403,7 +10452,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 362 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:6231:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:6231:
                // '\\uFD50' .. '\\uFD8F'
                {
                   matchRange('\uFD50', '\uFD8F');
@@ -10411,7 +10460,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 363 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:6250:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:6250:
                // '\\uFD92' .. '\\uFDC7'
                {
                   matchRange('\uFD92', '\uFDC7');
@@ -10419,7 +10468,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 364 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:6269:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:6269:
                // '\\uFDF0' .. '\\uFDFC'
                {
                   matchRange('\uFDF0', '\uFDFC');
@@ -10427,7 +10476,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 365 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:6288:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:6288:
                // '\\uFE00' .. '\\uFE0F'
                {
                   matchRange('\uFE00', '\uFE0F');
@@ -10435,7 +10484,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 366 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:6307:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:6307:
                // '\\uFE20' .. '\\uFE23'
                {
                   matchRange('\uFE20', '\uFE23');
@@ -10443,7 +10492,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 367 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:6326:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:6326:
                // '\\uFE33' .. '\\uFE34'
                {
                   matchRange('\uFE33', '\uFE34');
@@ -10451,7 +10500,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 368 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:6345:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:6345:
                // '\\uFE4D' .. '\\uFE4F'
                {
                   matchRange('\uFE4D', '\uFE4F');
@@ -10459,7 +10508,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 369 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:6364:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:6364:
                // '\\uFE69'
                {
                   match('\uFE69');
@@ -10467,7 +10516,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 370 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:6373:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:6373:
                // '\\uFE70' .. '\\uFE74'
                {
                   matchRange('\uFE70', '\uFE74');
@@ -10475,7 +10524,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 371 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:6392:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:6392:
                // '\\uFE76' .. '\\uFEFC'
                {
                   matchRange('\uFE76', '\uFEFC');
@@ -10483,7 +10532,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 372 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:6411:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:6411:
                // '\\uFEFF'
                {
                   match('\uFEFF');
@@ -10491,7 +10540,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 373 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:6420:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:6420:
                // '\\uFF04'
                {
                   match('\uFF04');
@@ -10499,7 +10548,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 374 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:6429:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:6429:
                // '\\uFF10' .. '\\uFF19'
                {
                   matchRange('\uFF10', '\uFF19');
@@ -10507,7 +10556,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 375 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:6448:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:6448:
                // '\\uFF21' .. '\\uFF3A'
                {
                   matchRange('\uFF21', '\uFF3A');
@@ -10515,7 +10564,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 376 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:6467:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:6467:
                // '\\uFF3F'
                {
                   match('\uFF3F');
@@ -10523,7 +10572,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 377 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:6476:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:6476:
                // '\\uFF41' .. '\\uFF5A'
                {
                   matchRange('\uFF41', '\uFF5A');
@@ -10531,7 +10580,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 378 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:6495:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:6495:
                // '\\uFF65' .. '\\uFFBE'
                {
                   matchRange('\uFF65', '\uFFBE');
@@ -10539,7 +10588,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 379 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:6514:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:6514:
                // '\\uFFC2' .. '\\uFFC7'
                {
                   matchRange('\uFFC2', '\uFFC7');
@@ -10547,7 +10596,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 380 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:6533:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:6533:
                // '\\uFFCA' .. '\\uFFCF'
                {
                   matchRange('\uFFCA', '\uFFCF');
@@ -10555,7 +10604,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 381 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:6552:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:6552:
                // '\\uFFD2' .. '\\uFFD7'
                {
                   matchRange('\uFFD2', '\uFFD7');
@@ -10563,7 +10612,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 382 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:6571:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:6571:
                // '\\uFFDA' .. '\\uFFDC'
                {
                   matchRange('\uFFDA', '\uFFDC');
@@ -10571,7 +10620,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 383 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:6590:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:6590:
                // '\\uFFE0' .. '\\uFFE1'
                {
                   matchRange('\uFFE0', '\uFFE1');
@@ -10579,7 +10628,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 384 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:6609:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:6609:
                // '\\uFFE5' .. '\\uFFE6'
                {
                   matchRange('\uFFE5', '\uFFE6');
@@ -10587,7 +10636,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 385 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:6628:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:6628:
                // '\\uFFF9' .. '\\uFFFB'
                {
                   matchRange('\uFFF9', '\uFFFB');
@@ -10595,7 +10644,7 @@ public class InternalLiteralsLexer extends Lexer {
                }
                   break;
                case 386 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:575:6647:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:730:6647:
                // '\\uD800' .. '\\uDBFF' '\\uDC00' .. '\\uDFFF'
                {
                   matchRange('\uD800', '\uDBFF');
@@ -10621,14 +10670,14 @@ public class InternalLiteralsLexer extends Lexer {
       try {
          int _type = RULE_ML_COMMENT;
          int _channel = DEFAULT_TOKEN_CHANNEL;
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:577:17:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:732:17:
          // ( '/*' ( options {greedy=false; } : . )* '*/' )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:577:19:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:732:19:
          // '/*' ( options {greedy=false; } : . )* '*/'
          {
             match("/*");
 
-            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:577:24:
+            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:732:24:
             // ( options {greedy=false; } : . )*
             loop42 : do {
                int alt42 = 2;
@@ -10653,7 +10702,7 @@ public class InternalLiteralsLexer extends Lexer {
 
                switch (alt42) {
                   case 1 :
-                  // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:577:52:
+                  // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:732:52:
                   // .
                   {
                      matchAny();
@@ -10686,14 +10735,14 @@ public class InternalLiteralsLexer extends Lexer {
       try {
          int _type = RULE_SL_COMMENT;
          int _channel = DEFAULT_TOKEN_CHANNEL;
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:579:17:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:734:17:
          // ( '//' (~ ( ( '\\n' | '\\r' ) ) )* ( ( '\\r' )? '\\n' )? )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:579:19:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:734:19:
          // '//' (~ ( ( '\\n' | '\\r' ) ) )* ( ( '\\r' )? '\\n' )?
          {
             match("//");
 
-            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:579:24:
+            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:734:24:
             // (~ ( ( '\\n' | '\\r' ) ) )*
             loop43 : do {
                int alt43 = 2;
@@ -10706,7 +10755,7 @@ public class InternalLiteralsLexer extends Lexer {
 
                switch (alt43) {
                   case 1 :
-                  // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:579:24:
+                  // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:734:24:
                   // ~ ( ( '\\n' | '\\r' ) )
                   {
                      if ((input.LA(1) >= '\u0000' && input.LA(1) <= '\t')
@@ -10731,7 +10780,7 @@ public class InternalLiteralsLexer extends Lexer {
             }
             while (true);
 
-            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:579:40:
+            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:734:40:
             // ( ( '\\r' )? '\\n' )?
             int alt45 = 2;
             int LA45_0 = input.LA(1);
@@ -10741,10 +10790,10 @@ public class InternalLiteralsLexer extends Lexer {
             }
             switch (alt45) {
                case 1 :
-               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:579:41:
+               // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:734:41:
                // ( '\\r' )? '\\n'
                {
-                  // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:579:41:
+                  // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:734:41:
                   // ( '\\r' )?
                   int alt44 = 2;
                   int LA44_0 = input.LA(1);
@@ -10754,7 +10803,7 @@ public class InternalLiteralsLexer extends Lexer {
                   }
                   switch (alt44) {
                      case 1 :
-                     // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:579:41:
+                     // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:734:41:
                      // '\\r'
                      {
                         match('\r');
@@ -10788,12 +10837,12 @@ public class InternalLiteralsLexer extends Lexer {
       try {
          int _type = RULE_WS;
          int _channel = DEFAULT_TOKEN_CHANNEL;
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:581:9:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:736:9:
          // ( ( ' ' | '\\t' | '\\r' | '\\n' )+ )
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:581:11:
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:736:11:
          // ( ' ' | '\\t' | '\\r' | '\\n' )+
          {
-            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:581:11:
+            // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:736:11:
             // ( ' ' | '\\t' | '\\r' | '\\n' )+
             int cnt46 = 0;
             loop46 : do {
@@ -10847,126 +10896,143 @@ public class InternalLiteralsLexer extends Lexer {
 
    public void mTokens() throws RecognitionException {
       // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:1:8:
-      // ( RULE_DECIMALINTEGERLITERAL | RULE_HEXINTEGERLITERAL | RULE_OCTALINTEGERLITERAL | RULE_BINARYINTEGERLITERAL |
-      // RULE_DECIMALFLOATINGPOINTLITERAL | RULE_HEXADECIMALFLOATINGPOINTLITERAL | RULE_TRUE | RULE_FALSE |
-      // RULE_CHARACTER | RULE_STRING | RULE_NULL | RULE_IDENTIFIER | RULE_ML_COMMENT | RULE_SL_COMMENT | RULE_WS )
-      int alt47 = 15;
+      // ( T__57 | T__58 | RULE_DECIMALINTEGERLITERAL | RULE_HEXINTEGERLITERAL | RULE_OCTALINTEGERLITERAL |
+      // RULE_BINARYINTEGERLITERAL | RULE_DECIMALFLOATINGPOINTLITERAL | RULE_HEXADECIMALFLOATINGPOINTLITERAL | RULE_TRUE
+      // | RULE_FALSE | RULE_CHARACTER | RULE_STRING | RULE_NULL | RULE_IDENTIFIER | RULE_ML_COMMENT | RULE_SL_COMMENT |
+      // RULE_WS )
+      int alt47 = 17;
       alt47 = dfa47.predict(input);
       switch (alt47) {
          case 1 :
          // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:1:10:
+         // T__57
+         {
+            mT__57();
+
+         }
+            break;
+         case 2 :
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:1:16:
+         // T__58
+         {
+            mT__58();
+
+         }
+            break;
+         case 3 :
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:1:22:
          // RULE_DECIMALINTEGERLITERAL
          {
             mRULE_DECIMALINTEGERLITERAL();
 
          }
             break;
-         case 2 :
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:1:37:
+         case 4 :
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:1:49:
          // RULE_HEXINTEGERLITERAL
          {
             mRULE_HEXINTEGERLITERAL();
 
          }
             break;
-         case 3 :
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:1:60:
+         case 5 :
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:1:72:
          // RULE_OCTALINTEGERLITERAL
          {
             mRULE_OCTALINTEGERLITERAL();
 
          }
             break;
-         case 4 :
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:1:85:
+         case 6 :
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:1:97:
          // RULE_BINARYINTEGERLITERAL
          {
             mRULE_BINARYINTEGERLITERAL();
 
          }
             break;
-         case 5 :
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:1:111:
+         case 7 :
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:1:123:
          // RULE_DECIMALFLOATINGPOINTLITERAL
          {
             mRULE_DECIMALFLOATINGPOINTLITERAL();
 
          }
             break;
-         case 6 :
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:1:144:
+         case 8 :
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:1:156:
          // RULE_HEXADECIMALFLOATINGPOINTLITERAL
          {
             mRULE_HEXADECIMALFLOATINGPOINTLITERAL();
 
          }
             break;
-         case 7 :
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:1:181:
+         case 9 :
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:1:193:
          // RULE_TRUE
          {
             mRULE_TRUE();
 
          }
             break;
-         case 8 :
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:1:191:
+         case 10 :
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:1:203:
          // RULE_FALSE
          {
             mRULE_FALSE();
 
          }
             break;
-         case 9 :
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:1:202:
+         case 11 :
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:1:214:
          // RULE_CHARACTER
          {
             mRULE_CHARACTER();
 
          }
             break;
-         case 10 :
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:1:217:
+         case 12 :
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:1:229:
          // RULE_STRING
          {
             mRULE_STRING();
 
          }
             break;
-         case 11 :
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:1:229:
+         case 13 :
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:1:241:
          // RULE_NULL
          {
             mRULE_NULL();
 
          }
             break;
-         case 12 :
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:1:239:
+         case 14 :
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:1:251:
          // RULE_IDENTIFIER
          {
             mRULE_IDENTIFIER();
 
          }
             break;
-         case 13 :
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:1:255:
+         case 15 :
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:1:267:
          // RULE_ML_COMMENT
          {
             mRULE_ML_COMMENT();
 
          }
             break;
-         case 14 :
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:1:271:
+         case 16 :
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:1:283:
          // RULE_SL_COMMENT
          {
             mRULE_SL_COMMENT();
 
          }
             break;
-         case 15 :
-         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:1:287:
+         case 17 :
+         // ../org.sourcepit.java.literals.ui/src-gen/org/sourcepit/java/literals/ui/contentassist/antlr/internal/InternalLiterals.g:1:299:
          // RULE_WS
          {
             mRULE_WS();
@@ -10986,12 +11052,12 @@ public class InternalLiteralsLexer extends Lexer {
    static final String DFA27_eofS = "\12\uffff";
    static final String DFA27_minS = "\2\56\2\uffff\1\56\1\60\2\uffff\1\56\1\60";
    static final String DFA27_maxS = "\1\71\1\146\2\uffff\1\146\1\137\2\uffff\1\146\1\137";
-   static final String DFA27_acceptS = "\2\uffff\1\2\1\4\2\uffff\1\1\1\3\2\uffff";
+   static final String DFA27_acceptS = "\2\uffff\1\2\1\1\2\uffff\1\3\1\4\2\uffff";
    static final String DFA27_specialS = "\12\uffff}>";
    static final String[] DFA27_transitionS = { "\1\2\1\uffff\12\1",
-      "\1\6\1\uffff\12\4\12\uffff\1\3\1\7\1\3\30\uffff\1\5\4\uffff" + "\1\3\1\7\1\3", "", "",
-      "\1\6\1\uffff\12\10\12\uffff\1\3\1\7\1\3\30\uffff\1\11\4\uffff" + "\1\3\1\7\1\3", "\12\10\45\uffff\1\11", "", "",
-      "\1\6\1\uffff\12\10\12\uffff\1\3\1\7\1\3\30\uffff\1\11\4\uffff" + "\1\3\1\7\1\3", "\12\10\45\uffff\1\11" };
+      "\1\3\1\uffff\12\4\12\uffff\1\7\1\6\1\7\30\uffff\1\5\4\uffff" + "\1\7\1\6\1\7", "", "",
+      "\1\3\1\uffff\12\10\12\uffff\1\7\1\6\1\7\30\uffff\1\11\4\uffff" + "\1\7\1\6\1\7", "\12\10\45\uffff\1\11", "", "",
+      "\1\3\1\uffff\12\10\12\uffff\1\7\1\6\1\7\30\uffff\1\11\4\uffff" + "\1\7\1\6\1\7", "\12\10\45\uffff\1\11" };
 
    static final short[] DFA27_eot = DFA.unpackEncodedString(DFA27_eotS);
    static final short[] DFA27_eof = DFA.unpackEncodedString(DFA27_eofS);
@@ -11024,7 +11090,7 @@ public class InternalLiteralsLexer extends Lexer {
       }
 
       public String getDescription() {
-         return "531:36: ( RULE_DIGITS '.' ( RULE_DIGITS )? ( RULE_EXPONENTPART )? ( RULE_FLOATTYPESUFFIX )? | '.' RULE_DIGITS ( RULE_EXPONENTPART )? ( RULE_FLOATTYPESUFFIX )? | RULE_DIGITS RULE_EXPONENTPART ( RULE_FLOATTYPESUFFIX )? | RULE_DIGITS RULE_FLOATTYPESUFFIX )";
+         return "686:36: ( RULE_DIGITS '.' ( RULE_DIGITS )? ( RULE_EXPONENTPART )? ( RULE_FLOATTYPESUFFIX )? | '.' RULE_DIGITS ( RULE_EXPONENTPART )? ( RULE_FLOATTYPESUFFIX )? | RULE_DIGITS RULE_EXPONENTPART ( RULE_FLOATTYPESUFFIX )? | RULE_DIGITS RULE_FLOATTYPESUFFIX )";
       }
    }
 
@@ -11070,422 +11136,519 @@ public class InternalLiteralsLexer extends Lexer {
       }
 
       public String getDescription() {
-         return "545:32: ( RULE_HEXNUMERAL ( '.' )? | '0' ( 'x' | 'X' ) ( RULE_HEXDIGIT )* '.' ( RULE_HEXDIGIT )+ )";
+         return "700:32: ( RULE_HEXNUMERAL ( '.' )? | '0' ( 'x' | 'X' ) ( RULE_HEXDIGIT )* '.' ( RULE_HEXDIGIT )+ )";
       }
    }
 
-   static final String DFA47_eotS = "\1\uffff\2\17\1\uffff\2\11\2\uffff\1\11\7\uffff\1\34\1\17\1\uffff"
-      + "\3\11\2\uffff\1\46\1\uffff\1\34\2\uffff\1\34\1\uffff\1\17\1\uffff"
-      + "\1\17\1\uffff\3\11\1\uffff\1\46\1\uffff\1\34\1\uffff\1\34\1\uffff"
-      + "\1\17\1\uffff\1\17\1\uffff\1\73\1\11\1\75\1\46\1\uffff\1\46\1\34" + "\1\uffff\1\17\2\uffff\1\76\2\uffff";
-   static final String DFA47_eofS = "\77\uffff";
-   static final String DFA47_minS = "\1\11\2\56\1\uffff\1\162\1\141\2\uffff\1\165\1\uffff\1\52\1\uffff"
-      + "\1\56\1\uffff\1\60\1\uffff\2\56\1\60\1\165\2\154\2\uffff\1\56\1"
-      + "\uffff\1\56\1\60\1\uffff\1\56\1\60\1\56\1\60\1\56\1\60\1\145\1\163"
-      + "\1\154\1\uffff\1\56\1\60\1\56\1\60\1\56\1\60\1\56\1\60\1\56\1\60"
-      + "\1\0\1\145\1\0\1\56\1\60\2\56\1\60\1\56\1\60\1\uffff\1\0\2\uffff";
-   static final String DFA47_maxS = "\1\uffe6\1\170\1\146\1\uffff\1\162\1\141\2\uffff\1\165\1\uffff"
-      + "\1\57\1\uffff\1\146\1\uffff\1\137\1\uffff\2\146\1\137\1\165\2\154"
-      + "\2\uffff\1\160\1\uffff\1\146\1\137\1\uffff\1\146\1\137\1\146\1\137"
-      + "\1\146\1\137\1\145\1\163\1\154\1\uffff\1\160\2\146\1\137\1\146\1"
-      + "\137\1\146\1\137\1\146\1\137\1\ufffb\1\145\1\ufffb\1\160\1\146\1"
-      + "\160\1\146\1\137\1\146\1\137\1\uffff\1\ufffb\2\uffff";
-   static final String DFA47_acceptS = "\3\uffff\1\5\2\uffff\1\11\1\12\1\uffff\1\14\1\uffff\1\17\1\uffff"
-      + "\1\4\1\uffff\1\1\6\uffff\1\15\1\16\1\uffff\1\6\2\uffff\1\3\11\uffff" + "\1\2\24\uffff\1\7\1\uffff\1\13\1\10";
-   static final String DFA47_specialS = "\77\uffff}>";
+   static final String DFA47_eotS = "\2\uffff\1\13\2\21\1\uffff\2\13\2\uffff\1\13\3\uffff\1\13\3\uffff"
+      + "\1\36\2\uffff\1\21\3\13\2\uffff\1\13\1\53\2\uffff\1\36\1\uffff\1"
+      + "\36\1\uffff\1\21\1\uffff\1\21\1\uffff\4\13\1\uffff\1\53\1\uffff"
+      + "\1\36\1\uffff\1\36\1\uffff\1\21\1\uffff\1\21\1\uffff\1\101\1\13"
+      + "\1\103\1\13\1\53\1\uffff\1\53\1\36\1\uffff\1\21\2\uffff\1\105\1" + "\uffff\1\106\2\uffff";
+   static final String DFA47_eofS = "\107\uffff";
+   static final String DFA47_minS = "\1\11\1\uffff\1\165\2\56\1\uffff\1\162\1\141\2\uffff\1\165\1\uffff"
+      + "\1\52\1\uffff\1\142\1\56\2\uffff\1\56\2\60\1\56\1\165\2\154\2\uffff"
+      + "\1\154\1\56\2\uffff\1\56\1\60\1\56\1\60\1\56\1\60\1\56\1\60\1\145"
+      + "\1\163\1\154\1\151\1\uffff\1\56\1\60\1\56\1\60\1\56\1\60\1\56\1"
+      + "\60\1\56\1\60\1\0\1\145\1\0\1\143\1\56\1\60\2\56\1\60\1\56\1\60" + "\1\uffff\1\0\1\uffff\1\0\2\uffff";
+   static final String DFA47_maxS = "\1\uffe6\1\uffff\1\165\1\170\1\146\1\uffff\1\162\1\141\2\uffff"
+      + "\1\165\1\uffff\1\57\1\uffff\1\142\1\146\2\uffff\1\146\2\137\1\146"
+      + "\1\165\2\154\2\uffff\1\154\1\160\2\uffff\1\146\1\137\1\146\1\137"
+      + "\1\146\1\137\1\146\1\137\1\145\1\163\1\154\1\151\1\uffff\1\160\2"
+      + "\146\1\137\1\146\1\137\1\146\1\137\1\146\1\137\1\ufffb\1\145\1\ufffb"
+      + "\1\143\1\160\1\146\1\160\1\146\1\137\1\146\1\137\1\uffff\1\ufffb" + "\1\uffff\1\ufffb\2\uffff";
+   static final String DFA47_acceptS = "\1\uffff\1\1\3\uffff\1\7\2\uffff\1\13\1\14\1\uffff\1\16\1\uffff"
+      + "\1\21\2\uffff\1\6\1\3\7\uffff\1\17\1\20\2\uffff\1\10\1\5\14\uffff"
+      + "\1\4\25\uffff\1\11\1\uffff\1\15\1\uffff\1\12\1\2";
+   static final String DFA47_specialS = "\107\uffff}>";
    static final String[] DFA47_transitionS = {
-      "\2\13\2\uffff\1\13\22\uffff\1\13\1\uffff\1\7\1\uffff\1\11\2"
-         + "\uffff\1\6\6\uffff\1\3\1\12\1\1\11\2\7\uffff\32\11\4\uffff\1"
-         + "\11\1\uffff\5\11\1\5\7\11\1\10\5\11\1\4\6\11\47\uffff\4\11\4"
-         + "\uffff\1\11\12\uffff\1\11\4\uffff\1\11\5\uffff\27\11\1\uffff"
-         + "\37\11\1\uffff\u013f\11\31\uffff\162\11\4\uffff\14\11\16\uffff"
-         + "\5\11\11\uffff\1\11\u008b\uffff\1\11\13\uffff\1\11\1\uffff\3"
-         + "\11\1\uffff\1\11\1\uffff\24\11\1\uffff\54\11\1\uffff\46\11\1"
-         + "\uffff\5\11\4\uffff\u0082\11\10\uffff\105\11\1\uffff\46\11\2"
-         + "\uffff\2\11\6\uffff\20\11\41\uffff\46\11\2\uffff\1\11\7\uffff"
-         + "\47\11\110\uffff\33\11\5\uffff\3\11\56\uffff\32\11\5\uffff\13"
-         + "\11\43\uffff\2\11\1\uffff\143\11\1\uffff\1\11\17\uffff\2\11"
-         + "\7\uffff\2\11\12\uffff\3\11\2\uffff\1\11\20\uffff\1\11\1\uffff"
-         + "\36\11\35\uffff\3\11\60\uffff\46\11\13\uffff\1\11\u0152\uffff"
-         + "\66\11\3\uffff\1\11\22\uffff\1\11\7\uffff\12\11\43\uffff\10"
-         + "\11\2\uffff\2\11\2\uffff\26\11\1\uffff\7\11\1\uffff\1\11\3\uffff"
-         + "\4\11\3\uffff\1\11\36\uffff\2\11\1\uffff\3\11\16\uffff\4\11"
-         + "\21\uffff\6\11\4\uffff\2\11\2\uffff\26\11\1\uffff\7\11\1\uffff"
-         + "\2\11\1\uffff\2\11\1\uffff\2\11\37\uffff\4\11\1\uffff\1\11\23"
-         + "\uffff\3\11\20\uffff\11\11\1\uffff\3\11\1\uffff\26\11\1\uffff"
-         + "\7\11\1\uffff\2\11\1\uffff\5\11\3\uffff\1\11\22\uffff\1\11\17"
-         + "\uffff\2\11\17\uffff\1\11\23\uffff\10\11\2\uffff\2\11\2\uffff"
-         + "\26\11\1\uffff\7\11\1\uffff\2\11\1\uffff\5\11\3\uffff\1\11\36"
-         + "\uffff\2\11\1\uffff\3\11\17\uffff\1\11\21\uffff\1\11\1\uffff"
-         + "\6\11\3\uffff\3\11\1\uffff\4\11\3\uffff\2\11\1\uffff\1\11\1"
-         + "\uffff\2\11\3\uffff\2\11\3\uffff\3\11\3\uffff\10\11\1\uffff"
-         + "\3\11\77\uffff\1\11\13\uffff\10\11\1\uffff\3\11\1\uffff\27\11"
-         + "\1\uffff\12\11\1\uffff\5\11\46\uffff\2\11\43\uffff\10\11\1\uffff"
-         + "\3\11\1\uffff\27\11\1\uffff\12\11\1\uffff\5\11\3\uffff\1\11"
-         + "\40\uffff\1\11\1\uffff\2\11\43\uffff\10\11\1\uffff\3\11\1\uffff"
-         + "\27\11\1\uffff\20\11\46\uffff\2\11\43\uffff\22\11\3\uffff\30"
-         + "\11\1\uffff\11\11\1\uffff\1\11\2\uffff\7\11\72\uffff\60\11\1"
-         + "\uffff\2\11\13\uffff\10\11\72\uffff\2\11\1\uffff\1\11\2\uffff"
-         + "\2\11\1\uffff\1\11\2\uffff\1\11\6\uffff\4\11\1\uffff\7\11\1"
-         + "\uffff\3\11\1\uffff\1\11\1\uffff\1\11\2\uffff\2\11\1\uffff\4"
-         + "\11\1\uffff\2\11\11\uffff\1\11\2\uffff\5\11\1\uffff\1\11\25"
-         + "\uffff\2\11\42\uffff\1\11\77\uffff\10\11\1\uffff\42\11\35\uffff"
-         + "\4\11\164\uffff\42\11\1\uffff\5\11\1\uffff\2\11\45\uffff\6\11"
-         + "\112\uffff\46\11\12\uffff\51\11\7\uffff\132\11\5\uffff\104\11"
-         + "\5\uffff\122\11\6\uffff\7\11\1\uffff\77\11\1\uffff\1\11\1\uffff"
-         + "\4\11\2\uffff\7\11\1\uffff\1\11\1\uffff\4\11\2\uffff\47\11\1"
-         + "\uffff\1\11\1\uffff\4\11\2\uffff\37\11\1\uffff\1\11\1\uffff"
-         + "\4\11\2\uffff\7\11\1\uffff\1\11\1\uffff\4\11\2\uffff\7\11\1"
-         + "\uffff\7\11\1\uffff\27\11\1\uffff\37\11\1\uffff\1\11\1\uffff"
-         + "\4\11\2\uffff\7\11\1\uffff\47\11\1\uffff\23\11\105\uffff\125"
-         + "\11\14\uffff\u026c\11\2\uffff\10\11\12\uffff\32\11\5\uffff\113"
-         + "\11\3\uffff\3\11\17\uffff\15\11\1\uffff\4\11\16\uffff\22\11"
-         + "\16\uffff\22\11\16\uffff\15\11\1\uffff\3\11\17\uffff\64\11\43"
-         + "\uffff\1\11\3\uffff\2\11\103\uffff\130\11\10\uffff\51\11\127"
-         + "\uffff\35\11\63\uffff\36\11\2\uffff\5\11\u038b\uffff\154\11"
-         + "\u0094\uffff\u009c\11\4\uffff\132\11\6\uffff\26\11\2\uffff\6"
-         + "\11\2\uffff\46\11\2\uffff\6\11\2\uffff\10\11\1\uffff\1\11\1"
-         + "\uffff\1\11\1\uffff\1\11\1\uffff\37\11\2\uffff\65\11\1\uffff"
-         + "\7\11\1\uffff\1\11\3\uffff\3\11\1\uffff\7\11\3\uffff\4\11\2"
-         + "\uffff\6\11\4\uffff\15\11\5\uffff\3\11\1\uffff\7\11\102\uffff"
-         + "\2\11\23\uffff\1\11\34\uffff\1\11\15\uffff\1\11\40\uffff\22"
-         + "\11\120\uffff\1\11\4\uffff\1\11\2\uffff\12\11\1\uffff\1\11\3"
-         + "\uffff\5\11\6\uffff\1\11\1\uffff\1\11\1\uffff\1\11\1\uffff\4"
-         + "\11\1\uffff\3\11\1\uffff\7\11\3\uffff\3\11\5\uffff\5\11\26\uffff"
-         + "\44\11\u0e81\uffff\3\11\31\uffff\11\11\7\uffff\5\11\2\uffff"
-         + "\5\11\4\uffff\126\11\6\uffff\3\11\1\uffff\137\11\5\uffff\50"
-         + "\11\4\uffff\136\11\21\uffff\30\11\70\uffff\20\11\u0200\uffff"
-         + "\u19b6\11\112\uffff\u51a6\11\132\uffff\u048d\11\u0773\uffff"
-         + "\u2ba4\11\134\uffff\u0400\11\u1d00\uffff\u012e\11\2\uffff\73"
-         + "\11\u0095\uffff\7\11\14\uffff\5\11\5\uffff\1\11\1\uffff\12\11"
-         + "\1\uffff\15\11\1\uffff\5\11\1\uffff\1\11\1\uffff\2\11\1\uffff"
-         + "\2\11\1\uffff\154\11\41\uffff\u016b\11\22\uffff\100\11\2\uffff"
-         + "\66\11\50\uffff\15\11\66\uffff\2\11\30\uffff\3\11\31\uffff\1"
-         + "\11\6\uffff\5\11\1\uffff\u0087\11\7\uffff\1\11\34\uffff\32\11"
-         + "\4\uffff\1\11\1\uffff\32\11\12\uffff\132\11\3\uffff\6\11\2\uffff"
-         + "\6\11\2\uffff\6\11\2\uffff\3\11\3\uffff\2\11\3\uffff\2\11",
-      "\1\3\1\uffff\10\20\2\3\10\uffff\1\15\1\uffff\3\3\21\uffff"
-         + "\1\14\6\uffff\1\16\2\uffff\1\15\1\uffff\3\3\21\uffff\1\14",
-      "\1\3\1\uffff\12\21\12\uffff\3\3\30\uffff\1\22\4\uffff\3\3",
+      "\2\15\2\uffff\1\15\22\uffff\1\15\1\uffff\1\11\1\uffff\1\13"
+         + "\2\uffff\1\10\6\uffff\1\5\1\14\1\3\11\4\6\uffff\1\1\32\13\4"
+         + "\uffff\1\13\1\uffff\5\13\1\7\7\13\1\12\1\13\1\2\3\13\1\6\6\13"
+         + "\47\uffff\4\13\4\uffff\1\13\12\uffff\1\13\4\uffff\1\13\5\uffff"
+         + "\27\13\1\uffff\37\13\1\uffff\u013f\13\31\uffff\162\13\4\uffff"
+         + "\14\13\16\uffff\5\13\11\uffff\1\13\u008b\uffff\1\13\13\uffff"
+         + "\1\13\1\uffff\3\13\1\uffff\1\13\1\uffff\24\13\1\uffff\54\13"
+         + "\1\uffff\46\13\1\uffff\5\13\4\uffff\u0082\13\10\uffff\105\13"
+         + "\1\uffff\46\13\2\uffff\2\13\6\uffff\20\13\41\uffff\46\13\2\uffff"
+         + "\1\13\7\uffff\47\13\110\uffff\33\13\5\uffff\3\13\56\uffff\32"
+         + "\13\5\uffff\13\13\43\uffff\2\13\1\uffff\143\13\1\uffff\1\13"
+         + "\17\uffff\2\13\7\uffff\2\13\12\uffff\3\13\2\uffff\1\13\20\uffff"
+         + "\1\13\1\uffff\36\13\35\uffff\3\13\60\uffff\46\13\13\uffff\1"
+         + "\13\u0152\uffff\66\13\3\uffff\1\13\22\uffff\1\13\7\uffff\12"
+         + "\13\43\uffff\10\13\2\uffff\2\13\2\uffff\26\13\1\uffff\7\13\1"
+         + "\uffff\1\13\3\uffff\4\13\3\uffff\1\13\36\uffff\2\13\1\uffff"
+         + "\3\13\16\uffff\4\13\21\uffff\6\13\4\uffff\2\13\2\uffff\26\13"
+         + "\1\uffff\7\13\1\uffff\2\13\1\uffff\2\13\1\uffff\2\13\37\uffff"
+         + "\4\13\1\uffff\1\13\23\uffff\3\13\20\uffff\11\13\1\uffff\3\13"
+         + "\1\uffff\26\13\1\uffff\7\13\1\uffff\2\13\1\uffff\5\13\3\uffff"
+         + "\1\13\22\uffff\1\13\17\uffff\2\13\17\uffff\1\13\23\uffff\10"
+         + "\13\2\uffff\2\13\2\uffff\26\13\1\uffff\7\13\1\uffff\2\13\1\uffff"
+         + "\5\13\3\uffff\1\13\36\uffff\2\13\1\uffff\3\13\17\uffff\1\13"
+         + "\21\uffff\1\13\1\uffff\6\13\3\uffff\3\13\1\uffff\4\13\3\uffff"
+         + "\2\13\1\uffff\1\13\1\uffff\2\13\3\uffff\2\13\3\uffff\3\13\3"
+         + "\uffff\10\13\1\uffff\3\13\77\uffff\1\13\13\uffff\10\13\1\uffff"
+         + "\3\13\1\uffff\27\13\1\uffff\12\13\1\uffff\5\13\46\uffff\2\13"
+         + "\43\uffff\10\13\1\uffff\3\13\1\uffff\27\13\1\uffff\12\13\1\uffff"
+         + "\5\13\3\uffff\1\13\40\uffff\1\13\1\uffff\2\13\43\uffff\10\13"
+         + "\1\uffff\3\13\1\uffff\27\13\1\uffff\20\13\46\uffff\2\13\43\uffff"
+         + "\22\13\3\uffff\30\13\1\uffff\11\13\1\uffff\1\13\2\uffff\7\13"
+         + "\72\uffff\60\13\1\uffff\2\13\13\uffff\10\13\72\uffff\2\13\1"
+         + "\uffff\1\13\2\uffff\2\13\1\uffff\1\13\2\uffff\1\13\6\uffff\4"
+         + "\13\1\uffff\7\13\1\uffff\3\13\1\uffff\1\13\1\uffff\1\13\2\uffff"
+         + "\2\13\1\uffff\4\13\1\uffff\2\13\11\uffff\1\13\2\uffff\5\13\1"
+         + "\uffff\1\13\25\uffff\2\13\42\uffff\1\13\77\uffff\10\13\1\uffff"
+         + "\42\13\35\uffff\4\13\164\uffff\42\13\1\uffff\5\13\1\uffff\2"
+         + "\13\45\uffff\6\13\112\uffff\46\13\12\uffff\51\13\7\uffff\132"
+         + "\13\5\uffff\104\13\5\uffff\122\13\6\uffff\7\13\1\uffff\77\13"
+         + "\1\uffff\1\13\1\uffff\4\13\2\uffff\7\13\1\uffff\1\13\1\uffff"
+         + "\4\13\2\uffff\47\13\1\uffff\1\13\1\uffff\4\13\2\uffff\37\13"
+         + "\1\uffff\1\13\1\uffff\4\13\2\uffff\7\13\1\uffff\1\13\1\uffff"
+         + "\4\13\2\uffff\7\13\1\uffff\7\13\1\uffff\27\13\1\uffff\37\13"
+         + "\1\uffff\1\13\1\uffff\4\13\2\uffff\7\13\1\uffff\47\13\1\uffff"
+         + "\23\13\105\uffff\125\13\14\uffff\u026c\13\2\uffff\10\13\12\uffff"
+         + "\32\13\5\uffff\113\13\3\uffff\3\13\17\uffff\15\13\1\uffff\4"
+         + "\13\16\uffff\22\13\16\uffff\22\13\16\uffff\15\13\1\uffff\3\13"
+         + "\17\uffff\64\13\43\uffff\1\13\3\uffff\2\13\103\uffff\130\13"
+         + "\10\uffff\51\13\127\uffff\35\13\63\uffff\36\13\2\uffff\5\13"
+         + "\u038b\uffff\154\13\u0094\uffff\u009c\13\4\uffff\132\13\6\uffff"
+         + "\26\13\2\uffff\6\13\2\uffff\46\13\2\uffff\6\13\2\uffff\10\13"
+         + "\1\uffff\1\13\1\uffff\1\13\1\uffff\1\13\1\uffff\37\13\2\uffff"
+         + "\65\13\1\uffff\7\13\1\uffff\1\13\3\uffff\3\13\1\uffff\7\13\3"
+         + "\uffff\4\13\2\uffff\6\13\4\uffff\15\13\5\uffff\3\13\1\uffff"
+         + "\7\13\102\uffff\2\13\23\uffff\1\13\34\uffff\1\13\15\uffff\1"
+         + "\13\40\uffff\22\13\120\uffff\1\13\4\uffff\1\13\2\uffff\12\13"
+         + "\1\uffff\1\13\3\uffff\5\13\6\uffff\1\13\1\uffff\1\13\1\uffff"
+         + "\1\13\1\uffff\4\13\1\uffff\3\13\1\uffff\7\13\3\uffff\3\13\5"
+         + "\uffff\5\13\26\uffff\44\13\u0e81\uffff\3\13\31\uffff\11\13\7"
+         + "\uffff\5\13\2\uffff\5\13\4\uffff\126\13\6\uffff\3\13\1\uffff"
+         + "\137\13\5\uffff\50\13\4\uffff\136\13\21\uffff\30\13\70\uffff"
+         + "\20\13\u0200\uffff\u19b6\13\112\uffff\u51a6\13\132\uffff\u048d"
+         + "\13\u0773\uffff\u2ba4\13\134\uffff\u0400\13\u1d00\uffff\u012e"
+         + "\13\2\uffff\73\13\u0095\uffff\7\13\14\uffff\5\13\5\uffff\1\13"
+         + "\1\uffff\12\13\1\uffff\15\13\1\uffff\5\13\1\uffff\1\13\1\uffff"
+         + "\2\13\1\uffff\2\13\1\uffff\154\13\41\uffff\u016b\13\22\uffff"
+         + "\100\13\2\uffff\66\13\50\uffff\15\13\66\uffff\2\13\30\uffff"
+         + "\3\13\31\uffff\1\13\6\uffff\5\13\1\uffff\u0087\13\7\uffff\1"
+         + "\13\34\uffff\32\13\4\uffff\1\13\1\uffff\32\13\12\uffff\132\13"
+         + "\3\uffff\6\13\2\uffff\6\13\2\uffff\6\13\2\uffff\3\13\3\uffff" + "\2\13\3\uffff\2\13",
       "",
-      "\1\23",
-      "\1\24",
+      "\1\16",
+      "\1\5\1\uffff\10\22\2\5\10\uffff\1\20\1\uffff\3\5\21\uffff"
+         + "\1\17\6\uffff\1\23\2\uffff\1\20\1\uffff\3\5\21\uffff\1\17",
+      "\1\5\1\uffff\12\25\12\uffff\3\5\30\uffff\1\24\4\uffff\3\5",
       "",
-      "",
-      "\1\25",
-      "",
-      "\1\26\4\uffff\1\27",
-      "",
-      "\1\31\1\uffff\12\30\7\uffff\6\30\32\uffff\6\30",
-      "",
-      "\10\32\2\3\45\uffff\1\33",
-      "",
-      "\1\3\1\uffff\10\35\2\3\12\uffff\3\3\30\uffff\1\36\4\uffff" + "\3\3",
-      "\1\3\1\uffff\12\37\12\uffff\3\3\30\uffff\1\40\4\uffff\3\3",
-      "\12\41\45\uffff\1\42",
-      "\1\43",
-      "\1\44",
-      "\1\45",
+      "\1\26",
+      "\1\27",
       "",
       "",
-      "\1\31\1\uffff\12\47\7\uffff\6\47\11\uffff\1\31\16\uffff\1" + "\50\1\uffff\6\47\11\uffff\1\31",
+      "\1\30",
       "",
-      "\1\3\1\uffff\10\51\2\3\12\uffff\3\3\30\uffff\1\52\4\uffff" + "\3\3",
-      "\10\32\2\3\45\uffff\1\33",
+      "\1\31\4\uffff\1\32",
       "",
-      "\1\3\1\uffff\10\53\2\3\12\uffff\3\3\30\uffff\1\54\4\uffff" + "\3\3",
-      "\10\53\2\3\45\uffff\1\54",
-      "\1\3\1\uffff\12\55\12\uffff\3\3\30\uffff\1\56\4\uffff\3\3",
-      "\12\55\45\uffff\1\56",
-      "\1\3\1\uffff\12\57\12\uffff\3\3\30\uffff\1\60\4\uffff\3\3",
-      "\12\41\45\uffff\1\42",
-      "\1\61",
-      "\1\62",
-      "\1\63",
+      "\1\33",
+      "\1\35\1\uffff\12\34\7\uffff\6\34\32\uffff\6\34",
       "",
-      "\1\31\1\uffff\12\64\7\uffff\6\64\11\uffff\1\31\16\uffff\1" + "\65\1\uffff\6\64\11\uffff\1\31",
-      "\12\66\7\uffff\6\66\30\uffff\1\65\1\uffff\6\66",
-      "\1\3\1\uffff\10\67\2\3\12\uffff\3\3\30\uffff\1\70\4\uffff" + "\3\3",
-      "\10\67\2\3\45\uffff\1\70",
-      "\1\3\1\uffff\10\53\2\3\12\uffff\3\3\30\uffff\1\54\4\uffff" + "\3\3",
-      "\10\53\2\3\45\uffff\1\54",
-      "\1\3\1\uffff\12\55\12\uffff\3\3\30\uffff\1\56\4\uffff\3\3",
-      "\12\55\45\uffff\1\56",
-      "\1\3\1\uffff\12\71\12\uffff\3\3\30\uffff\1\72\4\uffff\3\3",
-      "\12\71\45\uffff\1\72",
-      "\11\11\5\uffff\16\11\10\uffff\1\11\13\uffff\12\11\7\uffff"
-         + "\32\11\4\uffff\1\11\1\uffff\32\11\4\uffff\41\11\2\uffff\4\11"
-         + "\4\uffff\1\11\2\uffff\1\11\7\uffff\1\11\4\uffff\1\11\5\uffff"
-         + "\27\11\1\uffff\37\11\1\uffff\u013f\11\31\uffff\162\11\4\uffff"
-         + "\14\11\16\uffff\5\11\11\uffff\1\11\21\uffff\130\11\5\uffff\23"
-         + "\11\12\uffff\1\11\13\uffff\1\11\1\uffff\3\11\1\uffff\1\11\1"
-         + "\uffff\24\11\1\uffff\54\11\1\uffff\46\11\1\uffff\5\11\4\uffff"
-         + "\u0082\11\1\uffff\4\11\3\uffff\105\11\1\uffff\46\11\2\uffff"
-         + "\2\11\6\uffff\20\11\41\uffff\46\11\2\uffff\1\11\7\uffff\47\11"
-         + "\11\uffff\21\11\1\uffff\27\11\1\uffff\3\11\1\uffff\1\11\1\uffff"
-         + "\2\11\1\uffff\1\11\13\uffff\33\11\5\uffff\3\11\15\uffff\4\11"
-         + "\14\uffff\6\11\13\uffff\32\11\5\uffff\31\11\7\uffff\12\11\4"
-         + "\uffff\146\11\1\uffff\11\11\1\uffff\12\11\1\uffff\23\11\2\uffff"
-         + "\1\11\17\uffff\74\11\2\uffff\3\11\60\uffff\62\11\u014f\uffff"
-         + "\71\11\2\uffff\22\11\2\uffff\5\11\3\uffff\14\11\2\uffff\12\11"
-         + "\21\uffff\3\11\1\uffff\10\11\2\uffff\2\11\2\uffff\26\11\1\uffff"
-         + "\7\11\1\uffff\1\11\3\uffff\4\11\2\uffff\11\11\2\uffff\2\11\2"
-         + "\uffff\3\11\11\uffff\1\11\4\uffff\2\11\1\uffff\5\11\2\uffff"
-         + "\16\11\15\uffff\3\11\1\uffff\6\11\4\uffff\2\11\2\uffff\26\11"
-         + "\1\uffff\7\11\1\uffff\2\11\1\uffff\2\11\1\uffff\2\11\2\uffff"
-         + "\1\11\1\uffff\5\11\4\uffff\2\11\2\uffff\3\11\13\uffff\4\11\1"
-         + "\uffff\1\11\7\uffff\17\11\14\uffff\3\11\1\uffff\11\11\1\uffff"
-         + "\3\11\1\uffff\26\11\1\uffff\7\11\1\uffff\2\11\1\uffff\5\11\2"
-         + "\uffff\12\11\1\uffff\3\11\1\uffff\3\11\2\uffff\1\11\17\uffff"
-         + "\4\11\2\uffff\12\11\1\uffff\1\11\17\uffff\3\11\1\uffff\10\11"
-         + "\2\uffff\2\11\2\uffff\26\11\1\uffff\7\11\1\uffff\2\11\1\uffff"
-         + "\5\11\2\uffff\10\11\3\uffff\2\11\2\uffff\3\11\10\uffff\2\11"
-         + "\4\uffff\2\11\1\uffff\3\11\4\uffff\12\11\1\uffff\1\11\20\uffff"
-         + "\2\11\1\uffff\6\11\3\uffff\3\11\1\uffff\4\11\3\uffff\2\11\1"
-         + "\uffff\1\11\1\uffff\2\11\3\uffff\2\11\3\uffff\3\11\3\uffff\10"
-         + "\11\1\uffff\3\11\4\uffff\5\11\3\uffff\3\11\1\uffff\4\11\11\uffff"
-         + "\1\11\17\uffff\11\11\11\uffff\1\11\7\uffff\3\11\1\uffff\10\11"
-         + "\1\uffff\3\11\1\uffff\27\11\1\uffff\12\11\1\uffff\5\11\4\uffff"
-         + "\7\11\1\uffff\3\11\1\uffff\4\11\7\uffff\2\11\11\uffff\2\11\4"
-         + "\uffff\12\11\22\uffff\2\11\1\uffff\10\11\1\uffff\3\11\1\uffff"
-         + "\27\11\1\uffff\12\11\1\uffff\5\11\2\uffff\11\11\1\uffff\3\11"
-         + "\1\uffff\4\11\7\uffff\2\11\7\uffff\1\11\1\uffff\2\11\4\uffff"
-         + "\12\11\22\uffff\2\11\1\uffff\10\11\1\uffff\3\11\1\uffff\27\11"
-         + "\1\uffff\20\11\4\uffff\6\11\2\uffff\3\11\1\uffff\4\11\11\uffff"
-         + "\1\11\10\uffff\2\11\4\uffff\12\11\22\uffff\2\11\1\uffff\22\11"
-         + "\3\uffff\30\11\1\uffff\11\11\1\uffff\1\11\2\uffff\7\11\3\uffff"
-         + "\1\11\4\uffff\6\11\1\uffff\1\11\1\uffff\10\11\22\uffff\2\11"
-         + "\15\uffff\72\11\4\uffff\20\11\1\uffff\12\11\47\uffff\2\11\1"
-         + "\uffff\1\11\2\uffff\2\11\1\uffff\1\11\2\uffff\1\11\6\uffff\4"
-         + "\11\1\uffff\7\11\1\uffff\3\11\1\uffff\1\11\1\uffff\1\11\2\uffff"
-         + "\2\11\1\uffff\15\11\1\uffff\3\11\2\uffff\5\11\1\uffff\1\11\1"
-         + "\uffff\6\11\2\uffff\12\11\2\uffff\2\11\42\uffff\1\11\27\uffff"
-         + "\2\11\6\uffff\12\11\13\uffff\1\11\1\uffff\1\11\1\uffff\1\11"
-         + "\4\uffff\12\11\1\uffff\42\11\6\uffff\24\11\1\uffff\6\11\4\uffff"
-         + "\10\11\1\uffff\44\11\11\uffff\1\11\71\uffff\42\11\1\uffff\5"
-         + "\11\1\uffff\2\11\1\uffff\7\11\3\uffff\4\11\6\uffff\12\11\6\uffff"
-         + "\12\11\106\uffff\46\11\12\uffff\51\11\7\uffff\132\11\5\uffff"
-         + "\104\11\5\uffff\122\11\6\uffff\7\11\1\uffff\77\11\1\uffff\1"
-         + "\11\1\uffff\4\11\2\uffff\7\11\1\uffff\1\11\1\uffff\4\11\2\uffff"
-         + "\47\11\1\uffff\1\11\1\uffff\4\11\2\uffff\37\11\1\uffff\1\11"
-         + "\1\uffff\4\11\2\uffff\7\11\1\uffff\1\11\1\uffff\4\11\2\uffff"
-         + "\7\11\1\uffff\7\11\1\uffff\27\11\1\uffff\37\11\1\uffff\1\11"
-         + "\1\uffff\4\11\2\uffff\7\11\1\uffff\47\11\1\uffff\23\11\16\uffff"
-         + "\11\11\56\uffff\125\11\14\uffff\u026c\11\2\uffff\10\11\12\uffff"
-         + "\32\11\5\uffff\113\11\3\uffff\3\11\17\uffff\15\11\1\uffff\7"
-         + "\11\13\uffff\25\11\13\uffff\24\11\14\uffff\15\11\1\uffff\3\11"
-         + "\1\uffff\2\11\14\uffff\124\11\3\uffff\1\11\3\uffff\3\11\2\uffff"
-         + "\12\11\41\uffff\3\11\2\uffff\12\11\6\uffff\130\11\10\uffff\52"
-         + "\11\126\uffff\35\11\3\uffff\14\11\4\uffff\14\11\12\uffff\50"
-         + "\11\2\uffff\5\11\u038b\uffff\154\11\u0094\uffff\u009c\11\4\uffff"
-         + "\132\11\6\uffff\26\11\2\uffff\6\11\2\uffff\46\11\2\uffff\6\11"
-         + "\2\uffff\10\11\1\uffff\1\11\1\uffff\1\11\1\uffff\1\11\1\uffff"
-         + "\37\11\2\uffff\65\11\1\uffff\7\11\1\uffff\1\11\3\uffff\3\11"
-         + "\1\uffff\7\11\3\uffff\4\11\2\uffff\6\11\4\uffff\15\11\5\uffff"
-         + "\3\11\1\uffff\7\11\17\uffff\4\11\32\uffff\5\11\20\uffff\2\11"
-         + "\23\uffff\1\11\13\uffff\4\11\6\uffff\6\11\1\uffff\1\11\15\uffff"
-         + "\1\11\40\uffff\22\11\36\uffff\15\11\4\uffff\1\11\3\uffff\6\11"
-         + "\27\uffff\1\11\4\uffff\1\11\2\uffff\12\11\1\uffff\1\11\3\uffff"
-         + "\5\11\6\uffff\1\11\1\uffff\1\11\1\uffff\1\11\1\uffff\4\11\1"
-         + "\uffff\3\11\1\uffff\7\11\3\uffff\3\11\5\uffff\5\11\26\uffff"
-         + "\44\11\u0e81\uffff\3\11\31\uffff\17\11\1\uffff\5\11\2\uffff"
-         + "\5\11\4\uffff\126\11\2\uffff\2\11\2\uffff\3\11\1\uffff\137\11"
-         + "\5\uffff\50\11\4\uffff\136\11\21\uffff\30\11\70\uffff\20\11"
-         + "\u0200\uffff\u19b6\11\112\uffff\u51a6\11\132\uffff\u048d\11"
-         + "\u0773\uffff\u2ba4\11\134\uffff\u0400\11\u1d00\uffff\u012e\11"
-         + "\2\uffff\73\11\u0095\uffff\7\11\14\uffff\5\11\5\uffff\14\11"
-         + "\1\uffff\15\11\1\uffff\5\11\1\uffff\1\11\1\uffff\2\11\1\uffff"
-         + "\2\11\1\uffff\154\11\41\uffff\u016b\11\22\uffff\100\11\2\uffff"
-         + "\66\11\50\uffff\15\11\3\uffff\20\11\20\uffff\4\11\17\uffff\2"
-         + "\11\30\uffff\3\11\31\uffff\1\11\6\uffff\5\11\1\uffff\u0087\11"
-         + "\2\uffff\1\11\4\uffff\1\11\13\uffff\12\11\7\uffff\32\11\4\uffff"
-         + "\1\11\1\uffff\32\11\12\uffff\132\11\3\uffff\6\11\2\uffff\6\11"
-         + "\2\uffff\6\11\2\uffff\3\11\3\uffff\2\11\3\uffff\2\11\22\uffff" + "\3\11",
-      "\1\74",
-      "\11\11\5\uffff\16\11\10\uffff\1\11\13\uffff\12\11\7\uffff"
-         + "\32\11\4\uffff\1\11\1\uffff\32\11\4\uffff\41\11\2\uffff\4\11"
-         + "\4\uffff\1\11\2\uffff\1\11\7\uffff\1\11\4\uffff\1\11\5\uffff"
-         + "\27\11\1\uffff\37\11\1\uffff\u013f\11\31\uffff\162\11\4\uffff"
-         + "\14\11\16\uffff\5\11\11\uffff\1\11\21\uffff\130\11\5\uffff\23"
-         + "\11\12\uffff\1\11\13\uffff\1\11\1\uffff\3\11\1\uffff\1\11\1"
-         + "\uffff\24\11\1\uffff\54\11\1\uffff\46\11\1\uffff\5\11\4\uffff"
-         + "\u0082\11\1\uffff\4\11\3\uffff\105\11\1\uffff\46\11\2\uffff"
-         + "\2\11\6\uffff\20\11\41\uffff\46\11\2\uffff\1\11\7\uffff\47\11"
-         + "\11\uffff\21\11\1\uffff\27\11\1\uffff\3\11\1\uffff\1\11\1\uffff"
-         + "\2\11\1\uffff\1\11\13\uffff\33\11\5\uffff\3\11\15\uffff\4\11"
-         + "\14\uffff\6\11\13\uffff\32\11\5\uffff\31\11\7\uffff\12\11\4"
-         + "\uffff\146\11\1\uffff\11\11\1\uffff\12\11\1\uffff\23\11\2\uffff"
-         + "\1\11\17\uffff\74\11\2\uffff\3\11\60\uffff\62\11\u014f\uffff"
-         + "\71\11\2\uffff\22\11\2\uffff\5\11\3\uffff\14\11\2\uffff\12\11"
-         + "\21\uffff\3\11\1\uffff\10\11\2\uffff\2\11\2\uffff\26\11\1\uffff"
-         + "\7\11\1\uffff\1\11\3\uffff\4\11\2\uffff\11\11\2\uffff\2\11\2"
-         + "\uffff\3\11\11\uffff\1\11\4\uffff\2\11\1\uffff\5\11\2\uffff"
-         + "\16\11\15\uffff\3\11\1\uffff\6\11\4\uffff\2\11\2\uffff\26\11"
-         + "\1\uffff\7\11\1\uffff\2\11\1\uffff\2\11\1\uffff\2\11\2\uffff"
-         + "\1\11\1\uffff\5\11\4\uffff\2\11\2\uffff\3\11\13\uffff\4\11\1"
-         + "\uffff\1\11\7\uffff\17\11\14\uffff\3\11\1\uffff\11\11\1\uffff"
-         + "\3\11\1\uffff\26\11\1\uffff\7\11\1\uffff\2\11\1\uffff\5\11\2"
-         + "\uffff\12\11\1\uffff\3\11\1\uffff\3\11\2\uffff\1\11\17\uffff"
-         + "\4\11\2\uffff\12\11\1\uffff\1\11\17\uffff\3\11\1\uffff\10\11"
-         + "\2\uffff\2\11\2\uffff\26\11\1\uffff\7\11\1\uffff\2\11\1\uffff"
-         + "\5\11\2\uffff\10\11\3\uffff\2\11\2\uffff\3\11\10\uffff\2\11"
-         + "\4\uffff\2\11\1\uffff\3\11\4\uffff\12\11\1\uffff\1\11\20\uffff"
-         + "\2\11\1\uffff\6\11\3\uffff\3\11\1\uffff\4\11\3\uffff\2\11\1"
-         + "\uffff\1\11\1\uffff\2\11\3\uffff\2\11\3\uffff\3\11\3\uffff\10"
-         + "\11\1\uffff\3\11\4\uffff\5\11\3\uffff\3\11\1\uffff\4\11\11\uffff"
-         + "\1\11\17\uffff\11\11\11\uffff\1\11\7\uffff\3\11\1\uffff\10\11"
-         + "\1\uffff\3\11\1\uffff\27\11\1\uffff\12\11\1\uffff\5\11\4\uffff"
-         + "\7\11\1\uffff\3\11\1\uffff\4\11\7\uffff\2\11\11\uffff\2\11\4"
-         + "\uffff\12\11\22\uffff\2\11\1\uffff\10\11\1\uffff\3\11\1\uffff"
-         + "\27\11\1\uffff\12\11\1\uffff\5\11\2\uffff\11\11\1\uffff\3\11"
-         + "\1\uffff\4\11\7\uffff\2\11\7\uffff\1\11\1\uffff\2\11\4\uffff"
-         + "\12\11\22\uffff\2\11\1\uffff\10\11\1\uffff\3\11\1\uffff\27\11"
-         + "\1\uffff\20\11\4\uffff\6\11\2\uffff\3\11\1\uffff\4\11\11\uffff"
-         + "\1\11\10\uffff\2\11\4\uffff\12\11\22\uffff\2\11\1\uffff\22\11"
-         + "\3\uffff\30\11\1\uffff\11\11\1\uffff\1\11\2\uffff\7\11\3\uffff"
-         + "\1\11\4\uffff\6\11\1\uffff\1\11\1\uffff\10\11\22\uffff\2\11"
-         + "\15\uffff\72\11\4\uffff\20\11\1\uffff\12\11\47\uffff\2\11\1"
-         + "\uffff\1\11\2\uffff\2\11\1\uffff\1\11\2\uffff\1\11\6\uffff\4"
-         + "\11\1\uffff\7\11\1\uffff\3\11\1\uffff\1\11\1\uffff\1\11\2\uffff"
-         + "\2\11\1\uffff\15\11\1\uffff\3\11\2\uffff\5\11\1\uffff\1\11\1"
-         + "\uffff\6\11\2\uffff\12\11\2\uffff\2\11\42\uffff\1\11\27\uffff"
-         + "\2\11\6\uffff\12\11\13\uffff\1\11\1\uffff\1\11\1\uffff\1\11"
-         + "\4\uffff\12\11\1\uffff\42\11\6\uffff\24\11\1\uffff\6\11\4\uffff"
-         + "\10\11\1\uffff\44\11\11\uffff\1\11\71\uffff\42\11\1\uffff\5"
-         + "\11\1\uffff\2\11\1\uffff\7\11\3\uffff\4\11\6\uffff\12\11\6\uffff"
-         + "\12\11\106\uffff\46\11\12\uffff\51\11\7\uffff\132\11\5\uffff"
-         + "\104\11\5\uffff\122\11\6\uffff\7\11\1\uffff\77\11\1\uffff\1"
-         + "\11\1\uffff\4\11\2\uffff\7\11\1\uffff\1\11\1\uffff\4\11\2\uffff"
-         + "\47\11\1\uffff\1\11\1\uffff\4\11\2\uffff\37\11\1\uffff\1\11"
-         + "\1\uffff\4\11\2\uffff\7\11\1\uffff\1\11\1\uffff\4\11\2\uffff"
-         + "\7\11\1\uffff\7\11\1\uffff\27\11\1\uffff\37\11\1\uffff\1\11"
-         + "\1\uffff\4\11\2\uffff\7\11\1\uffff\47\11\1\uffff\23\11\16\uffff"
-         + "\11\11\56\uffff\125\11\14\uffff\u026c\11\2\uffff\10\11\12\uffff"
-         + "\32\11\5\uffff\113\11\3\uffff\3\11\17\uffff\15\11\1\uffff\7"
-         + "\11\13\uffff\25\11\13\uffff\24\11\14\uffff\15\11\1\uffff\3\11"
-         + "\1\uffff\2\11\14\uffff\124\11\3\uffff\1\11\3\uffff\3\11\2\uffff"
-         + "\12\11\41\uffff\3\11\2\uffff\12\11\6\uffff\130\11\10\uffff\52"
-         + "\11\126\uffff\35\11\3\uffff\14\11\4\uffff\14\11\12\uffff\50"
-         + "\11\2\uffff\5\11\u038b\uffff\154\11\u0094\uffff\u009c\11\4\uffff"
-         + "\132\11\6\uffff\26\11\2\uffff\6\11\2\uffff\46\11\2\uffff\6\11"
-         + "\2\uffff\10\11\1\uffff\1\11\1\uffff\1\11\1\uffff\1\11\1\uffff"
-         + "\37\11\2\uffff\65\11\1\uffff\7\11\1\uffff\1\11\3\uffff\3\11"
-         + "\1\uffff\7\11\3\uffff\4\11\2\uffff\6\11\4\uffff\15\11\5\uffff"
-         + "\3\11\1\uffff\7\11\17\uffff\4\11\32\uffff\5\11\20\uffff\2\11"
-         + "\23\uffff\1\11\13\uffff\4\11\6\uffff\6\11\1\uffff\1\11\15\uffff"
-         + "\1\11\40\uffff\22\11\36\uffff\15\11\4\uffff\1\11\3\uffff\6\11"
-         + "\27\uffff\1\11\4\uffff\1\11\2\uffff\12\11\1\uffff\1\11\3\uffff"
-         + "\5\11\6\uffff\1\11\1\uffff\1\11\1\uffff\1\11\1\uffff\4\11\1"
-         + "\uffff\3\11\1\uffff\7\11\3\uffff\3\11\5\uffff\5\11\26\uffff"
-         + "\44\11\u0e81\uffff\3\11\31\uffff\17\11\1\uffff\5\11\2\uffff"
-         + "\5\11\4\uffff\126\11\2\uffff\2\11\2\uffff\3\11\1\uffff\137\11"
-         + "\5\uffff\50\11\4\uffff\136\11\21\uffff\30\11\70\uffff\20\11"
-         + "\u0200\uffff\u19b6\11\112\uffff\u51a6\11\132\uffff\u048d\11"
-         + "\u0773\uffff\u2ba4\11\134\uffff\u0400\11\u1d00\uffff\u012e\11"
-         + "\2\uffff\73\11\u0095\uffff\7\11\14\uffff\5\11\5\uffff\14\11"
-         + "\1\uffff\15\11\1\uffff\5\11\1\uffff\1\11\1\uffff\2\11\1\uffff"
-         + "\2\11\1\uffff\154\11\41\uffff\u016b\11\22\uffff\100\11\2\uffff"
-         + "\66\11\50\uffff\15\11\3\uffff\20\11\20\uffff\4\11\17\uffff\2"
-         + "\11\30\uffff\3\11\31\uffff\1\11\6\uffff\5\11\1\uffff\u0087\11"
-         + "\2\uffff\1\11\4\uffff\1\11\13\uffff\12\11\7\uffff\32\11\4\uffff"
-         + "\1\11\1\uffff\32\11\12\uffff\132\11\3\uffff\6\11\2\uffff\6\11"
-         + "\2\uffff\6\11\2\uffff\3\11\3\uffff\2\11\3\uffff\2\11\22\uffff" + "\3\11",
-      "\1\31\1\uffff\12\64\7\uffff\6\64\11\uffff\1\31\16\uffff\1" + "\65\1\uffff\6\64\11\uffff\1\31",
-      "\12\66\7\uffff\6\66\30\uffff\1\65\1\uffff\6\66",
-      "\1\31\1\uffff\12\66\7\uffff\6\66\11\uffff\1\31\16\uffff\1" + "\65\1\uffff\6\66\11\uffff\1\31",
-      "\1\3\1\uffff\10\67\2\3\12\uffff\3\3\30\uffff\1\70\4\uffff" + "\3\3",
-      "\10\67\2\3\45\uffff\1\70",
-      "\1\3\1\uffff\12\71\12\uffff\3\3\30\uffff\1\72\4\uffff\3\3",
-      "\12\71\45\uffff\1\72",
       "",
-      "\11\11\5\uffff\16\11\10\uffff\1\11\13\uffff\12\11\7\uffff"
-         + "\32\11\4\uffff\1\11\1\uffff\32\11\4\uffff\41\11\2\uffff\4\11"
-         + "\4\uffff\1\11\2\uffff\1\11\7\uffff\1\11\4\uffff\1\11\5\uffff"
-         + "\27\11\1\uffff\37\11\1\uffff\u013f\11\31\uffff\162\11\4\uffff"
-         + "\14\11\16\uffff\5\11\11\uffff\1\11\21\uffff\130\11\5\uffff\23"
-         + "\11\12\uffff\1\11\13\uffff\1\11\1\uffff\3\11\1\uffff\1\11\1"
-         + "\uffff\24\11\1\uffff\54\11\1\uffff\46\11\1\uffff\5\11\4\uffff"
-         + "\u0082\11\1\uffff\4\11\3\uffff\105\11\1\uffff\46\11\2\uffff"
-         + "\2\11\6\uffff\20\11\41\uffff\46\11\2\uffff\1\11\7\uffff\47\11"
-         + "\11\uffff\21\11\1\uffff\27\11\1\uffff\3\11\1\uffff\1\11\1\uffff"
-         + "\2\11\1\uffff\1\11\13\uffff\33\11\5\uffff\3\11\15\uffff\4\11"
-         + "\14\uffff\6\11\13\uffff\32\11\5\uffff\31\11\7\uffff\12\11\4"
-         + "\uffff\146\11\1\uffff\11\11\1\uffff\12\11\1\uffff\23\11\2\uffff"
-         + "\1\11\17\uffff\74\11\2\uffff\3\11\60\uffff\62\11\u014f\uffff"
-         + "\71\11\2\uffff\22\11\2\uffff\5\11\3\uffff\14\11\2\uffff\12\11"
-         + "\21\uffff\3\11\1\uffff\10\11\2\uffff\2\11\2\uffff\26\11\1\uffff"
-         + "\7\11\1\uffff\1\11\3\uffff\4\11\2\uffff\11\11\2\uffff\2\11\2"
-         + "\uffff\3\11\11\uffff\1\11\4\uffff\2\11\1\uffff\5\11\2\uffff"
-         + "\16\11\15\uffff\3\11\1\uffff\6\11\4\uffff\2\11\2\uffff\26\11"
-         + "\1\uffff\7\11\1\uffff\2\11\1\uffff\2\11\1\uffff\2\11\2\uffff"
-         + "\1\11\1\uffff\5\11\4\uffff\2\11\2\uffff\3\11\13\uffff\4\11\1"
-         + "\uffff\1\11\7\uffff\17\11\14\uffff\3\11\1\uffff\11\11\1\uffff"
-         + "\3\11\1\uffff\26\11\1\uffff\7\11\1\uffff\2\11\1\uffff\5\11\2"
-         + "\uffff\12\11\1\uffff\3\11\1\uffff\3\11\2\uffff\1\11\17\uffff"
-         + "\4\11\2\uffff\12\11\1\uffff\1\11\17\uffff\3\11\1\uffff\10\11"
-         + "\2\uffff\2\11\2\uffff\26\11\1\uffff\7\11\1\uffff\2\11\1\uffff"
-         + "\5\11\2\uffff\10\11\3\uffff\2\11\2\uffff\3\11\10\uffff\2\11"
-         + "\4\uffff\2\11\1\uffff\3\11\4\uffff\12\11\1\uffff\1\11\20\uffff"
-         + "\2\11\1\uffff\6\11\3\uffff\3\11\1\uffff\4\11\3\uffff\2\11\1"
-         + "\uffff\1\11\1\uffff\2\11\3\uffff\2\11\3\uffff\3\11\3\uffff\10"
-         + "\11\1\uffff\3\11\4\uffff\5\11\3\uffff\3\11\1\uffff\4\11\11\uffff"
-         + "\1\11\17\uffff\11\11\11\uffff\1\11\7\uffff\3\11\1\uffff\10\11"
-         + "\1\uffff\3\11\1\uffff\27\11\1\uffff\12\11\1\uffff\5\11\4\uffff"
-         + "\7\11\1\uffff\3\11\1\uffff\4\11\7\uffff\2\11\11\uffff\2\11\4"
-         + "\uffff\12\11\22\uffff\2\11\1\uffff\10\11\1\uffff\3\11\1\uffff"
-         + "\27\11\1\uffff\12\11\1\uffff\5\11\2\uffff\11\11\1\uffff\3\11"
-         + "\1\uffff\4\11\7\uffff\2\11\7\uffff\1\11\1\uffff\2\11\4\uffff"
-         + "\12\11\22\uffff\2\11\1\uffff\10\11\1\uffff\3\11\1\uffff\27\11"
-         + "\1\uffff\20\11\4\uffff\6\11\2\uffff\3\11\1\uffff\4\11\11\uffff"
-         + "\1\11\10\uffff\2\11\4\uffff\12\11\22\uffff\2\11\1\uffff\22\11"
-         + "\3\uffff\30\11\1\uffff\11\11\1\uffff\1\11\2\uffff\7\11\3\uffff"
-         + "\1\11\4\uffff\6\11\1\uffff\1\11\1\uffff\10\11\22\uffff\2\11"
-         + "\15\uffff\72\11\4\uffff\20\11\1\uffff\12\11\47\uffff\2\11\1"
-         + "\uffff\1\11\2\uffff\2\11\1\uffff\1\11\2\uffff\1\11\6\uffff\4"
-         + "\11\1\uffff\7\11\1\uffff\3\11\1\uffff\1\11\1\uffff\1\11\2\uffff"
-         + "\2\11\1\uffff\15\11\1\uffff\3\11\2\uffff\5\11\1\uffff\1\11\1"
-         + "\uffff\6\11\2\uffff\12\11\2\uffff\2\11\42\uffff\1\11\27\uffff"
-         + "\2\11\6\uffff\12\11\13\uffff\1\11\1\uffff\1\11\1\uffff\1\11"
-         + "\4\uffff\12\11\1\uffff\42\11\6\uffff\24\11\1\uffff\6\11\4\uffff"
-         + "\10\11\1\uffff\44\11\11\uffff\1\11\71\uffff\42\11\1\uffff\5"
-         + "\11\1\uffff\2\11\1\uffff\7\11\3\uffff\4\11\6\uffff\12\11\6\uffff"
-         + "\12\11\106\uffff\46\11\12\uffff\51\11\7\uffff\132\11\5\uffff"
-         + "\104\11\5\uffff\122\11\6\uffff\7\11\1\uffff\77\11\1\uffff\1"
-         + "\11\1\uffff\4\11\2\uffff\7\11\1\uffff\1\11\1\uffff\4\11\2\uffff"
-         + "\47\11\1\uffff\1\11\1\uffff\4\11\2\uffff\37\11\1\uffff\1\11"
-         + "\1\uffff\4\11\2\uffff\7\11\1\uffff\1\11\1\uffff\4\11\2\uffff"
-         + "\7\11\1\uffff\7\11\1\uffff\27\11\1\uffff\37\11\1\uffff\1\11"
-         + "\1\uffff\4\11\2\uffff\7\11\1\uffff\47\11\1\uffff\23\11\16\uffff"
-         + "\11\11\56\uffff\125\11\14\uffff\u026c\11\2\uffff\10\11\12\uffff"
-         + "\32\11\5\uffff\113\11\3\uffff\3\11\17\uffff\15\11\1\uffff\7"
-         + "\11\13\uffff\25\11\13\uffff\24\11\14\uffff\15\11\1\uffff\3\11"
-         + "\1\uffff\2\11\14\uffff\124\11\3\uffff\1\11\3\uffff\3\11\2\uffff"
-         + "\12\11\41\uffff\3\11\2\uffff\12\11\6\uffff\130\11\10\uffff\52"
-         + "\11\126\uffff\35\11\3\uffff\14\11\4\uffff\14\11\12\uffff\50"
-         + "\11\2\uffff\5\11\u038b\uffff\154\11\u0094\uffff\u009c\11\4\uffff"
-         + "\132\11\6\uffff\26\11\2\uffff\6\11\2\uffff\46\11\2\uffff\6\11"
-         + "\2\uffff\10\11\1\uffff\1\11\1\uffff\1\11\1\uffff\1\11\1\uffff"
-         + "\37\11\2\uffff\65\11\1\uffff\7\11\1\uffff\1\11\3\uffff\3\11"
-         + "\1\uffff\7\11\3\uffff\4\11\2\uffff\6\11\4\uffff\15\11\5\uffff"
-         + "\3\11\1\uffff\7\11\17\uffff\4\11\32\uffff\5\11\20\uffff\2\11"
-         + "\23\uffff\1\11\13\uffff\4\11\6\uffff\6\11\1\uffff\1\11\15\uffff"
-         + "\1\11\40\uffff\22\11\36\uffff\15\11\4\uffff\1\11\3\uffff\6\11"
-         + "\27\uffff\1\11\4\uffff\1\11\2\uffff\12\11\1\uffff\1\11\3\uffff"
-         + "\5\11\6\uffff\1\11\1\uffff\1\11\1\uffff\1\11\1\uffff\4\11\1"
-         + "\uffff\3\11\1\uffff\7\11\3\uffff\3\11\5\uffff\5\11\26\uffff"
-         + "\44\11\u0e81\uffff\3\11\31\uffff\17\11\1\uffff\5\11\2\uffff"
-         + "\5\11\4\uffff\126\11\2\uffff\2\11\2\uffff\3\11\1\uffff\137\11"
-         + "\5\uffff\50\11\4\uffff\136\11\21\uffff\30\11\70\uffff\20\11"
-         + "\u0200\uffff\u19b6\11\112\uffff\u51a6\11\132\uffff\u048d\11"
-         + "\u0773\uffff\u2ba4\11\134\uffff\u0400\11\u1d00\uffff\u012e\11"
-         + "\2\uffff\73\11\u0095\uffff\7\11\14\uffff\5\11\5\uffff\14\11"
-         + "\1\uffff\15\11\1\uffff\5\11\1\uffff\1\11\1\uffff\2\11\1\uffff"
-         + "\2\11\1\uffff\154\11\41\uffff\u016b\11\22\uffff\100\11\2\uffff"
-         + "\66\11\50\uffff\15\11\3\uffff\20\11\20\uffff\4\11\17\uffff\2"
-         + "\11\30\uffff\3\11\31\uffff\1\11\6\uffff\5\11\1\uffff\u0087\11"
-         + "\2\uffff\1\11\4\uffff\1\11\13\uffff\12\11\7\uffff\32\11\4\uffff"
-         + "\1\11\1\uffff\32\11\12\uffff\132\11\3\uffff\6\11\2\uffff\6\11"
-         + "\2\uffff\6\11\2\uffff\3\11\3\uffff\2\11\3\uffff\2\11\22\uffff" + "\3\11", "", "" };
+      "\1\5\1\uffff\10\37\2\5\12\uffff\3\5\30\uffff\1\40\4\uffff" + "\3\5",
+      "\10\41\2\5\45\uffff\1\42",
+      "\12\43\45\uffff\1\44",
+      "\1\5\1\uffff\12\45\12\uffff\3\5\30\uffff\1\46\4\uffff\3\5",
+      "\1\47",
+      "\1\50",
+      "\1\51",
+      "",
+      "",
+      "\1\52",
+      "\1\35\1\uffff\12\54\7\uffff\6\54\11\uffff\1\35\16\uffff\1" + "\55\1\uffff\6\54\11\uffff\1\35",
+      "",
+      "",
+      "\1\5\1\uffff\10\56\2\5\12\uffff\3\5\30\uffff\1\57\4\uffff" + "\3\5",
+      "\10\56\2\5\45\uffff\1\57",
+      "\1\5\1\uffff\10\60\2\5\12\uffff\3\5\30\uffff\1\61\4\uffff" + "\3\5",
+      "\10\41\2\5\45\uffff\1\42",
+      "\1\5\1\uffff\12\62\12\uffff\3\5\30\uffff\1\63\4\uffff\3\5",
+      "\12\43\45\uffff\1\44",
+      "\1\5\1\uffff\12\64\12\uffff\3\5\30\uffff\1\65\4\uffff\3\5",
+      "\12\64\45\uffff\1\65",
+      "\1\66",
+      "\1\67",
+      "\1\70",
+      "\1\71",
+      "",
+      "\1\35\1\uffff\12\72\7\uffff\6\72\11\uffff\1\35\16\uffff\1" + "\73\1\uffff\6\72\11\uffff\1\35",
+      "\12\74\7\uffff\6\74\30\uffff\1\73\1\uffff\6\74",
+      "\1\5\1\uffff\10\56\2\5\12\uffff\3\5\30\uffff\1\57\4\uffff" + "\3\5",
+      "\10\56\2\5\45\uffff\1\57",
+      "\1\5\1\uffff\10\75\2\5\12\uffff\3\5\30\uffff\1\76\4\uffff" + "\3\5",
+      "\10\75\2\5\45\uffff\1\76",
+      "\1\5\1\uffff\12\77\12\uffff\3\5\30\uffff\1\100\4\uffff\3\5",
+      "\12\77\45\uffff\1\100",
+      "\1\5\1\uffff\12\64\12\uffff\3\5\30\uffff\1\65\4\uffff\3\5",
+      "\12\64\45\uffff\1\65",
+      "\11\13\5\uffff\16\13\10\uffff\1\13\13\uffff\12\13\7\uffff"
+         + "\32\13\4\uffff\1\13\1\uffff\32\13\4\uffff\41\13\2\uffff\4\13"
+         + "\4\uffff\1\13\2\uffff\1\13\7\uffff\1\13\4\uffff\1\13\5\uffff"
+         + "\27\13\1\uffff\37\13\1\uffff\u013f\13\31\uffff\162\13\4\uffff"
+         + "\14\13\16\uffff\5\13\11\uffff\1\13\21\uffff\130\13\5\uffff\23"
+         + "\13\12\uffff\1\13\13\uffff\1\13\1\uffff\3\13\1\uffff\1\13\1"
+         + "\uffff\24\13\1\uffff\54\13\1\uffff\46\13\1\uffff\5\13\4\uffff"
+         + "\u0082\13\1\uffff\4\13\3\uffff\105\13\1\uffff\46\13\2\uffff"
+         + "\2\13\6\uffff\20\13\41\uffff\46\13\2\uffff\1\13\7\uffff\47\13"
+         + "\11\uffff\21\13\1\uffff\27\13\1\uffff\3\13\1\uffff\1\13\1\uffff"
+         + "\2\13\1\uffff\1\13\13\uffff\33\13\5\uffff\3\13\15\uffff\4\13"
+         + "\14\uffff\6\13\13\uffff\32\13\5\uffff\31\13\7\uffff\12\13\4"
+         + "\uffff\146\13\1\uffff\11\13\1\uffff\12\13\1\uffff\23\13\2\uffff"
+         + "\1\13\17\uffff\74\13\2\uffff\3\13\60\uffff\62\13\u014f\uffff"
+         + "\71\13\2\uffff\22\13\2\uffff\5\13\3\uffff\14\13\2\uffff\12\13"
+         + "\21\uffff\3\13\1\uffff\10\13\2\uffff\2\13\2\uffff\26\13\1\uffff"
+         + "\7\13\1\uffff\1\13\3\uffff\4\13\2\uffff\11\13\2\uffff\2\13\2"
+         + "\uffff\3\13\11\uffff\1\13\4\uffff\2\13\1\uffff\5\13\2\uffff"
+         + "\16\13\15\uffff\3\13\1\uffff\6\13\4\uffff\2\13\2\uffff\26\13"
+         + "\1\uffff\7\13\1\uffff\2\13\1\uffff\2\13\1\uffff\2\13\2\uffff"
+         + "\1\13\1\uffff\5\13\4\uffff\2\13\2\uffff\3\13\13\uffff\4\13\1"
+         + "\uffff\1\13\7\uffff\17\13\14\uffff\3\13\1\uffff\11\13\1\uffff"
+         + "\3\13\1\uffff\26\13\1\uffff\7\13\1\uffff\2\13\1\uffff\5\13\2"
+         + "\uffff\12\13\1\uffff\3\13\1\uffff\3\13\2\uffff\1\13\17\uffff"
+         + "\4\13\2\uffff\12\13\1\uffff\1\13\17\uffff\3\13\1\uffff\10\13"
+         + "\2\uffff\2\13\2\uffff\26\13\1\uffff\7\13\1\uffff\2\13\1\uffff"
+         + "\5\13\2\uffff\10\13\3\uffff\2\13\2\uffff\3\13\10\uffff\2\13"
+         + "\4\uffff\2\13\1\uffff\3\13\4\uffff\12\13\1\uffff\1\13\20\uffff"
+         + "\2\13\1\uffff\6\13\3\uffff\3\13\1\uffff\4\13\3\uffff\2\13\1"
+         + "\uffff\1\13\1\uffff\2\13\3\uffff\2\13\3\uffff\3\13\3\uffff\10"
+         + "\13\1\uffff\3\13\4\uffff\5\13\3\uffff\3\13\1\uffff\4\13\11\uffff"
+         + "\1\13\17\uffff\11\13\11\uffff\1\13\7\uffff\3\13\1\uffff\10\13"
+         + "\1\uffff\3\13\1\uffff\27\13\1\uffff\12\13\1\uffff\5\13\4\uffff"
+         + "\7\13\1\uffff\3\13\1\uffff\4\13\7\uffff\2\13\11\uffff\2\13\4"
+         + "\uffff\12\13\22\uffff\2\13\1\uffff\10\13\1\uffff\3\13\1\uffff"
+         + "\27\13\1\uffff\12\13\1\uffff\5\13\2\uffff\11\13\1\uffff\3\13"
+         + "\1\uffff\4\13\7\uffff\2\13\7\uffff\1\13\1\uffff\2\13\4\uffff"
+         + "\12\13\22\uffff\2\13\1\uffff\10\13\1\uffff\3\13\1\uffff\27\13"
+         + "\1\uffff\20\13\4\uffff\6\13\2\uffff\3\13\1\uffff\4\13\11\uffff"
+         + "\1\13\10\uffff\2\13\4\uffff\12\13\22\uffff\2\13\1\uffff\22\13"
+         + "\3\uffff\30\13\1\uffff\11\13\1\uffff\1\13\2\uffff\7\13\3\uffff"
+         + "\1\13\4\uffff\6\13\1\uffff\1\13\1\uffff\10\13\22\uffff\2\13"
+         + "\15\uffff\72\13\4\uffff\20\13\1\uffff\12\13\47\uffff\2\13\1"
+         + "\uffff\1\13\2\uffff\2\13\1\uffff\1\13\2\uffff\1\13\6\uffff\4"
+         + "\13\1\uffff\7\13\1\uffff\3\13\1\uffff\1\13\1\uffff\1\13\2\uffff"
+         + "\2\13\1\uffff\15\13\1\uffff\3\13\2\uffff\5\13\1\uffff\1\13\1"
+         + "\uffff\6\13\2\uffff\12\13\2\uffff\2\13\42\uffff\1\13\27\uffff"
+         + "\2\13\6\uffff\12\13\13\uffff\1\13\1\uffff\1\13\1\uffff\1\13"
+         + "\4\uffff\12\13\1\uffff\42\13\6\uffff\24\13\1\uffff\6\13\4\uffff"
+         + "\10\13\1\uffff\44\13\11\uffff\1\13\71\uffff\42\13\1\uffff\5"
+         + "\13\1\uffff\2\13\1\uffff\7\13\3\uffff\4\13\6\uffff\12\13\6\uffff"
+         + "\12\13\106\uffff\46\13\12\uffff\51\13\7\uffff\132\13\5\uffff"
+         + "\104\13\5\uffff\122\13\6\uffff\7\13\1\uffff\77\13\1\uffff\1"
+         + "\13\1\uffff\4\13\2\uffff\7\13\1\uffff\1\13\1\uffff\4\13\2\uffff"
+         + "\47\13\1\uffff\1\13\1\uffff\4\13\2\uffff\37\13\1\uffff\1\13"
+         + "\1\uffff\4\13\2\uffff\7\13\1\uffff\1\13\1\uffff\4\13\2\uffff"
+         + "\7\13\1\uffff\7\13\1\uffff\27\13\1\uffff\37\13\1\uffff\1\13"
+         + "\1\uffff\4\13\2\uffff\7\13\1\uffff\47\13\1\uffff\23\13\16\uffff"
+         + "\11\13\56\uffff\125\13\14\uffff\u026c\13\2\uffff\10\13\12\uffff"
+         + "\32\13\5\uffff\113\13\3\uffff\3\13\17\uffff\15\13\1\uffff\7"
+         + "\13\13\uffff\25\13\13\uffff\24\13\14\uffff\15\13\1\uffff\3\13"
+         + "\1\uffff\2\13\14\uffff\124\13\3\uffff\1\13\3\uffff\3\13\2\uffff"
+         + "\12\13\41\uffff\3\13\2\uffff\12\13\6\uffff\130\13\10\uffff\52"
+         + "\13\126\uffff\35\13\3\uffff\14\13\4\uffff\14\13\12\uffff\50"
+         + "\13\2\uffff\5\13\u038b\uffff\154\13\u0094\uffff\u009c\13\4\uffff"
+         + "\132\13\6\uffff\26\13\2\uffff\6\13\2\uffff\46\13\2\uffff\6\13"
+         + "\2\uffff\10\13\1\uffff\1\13\1\uffff\1\13\1\uffff\1\13\1\uffff"
+         + "\37\13\2\uffff\65\13\1\uffff\7\13\1\uffff\1\13\3\uffff\3\13"
+         + "\1\uffff\7\13\3\uffff\4\13\2\uffff\6\13\4\uffff\15\13\5\uffff"
+         + "\3\13\1\uffff\7\13\17\uffff\4\13\32\uffff\5\13\20\uffff\2\13"
+         + "\23\uffff\1\13\13\uffff\4\13\6\uffff\6\13\1\uffff\1\13\15\uffff"
+         + "\1\13\40\uffff\22\13\36\uffff\15\13\4\uffff\1\13\3\uffff\6\13"
+         + "\27\uffff\1\13\4\uffff\1\13\2\uffff\12\13\1\uffff\1\13\3\uffff"
+         + "\5\13\6\uffff\1\13\1\uffff\1\13\1\uffff\1\13\1\uffff\4\13\1"
+         + "\uffff\3\13\1\uffff\7\13\3\uffff\3\13\5\uffff\5\13\26\uffff"
+         + "\44\13\u0e81\uffff\3\13\31\uffff\17\13\1\uffff\5\13\2\uffff"
+         + "\5\13\4\uffff\126\13\2\uffff\2\13\2\uffff\3\13\1\uffff\137\13"
+         + "\5\uffff\50\13\4\uffff\136\13\21\uffff\30\13\70\uffff\20\13"
+         + "\u0200\uffff\u19b6\13\112\uffff\u51a6\13\132\uffff\u048d\13"
+         + "\u0773\uffff\u2ba4\13\134\uffff\u0400\13\u1d00\uffff\u012e\13"
+         + "\2\uffff\73\13\u0095\uffff\7\13\14\uffff\5\13\5\uffff\14\13"
+         + "\1\uffff\15\13\1\uffff\5\13\1\uffff\1\13\1\uffff\2\13\1\uffff"
+         + "\2\13\1\uffff\154\13\41\uffff\u016b\13\22\uffff\100\13\2\uffff"
+         + "\66\13\50\uffff\15\13\3\uffff\20\13\20\uffff\4\13\17\uffff\2"
+         + "\13\30\uffff\3\13\31\uffff\1\13\6\uffff\5\13\1\uffff\u0087\13"
+         + "\2\uffff\1\13\4\uffff\1\13\13\uffff\12\13\7\uffff\32\13\4\uffff"
+         + "\1\13\1\uffff\32\13\12\uffff\132\13\3\uffff\6\13\2\uffff\6\13"
+         + "\2\uffff\6\13\2\uffff\3\13\3\uffff\2\13\3\uffff\2\13\22\uffff" + "\3\13",
+      "\1\102",
+      "\11\13\5\uffff\16\13\10\uffff\1\13\13\uffff\12\13\7\uffff"
+         + "\32\13\4\uffff\1\13\1\uffff\32\13\4\uffff\41\13\2\uffff\4\13"
+         + "\4\uffff\1\13\2\uffff\1\13\7\uffff\1\13\4\uffff\1\13\5\uffff"
+         + "\27\13\1\uffff\37\13\1\uffff\u013f\13\31\uffff\162\13\4\uffff"
+         + "\14\13\16\uffff\5\13\11\uffff\1\13\21\uffff\130\13\5\uffff\23"
+         + "\13\12\uffff\1\13\13\uffff\1\13\1\uffff\3\13\1\uffff\1\13\1"
+         + "\uffff\24\13\1\uffff\54\13\1\uffff\46\13\1\uffff\5\13\4\uffff"
+         + "\u0082\13\1\uffff\4\13\3\uffff\105\13\1\uffff\46\13\2\uffff"
+         + "\2\13\6\uffff\20\13\41\uffff\46\13\2\uffff\1\13\7\uffff\47\13"
+         + "\11\uffff\21\13\1\uffff\27\13\1\uffff\3\13\1\uffff\1\13\1\uffff"
+         + "\2\13\1\uffff\1\13\13\uffff\33\13\5\uffff\3\13\15\uffff\4\13"
+         + "\14\uffff\6\13\13\uffff\32\13\5\uffff\31\13\7\uffff\12\13\4"
+         + "\uffff\146\13\1\uffff\11\13\1\uffff\12\13\1\uffff\23\13\2\uffff"
+         + "\1\13\17\uffff\74\13\2\uffff\3\13\60\uffff\62\13\u014f\uffff"
+         + "\71\13\2\uffff\22\13\2\uffff\5\13\3\uffff\14\13\2\uffff\12\13"
+         + "\21\uffff\3\13\1\uffff\10\13\2\uffff\2\13\2\uffff\26\13\1\uffff"
+         + "\7\13\1\uffff\1\13\3\uffff\4\13\2\uffff\11\13\2\uffff\2\13\2"
+         + "\uffff\3\13\11\uffff\1\13\4\uffff\2\13\1\uffff\5\13\2\uffff"
+         + "\16\13\15\uffff\3\13\1\uffff\6\13\4\uffff\2\13\2\uffff\26\13"
+         + "\1\uffff\7\13\1\uffff\2\13\1\uffff\2\13\1\uffff\2\13\2\uffff"
+         + "\1\13\1\uffff\5\13\4\uffff\2\13\2\uffff\3\13\13\uffff\4\13\1"
+         + "\uffff\1\13\7\uffff\17\13\14\uffff\3\13\1\uffff\11\13\1\uffff"
+         + "\3\13\1\uffff\26\13\1\uffff\7\13\1\uffff\2\13\1\uffff\5\13\2"
+         + "\uffff\12\13\1\uffff\3\13\1\uffff\3\13\2\uffff\1\13\17\uffff"
+         + "\4\13\2\uffff\12\13\1\uffff\1\13\17\uffff\3\13\1\uffff\10\13"
+         + "\2\uffff\2\13\2\uffff\26\13\1\uffff\7\13\1\uffff\2\13\1\uffff"
+         + "\5\13\2\uffff\10\13\3\uffff\2\13\2\uffff\3\13\10\uffff\2\13"
+         + "\4\uffff\2\13\1\uffff\3\13\4\uffff\12\13\1\uffff\1\13\20\uffff"
+         + "\2\13\1\uffff\6\13\3\uffff\3\13\1\uffff\4\13\3\uffff\2\13\1"
+         + "\uffff\1\13\1\uffff\2\13\3\uffff\2\13\3\uffff\3\13\3\uffff\10"
+         + "\13\1\uffff\3\13\4\uffff\5\13\3\uffff\3\13\1\uffff\4\13\11\uffff"
+         + "\1\13\17\uffff\11\13\11\uffff\1\13\7\uffff\3\13\1\uffff\10\13"
+         + "\1\uffff\3\13\1\uffff\27\13\1\uffff\12\13\1\uffff\5\13\4\uffff"
+         + "\7\13\1\uffff\3\13\1\uffff\4\13\7\uffff\2\13\11\uffff\2\13\4"
+         + "\uffff\12\13\22\uffff\2\13\1\uffff\10\13\1\uffff\3\13\1\uffff"
+         + "\27\13\1\uffff\12\13\1\uffff\5\13\2\uffff\11\13\1\uffff\3\13"
+         + "\1\uffff\4\13\7\uffff\2\13\7\uffff\1\13\1\uffff\2\13\4\uffff"
+         + "\12\13\22\uffff\2\13\1\uffff\10\13\1\uffff\3\13\1\uffff\27\13"
+         + "\1\uffff\20\13\4\uffff\6\13\2\uffff\3\13\1\uffff\4\13\11\uffff"
+         + "\1\13\10\uffff\2\13\4\uffff\12\13\22\uffff\2\13\1\uffff\22\13"
+         + "\3\uffff\30\13\1\uffff\11\13\1\uffff\1\13\2\uffff\7\13\3\uffff"
+         + "\1\13\4\uffff\6\13\1\uffff\1\13\1\uffff\10\13\22\uffff\2\13"
+         + "\15\uffff\72\13\4\uffff\20\13\1\uffff\12\13\47\uffff\2\13\1"
+         + "\uffff\1\13\2\uffff\2\13\1\uffff\1\13\2\uffff\1\13\6\uffff\4"
+         + "\13\1\uffff\7\13\1\uffff\3\13\1\uffff\1\13\1\uffff\1\13\2\uffff"
+         + "\2\13\1\uffff\15\13\1\uffff\3\13\2\uffff\5\13\1\uffff\1\13\1"
+         + "\uffff\6\13\2\uffff\12\13\2\uffff\2\13\42\uffff\1\13\27\uffff"
+         + "\2\13\6\uffff\12\13\13\uffff\1\13\1\uffff\1\13\1\uffff\1\13"
+         + "\4\uffff\12\13\1\uffff\42\13\6\uffff\24\13\1\uffff\6\13\4\uffff"
+         + "\10\13\1\uffff\44\13\11\uffff\1\13\71\uffff\42\13\1\uffff\5"
+         + "\13\1\uffff\2\13\1\uffff\7\13\3\uffff\4\13\6\uffff\12\13\6\uffff"
+         + "\12\13\106\uffff\46\13\12\uffff\51\13\7\uffff\132\13\5\uffff"
+         + "\104\13\5\uffff\122\13\6\uffff\7\13\1\uffff\77\13\1\uffff\1"
+         + "\13\1\uffff\4\13\2\uffff\7\13\1\uffff\1\13\1\uffff\4\13\2\uffff"
+         + "\47\13\1\uffff\1\13\1\uffff\4\13\2\uffff\37\13\1\uffff\1\13"
+         + "\1\uffff\4\13\2\uffff\7\13\1\uffff\1\13\1\uffff\4\13\2\uffff"
+         + "\7\13\1\uffff\7\13\1\uffff\27\13\1\uffff\37\13\1\uffff\1\13"
+         + "\1\uffff\4\13\2\uffff\7\13\1\uffff\47\13\1\uffff\23\13\16\uffff"
+         + "\11\13\56\uffff\125\13\14\uffff\u026c\13\2\uffff\10\13\12\uffff"
+         + "\32\13\5\uffff\113\13\3\uffff\3\13\17\uffff\15\13\1\uffff\7"
+         + "\13\13\uffff\25\13\13\uffff\24\13\14\uffff\15\13\1\uffff\3\13"
+         + "\1\uffff\2\13\14\uffff\124\13\3\uffff\1\13\3\uffff\3\13\2\uffff"
+         + "\12\13\41\uffff\3\13\2\uffff\12\13\6\uffff\130\13\10\uffff\52"
+         + "\13\126\uffff\35\13\3\uffff\14\13\4\uffff\14\13\12\uffff\50"
+         + "\13\2\uffff\5\13\u038b\uffff\154\13\u0094\uffff\u009c\13\4\uffff"
+         + "\132\13\6\uffff\26\13\2\uffff\6\13\2\uffff\46\13\2\uffff\6\13"
+         + "\2\uffff\10\13\1\uffff\1\13\1\uffff\1\13\1\uffff\1\13\1\uffff"
+         + "\37\13\2\uffff\65\13\1\uffff\7\13\1\uffff\1\13\3\uffff\3\13"
+         + "\1\uffff\7\13\3\uffff\4\13\2\uffff\6\13\4\uffff\15\13\5\uffff"
+         + "\3\13\1\uffff\7\13\17\uffff\4\13\32\uffff\5\13\20\uffff\2\13"
+         + "\23\uffff\1\13\13\uffff\4\13\6\uffff\6\13\1\uffff\1\13\15\uffff"
+         + "\1\13\40\uffff\22\13\36\uffff\15\13\4\uffff\1\13\3\uffff\6\13"
+         + "\27\uffff\1\13\4\uffff\1\13\2\uffff\12\13\1\uffff\1\13\3\uffff"
+         + "\5\13\6\uffff\1\13\1\uffff\1\13\1\uffff\1\13\1\uffff\4\13\1"
+         + "\uffff\3\13\1\uffff\7\13\3\uffff\3\13\5\uffff\5\13\26\uffff"
+         + "\44\13\u0e81\uffff\3\13\31\uffff\17\13\1\uffff\5\13\2\uffff"
+         + "\5\13\4\uffff\126\13\2\uffff\2\13\2\uffff\3\13\1\uffff\137\13"
+         + "\5\uffff\50\13\4\uffff\136\13\21\uffff\30\13\70\uffff\20\13"
+         + "\u0200\uffff\u19b6\13\112\uffff\u51a6\13\132\uffff\u048d\13"
+         + "\u0773\uffff\u2ba4\13\134\uffff\u0400\13\u1d00\uffff\u012e\13"
+         + "\2\uffff\73\13\u0095\uffff\7\13\14\uffff\5\13\5\uffff\14\13"
+         + "\1\uffff\15\13\1\uffff\5\13\1\uffff\1\13\1\uffff\2\13\1\uffff"
+         + "\2\13\1\uffff\154\13\41\uffff\u016b\13\22\uffff\100\13\2\uffff"
+         + "\66\13\50\uffff\15\13\3\uffff\20\13\20\uffff\4\13\17\uffff\2"
+         + "\13\30\uffff\3\13\31\uffff\1\13\6\uffff\5\13\1\uffff\u0087\13"
+         + "\2\uffff\1\13\4\uffff\1\13\13\uffff\12\13\7\uffff\32\13\4\uffff"
+         + "\1\13\1\uffff\32\13\12\uffff\132\13\3\uffff\6\13\2\uffff\6\13"
+         + "\2\uffff\6\13\2\uffff\3\13\3\uffff\2\13\3\uffff\2\13\22\uffff" + "\3\13",
+      "\1\104",
+      "\1\35\1\uffff\12\72\7\uffff\6\72\11\uffff\1\35\16\uffff\1" + "\73\1\uffff\6\72\11\uffff\1\35",
+      "\12\74\7\uffff\6\74\30\uffff\1\73\1\uffff\6\74",
+      "\1\35\1\uffff\12\74\7\uffff\6\74\11\uffff\1\35\16\uffff\1" + "\73\1\uffff\6\74\11\uffff\1\35",
+      "\1\5\1\uffff\10\75\2\5\12\uffff\3\5\30\uffff\1\76\4\uffff" + "\3\5",
+      "\10\75\2\5\45\uffff\1\76",
+      "\1\5\1\uffff\12\77\12\uffff\3\5\30\uffff\1\100\4\uffff\3\5",
+      "\12\77\45\uffff\1\100",
+      "",
+      "\11\13\5\uffff\16\13\10\uffff\1\13\13\uffff\12\13\7\uffff"
+         + "\32\13\4\uffff\1\13\1\uffff\32\13\4\uffff\41\13\2\uffff\4\13"
+         + "\4\uffff\1\13\2\uffff\1\13\7\uffff\1\13\4\uffff\1\13\5\uffff"
+         + "\27\13\1\uffff\37\13\1\uffff\u013f\13\31\uffff\162\13\4\uffff"
+         + "\14\13\16\uffff\5\13\11\uffff\1\13\21\uffff\130\13\5\uffff\23"
+         + "\13\12\uffff\1\13\13\uffff\1\13\1\uffff\3\13\1\uffff\1\13\1"
+         + "\uffff\24\13\1\uffff\54\13\1\uffff\46\13\1\uffff\5\13\4\uffff"
+         + "\u0082\13\1\uffff\4\13\3\uffff\105\13\1\uffff\46\13\2\uffff"
+         + "\2\13\6\uffff\20\13\41\uffff\46\13\2\uffff\1\13\7\uffff\47\13"
+         + "\11\uffff\21\13\1\uffff\27\13\1\uffff\3\13\1\uffff\1\13\1\uffff"
+         + "\2\13\1\uffff\1\13\13\uffff\33\13\5\uffff\3\13\15\uffff\4\13"
+         + "\14\uffff\6\13\13\uffff\32\13\5\uffff\31\13\7\uffff\12\13\4"
+         + "\uffff\146\13\1\uffff\11\13\1\uffff\12\13\1\uffff\23\13\2\uffff"
+         + "\1\13\17\uffff\74\13\2\uffff\3\13\60\uffff\62\13\u014f\uffff"
+         + "\71\13\2\uffff\22\13\2\uffff\5\13\3\uffff\14\13\2\uffff\12\13"
+         + "\21\uffff\3\13\1\uffff\10\13\2\uffff\2\13\2\uffff\26\13\1\uffff"
+         + "\7\13\1\uffff\1\13\3\uffff\4\13\2\uffff\11\13\2\uffff\2\13\2"
+         + "\uffff\3\13\11\uffff\1\13\4\uffff\2\13\1\uffff\5\13\2\uffff"
+         + "\16\13\15\uffff\3\13\1\uffff\6\13\4\uffff\2\13\2\uffff\26\13"
+         + "\1\uffff\7\13\1\uffff\2\13\1\uffff\2\13\1\uffff\2\13\2\uffff"
+         + "\1\13\1\uffff\5\13\4\uffff\2\13\2\uffff\3\13\13\uffff\4\13\1"
+         + "\uffff\1\13\7\uffff\17\13\14\uffff\3\13\1\uffff\11\13\1\uffff"
+         + "\3\13\1\uffff\26\13\1\uffff\7\13\1\uffff\2\13\1\uffff\5\13\2"
+         + "\uffff\12\13\1\uffff\3\13\1\uffff\3\13\2\uffff\1\13\17\uffff"
+         + "\4\13\2\uffff\12\13\1\uffff\1\13\17\uffff\3\13\1\uffff\10\13"
+         + "\2\uffff\2\13\2\uffff\26\13\1\uffff\7\13\1\uffff\2\13\1\uffff"
+         + "\5\13\2\uffff\10\13\3\uffff\2\13\2\uffff\3\13\10\uffff\2\13"
+         + "\4\uffff\2\13\1\uffff\3\13\4\uffff\12\13\1\uffff\1\13\20\uffff"
+         + "\2\13\1\uffff\6\13\3\uffff\3\13\1\uffff\4\13\3\uffff\2\13\1"
+         + "\uffff\1\13\1\uffff\2\13\3\uffff\2\13\3\uffff\3\13\3\uffff\10"
+         + "\13\1\uffff\3\13\4\uffff\5\13\3\uffff\3\13\1\uffff\4\13\11\uffff"
+         + "\1\13\17\uffff\11\13\11\uffff\1\13\7\uffff\3\13\1\uffff\10\13"
+         + "\1\uffff\3\13\1\uffff\27\13\1\uffff\12\13\1\uffff\5\13\4\uffff"
+         + "\7\13\1\uffff\3\13\1\uffff\4\13\7\uffff\2\13\11\uffff\2\13\4"
+         + "\uffff\12\13\22\uffff\2\13\1\uffff\10\13\1\uffff\3\13\1\uffff"
+         + "\27\13\1\uffff\12\13\1\uffff\5\13\2\uffff\11\13\1\uffff\3\13"
+         + "\1\uffff\4\13\7\uffff\2\13\7\uffff\1\13\1\uffff\2\13\4\uffff"
+         + "\12\13\22\uffff\2\13\1\uffff\10\13\1\uffff\3\13\1\uffff\27\13"
+         + "\1\uffff\20\13\4\uffff\6\13\2\uffff\3\13\1\uffff\4\13\11\uffff"
+         + "\1\13\10\uffff\2\13\4\uffff\12\13\22\uffff\2\13\1\uffff\22\13"
+         + "\3\uffff\30\13\1\uffff\11\13\1\uffff\1\13\2\uffff\7\13\3\uffff"
+         + "\1\13\4\uffff\6\13\1\uffff\1\13\1\uffff\10\13\22\uffff\2\13"
+         + "\15\uffff\72\13\4\uffff\20\13\1\uffff\12\13\47\uffff\2\13\1"
+         + "\uffff\1\13\2\uffff\2\13\1\uffff\1\13\2\uffff\1\13\6\uffff\4"
+         + "\13\1\uffff\7\13\1\uffff\3\13\1\uffff\1\13\1\uffff\1\13\2\uffff"
+         + "\2\13\1\uffff\15\13\1\uffff\3\13\2\uffff\5\13\1\uffff\1\13\1"
+         + "\uffff\6\13\2\uffff\12\13\2\uffff\2\13\42\uffff\1\13\27\uffff"
+         + "\2\13\6\uffff\12\13\13\uffff\1\13\1\uffff\1\13\1\uffff\1\13"
+         + "\4\uffff\12\13\1\uffff\42\13\6\uffff\24\13\1\uffff\6\13\4\uffff"
+         + "\10\13\1\uffff\44\13\11\uffff\1\13\71\uffff\42\13\1\uffff\5"
+         + "\13\1\uffff\2\13\1\uffff\7\13\3\uffff\4\13\6\uffff\12\13\6\uffff"
+         + "\12\13\106\uffff\46\13\12\uffff\51\13\7\uffff\132\13\5\uffff"
+         + "\104\13\5\uffff\122\13\6\uffff\7\13\1\uffff\77\13\1\uffff\1"
+         + "\13\1\uffff\4\13\2\uffff\7\13\1\uffff\1\13\1\uffff\4\13\2\uffff"
+         + "\47\13\1\uffff\1\13\1\uffff\4\13\2\uffff\37\13\1\uffff\1\13"
+         + "\1\uffff\4\13\2\uffff\7\13\1\uffff\1\13\1\uffff\4\13\2\uffff"
+         + "\7\13\1\uffff\7\13\1\uffff\27\13\1\uffff\37\13\1\uffff\1\13"
+         + "\1\uffff\4\13\2\uffff\7\13\1\uffff\47\13\1\uffff\23\13\16\uffff"
+         + "\11\13\56\uffff\125\13\14\uffff\u026c\13\2\uffff\10\13\12\uffff"
+         + "\32\13\5\uffff\113\13\3\uffff\3\13\17\uffff\15\13\1\uffff\7"
+         + "\13\13\uffff\25\13\13\uffff\24\13\14\uffff\15\13\1\uffff\3\13"
+         + "\1\uffff\2\13\14\uffff\124\13\3\uffff\1\13\3\uffff\3\13\2\uffff"
+         + "\12\13\41\uffff\3\13\2\uffff\12\13\6\uffff\130\13\10\uffff\52"
+         + "\13\126\uffff\35\13\3\uffff\14\13\4\uffff\14\13\12\uffff\50"
+         + "\13\2\uffff\5\13\u038b\uffff\154\13\u0094\uffff\u009c\13\4\uffff"
+         + "\132\13\6\uffff\26\13\2\uffff\6\13\2\uffff\46\13\2\uffff\6\13"
+         + "\2\uffff\10\13\1\uffff\1\13\1\uffff\1\13\1\uffff\1\13\1\uffff"
+         + "\37\13\2\uffff\65\13\1\uffff\7\13\1\uffff\1\13\3\uffff\3\13"
+         + "\1\uffff\7\13\3\uffff\4\13\2\uffff\6\13\4\uffff\15\13\5\uffff"
+         + "\3\13\1\uffff\7\13\17\uffff\4\13\32\uffff\5\13\20\uffff\2\13"
+         + "\23\uffff\1\13\13\uffff\4\13\6\uffff\6\13\1\uffff\1\13\15\uffff"
+         + "\1\13\40\uffff\22\13\36\uffff\15\13\4\uffff\1\13\3\uffff\6\13"
+         + "\27\uffff\1\13\4\uffff\1\13\2\uffff\12\13\1\uffff\1\13\3\uffff"
+         + "\5\13\6\uffff\1\13\1\uffff\1\13\1\uffff\1\13\1\uffff\4\13\1"
+         + "\uffff\3\13\1\uffff\7\13\3\uffff\3\13\5\uffff\5\13\26\uffff"
+         + "\44\13\u0e81\uffff\3\13\31\uffff\17\13\1\uffff\5\13\2\uffff"
+         + "\5\13\4\uffff\126\13\2\uffff\2\13\2\uffff\3\13\1\uffff\137\13"
+         + "\5\uffff\50\13\4\uffff\136\13\21\uffff\30\13\70\uffff\20\13"
+         + "\u0200\uffff\u19b6\13\112\uffff\u51a6\13\132\uffff\u048d\13"
+         + "\u0773\uffff\u2ba4\13\134\uffff\u0400\13\u1d00\uffff\u012e\13"
+         + "\2\uffff\73\13\u0095\uffff\7\13\14\uffff\5\13\5\uffff\14\13"
+         + "\1\uffff\15\13\1\uffff\5\13\1\uffff\1\13\1\uffff\2\13\1\uffff"
+         + "\2\13\1\uffff\154\13\41\uffff\u016b\13\22\uffff\100\13\2\uffff"
+         + "\66\13\50\uffff\15\13\3\uffff\20\13\20\uffff\4\13\17\uffff\2"
+         + "\13\30\uffff\3\13\31\uffff\1\13\6\uffff\5\13\1\uffff\u0087\13"
+         + "\2\uffff\1\13\4\uffff\1\13\13\uffff\12\13\7\uffff\32\13\4\uffff"
+         + "\1\13\1\uffff\32\13\12\uffff\132\13\3\uffff\6\13\2\uffff\6\13"
+         + "\2\uffff\6\13\2\uffff\3\13\3\uffff\2\13\3\uffff\2\13\22\uffff" + "\3\13",
+      "",
+      "\11\13\5\uffff\16\13\10\uffff\1\13\13\uffff\12\13\7\uffff"
+         + "\32\13\4\uffff\1\13\1\uffff\32\13\4\uffff\41\13\2\uffff\4\13"
+         + "\4\uffff\1\13\2\uffff\1\13\7\uffff\1\13\4\uffff\1\13\5\uffff"
+         + "\27\13\1\uffff\37\13\1\uffff\u013f\13\31\uffff\162\13\4\uffff"
+         + "\14\13\16\uffff\5\13\11\uffff\1\13\21\uffff\130\13\5\uffff\23"
+         + "\13\12\uffff\1\13\13\uffff\1\13\1\uffff\3\13\1\uffff\1\13\1"
+         + "\uffff\24\13\1\uffff\54\13\1\uffff\46\13\1\uffff\5\13\4\uffff"
+         + "\u0082\13\1\uffff\4\13\3\uffff\105\13\1\uffff\46\13\2\uffff"
+         + "\2\13\6\uffff\20\13\41\uffff\46\13\2\uffff\1\13\7\uffff\47\13"
+         + "\11\uffff\21\13\1\uffff\27\13\1\uffff\3\13\1\uffff\1\13\1\uffff"
+         + "\2\13\1\uffff\1\13\13\uffff\33\13\5\uffff\3\13\15\uffff\4\13"
+         + "\14\uffff\6\13\13\uffff\32\13\5\uffff\31\13\7\uffff\12\13\4"
+         + "\uffff\146\13\1\uffff\11\13\1\uffff\12\13\1\uffff\23\13\2\uffff"
+         + "\1\13\17\uffff\74\13\2\uffff\3\13\60\uffff\62\13\u014f\uffff"
+         + "\71\13\2\uffff\22\13\2\uffff\5\13\3\uffff\14\13\2\uffff\12\13"
+         + "\21\uffff\3\13\1\uffff\10\13\2\uffff\2\13\2\uffff\26\13\1\uffff"
+         + "\7\13\1\uffff\1\13\3\uffff\4\13\2\uffff\11\13\2\uffff\2\13\2"
+         + "\uffff\3\13\11\uffff\1\13\4\uffff\2\13\1\uffff\5\13\2\uffff"
+         + "\16\13\15\uffff\3\13\1\uffff\6\13\4\uffff\2\13\2\uffff\26\13"
+         + "\1\uffff\7\13\1\uffff\2\13\1\uffff\2\13\1\uffff\2\13\2\uffff"
+         + "\1\13\1\uffff\5\13\4\uffff\2\13\2\uffff\3\13\13\uffff\4\13\1"
+         + "\uffff\1\13\7\uffff\17\13\14\uffff\3\13\1\uffff\11\13\1\uffff"
+         + "\3\13\1\uffff\26\13\1\uffff\7\13\1\uffff\2\13\1\uffff\5\13\2"
+         + "\uffff\12\13\1\uffff\3\13\1\uffff\3\13\2\uffff\1\13\17\uffff"
+         + "\4\13\2\uffff\12\13\1\uffff\1\13\17\uffff\3\13\1\uffff\10\13"
+         + "\2\uffff\2\13\2\uffff\26\13\1\uffff\7\13\1\uffff\2\13\1\uffff"
+         + "\5\13\2\uffff\10\13\3\uffff\2\13\2\uffff\3\13\10\uffff\2\13"
+         + "\4\uffff\2\13\1\uffff\3\13\4\uffff\12\13\1\uffff\1\13\20\uffff"
+         + "\2\13\1\uffff\6\13\3\uffff\3\13\1\uffff\4\13\3\uffff\2\13\1"
+         + "\uffff\1\13\1\uffff\2\13\3\uffff\2\13\3\uffff\3\13\3\uffff\10"
+         + "\13\1\uffff\3\13\4\uffff\5\13\3\uffff\3\13\1\uffff\4\13\11\uffff"
+         + "\1\13\17\uffff\11\13\11\uffff\1\13\7\uffff\3\13\1\uffff\10\13"
+         + "\1\uffff\3\13\1\uffff\27\13\1\uffff\12\13\1\uffff\5\13\4\uffff"
+         + "\7\13\1\uffff\3\13\1\uffff\4\13\7\uffff\2\13\11\uffff\2\13\4"
+         + "\uffff\12\13\22\uffff\2\13\1\uffff\10\13\1\uffff\3\13\1\uffff"
+         + "\27\13\1\uffff\12\13\1\uffff\5\13\2\uffff\11\13\1\uffff\3\13"
+         + "\1\uffff\4\13\7\uffff\2\13\7\uffff\1\13\1\uffff\2\13\4\uffff"
+         + "\12\13\22\uffff\2\13\1\uffff\10\13\1\uffff\3\13\1\uffff\27\13"
+         + "\1\uffff\20\13\4\uffff\6\13\2\uffff\3\13\1\uffff\4\13\11\uffff"
+         + "\1\13\10\uffff\2\13\4\uffff\12\13\22\uffff\2\13\1\uffff\22\13"
+         + "\3\uffff\30\13\1\uffff\11\13\1\uffff\1\13\2\uffff\7\13\3\uffff"
+         + "\1\13\4\uffff\6\13\1\uffff\1\13\1\uffff\10\13\22\uffff\2\13"
+         + "\15\uffff\72\13\4\uffff\20\13\1\uffff\12\13\47\uffff\2\13\1"
+         + "\uffff\1\13\2\uffff\2\13\1\uffff\1\13\2\uffff\1\13\6\uffff\4"
+         + "\13\1\uffff\7\13\1\uffff\3\13\1\uffff\1\13\1\uffff\1\13\2\uffff"
+         + "\2\13\1\uffff\15\13\1\uffff\3\13\2\uffff\5\13\1\uffff\1\13\1"
+         + "\uffff\6\13\2\uffff\12\13\2\uffff\2\13\42\uffff\1\13\27\uffff"
+         + "\2\13\6\uffff\12\13\13\uffff\1\13\1\uffff\1\13\1\uffff\1\13"
+         + "\4\uffff\12\13\1\uffff\42\13\6\uffff\24\13\1\uffff\6\13\4\uffff"
+         + "\10\13\1\uffff\44\13\11\uffff\1\13\71\uffff\42\13\1\uffff\5"
+         + "\13\1\uffff\2\13\1\uffff\7\13\3\uffff\4\13\6\uffff\12\13\6\uffff"
+         + "\12\13\106\uffff\46\13\12\uffff\51\13\7\uffff\132\13\5\uffff"
+         + "\104\13\5\uffff\122\13\6\uffff\7\13\1\uffff\77\13\1\uffff\1"
+         + "\13\1\uffff\4\13\2\uffff\7\13\1\uffff\1\13\1\uffff\4\13\2\uffff"
+         + "\47\13\1\uffff\1\13\1\uffff\4\13\2\uffff\37\13\1\uffff\1\13"
+         + "\1\uffff\4\13\2\uffff\7\13\1\uffff\1\13\1\uffff\4\13\2\uffff"
+         + "\7\13\1\uffff\7\13\1\uffff\27\13\1\uffff\37\13\1\uffff\1\13"
+         + "\1\uffff\4\13\2\uffff\7\13\1\uffff\47\13\1\uffff\23\13\16\uffff"
+         + "\11\13\56\uffff\125\13\14\uffff\u026c\13\2\uffff\10\13\12\uffff"
+         + "\32\13\5\uffff\113\13\3\uffff\3\13\17\uffff\15\13\1\uffff\7"
+         + "\13\13\uffff\25\13\13\uffff\24\13\14\uffff\15\13\1\uffff\3\13"
+         + "\1\uffff\2\13\14\uffff\124\13\3\uffff\1\13\3\uffff\3\13\2\uffff"
+         + "\12\13\41\uffff\3\13\2\uffff\12\13\6\uffff\130\13\10\uffff\52"
+         + "\13\126\uffff\35\13\3\uffff\14\13\4\uffff\14\13\12\uffff\50"
+         + "\13\2\uffff\5\13\u038b\uffff\154\13\u0094\uffff\u009c\13\4\uffff"
+         + "\132\13\6\uffff\26\13\2\uffff\6\13\2\uffff\46\13\2\uffff\6\13"
+         + "\2\uffff\10\13\1\uffff\1\13\1\uffff\1\13\1\uffff\1\13\1\uffff"
+         + "\37\13\2\uffff\65\13\1\uffff\7\13\1\uffff\1\13\3\uffff\3\13"
+         + "\1\uffff\7\13\3\uffff\4\13\2\uffff\6\13\4\uffff\15\13\5\uffff"
+         + "\3\13\1\uffff\7\13\17\uffff\4\13\32\uffff\5\13\20\uffff\2\13"
+         + "\23\uffff\1\13\13\uffff\4\13\6\uffff\6\13\1\uffff\1\13\15\uffff"
+         + "\1\13\40\uffff\22\13\36\uffff\15\13\4\uffff\1\13\3\uffff\6\13"
+         + "\27\uffff\1\13\4\uffff\1\13\2\uffff\12\13\1\uffff\1\13\3\uffff"
+         + "\5\13\6\uffff\1\13\1\uffff\1\13\1\uffff\1\13\1\uffff\4\13\1"
+         + "\uffff\3\13\1\uffff\7\13\3\uffff\3\13\5\uffff\5\13\26\uffff"
+         + "\44\13\u0e81\uffff\3\13\31\uffff\17\13\1\uffff\5\13\2\uffff"
+         + "\5\13\4\uffff\126\13\2\uffff\2\13\2\uffff\3\13\1\uffff\137\13"
+         + "\5\uffff\50\13\4\uffff\136\13\21\uffff\30\13\70\uffff\20\13"
+         + "\u0200\uffff\u19b6\13\112\uffff\u51a6\13\132\uffff\u048d\13"
+         + "\u0773\uffff\u2ba4\13\134\uffff\u0400\13\u1d00\uffff\u012e\13"
+         + "\2\uffff\73\13\u0095\uffff\7\13\14\uffff\5\13\5\uffff\14\13"
+         + "\1\uffff\15\13\1\uffff\5\13\1\uffff\1\13\1\uffff\2\13\1\uffff"
+         + "\2\13\1\uffff\154\13\41\uffff\u016b\13\22\uffff\100\13\2\uffff"
+         + "\66\13\50\uffff\15\13\3\uffff\20\13\20\uffff\4\13\17\uffff\2"
+         + "\13\30\uffff\3\13\31\uffff\1\13\6\uffff\5\13\1\uffff\u0087\13"
+         + "\2\uffff\1\13\4\uffff\1\13\13\uffff\12\13\7\uffff\32\13\4\uffff"
+         + "\1\13\1\uffff\32\13\12\uffff\132\13\3\uffff\6\13\2\uffff\6\13"
+         + "\2\uffff\6\13\2\uffff\3\13\3\uffff\2\13\3\uffff\2\13\22\uffff" + "\3\13", "", "" };
 
    static final short[] DFA47_eot = DFA.unpackEncodedString(DFA47_eotS);
    static final short[] DFA47_eof = DFA.unpackEncodedString(DFA47_eofS);
@@ -11518,7 +11681,7 @@ public class InternalLiteralsLexer extends Lexer {
       }
 
       public String getDescription() {
-         return "1:1: Tokens : ( RULE_DECIMALINTEGERLITERAL | RULE_HEXINTEGERLITERAL | RULE_OCTALINTEGERLITERAL | RULE_BINARYINTEGERLITERAL | RULE_DECIMALFLOATINGPOINTLITERAL | RULE_HEXADECIMALFLOATINGPOINTLITERAL | RULE_TRUE | RULE_FALSE | RULE_CHARACTER | RULE_STRING | RULE_NULL | RULE_IDENTIFIER | RULE_ML_COMMENT | RULE_SL_COMMENT | RULE_WS );";
+         return "1:1: Tokens : ( T__57 | T__58 | RULE_DECIMALINTEGERLITERAL | RULE_HEXINTEGERLITERAL | RULE_OCTALINTEGERLITERAL | RULE_BINARYINTEGERLITERAL | RULE_DECIMALFLOATINGPOINTLITERAL | RULE_HEXADECIMALFLOATINGPOINTLITERAL | RULE_TRUE | RULE_FALSE | RULE_CHARACTER | RULE_STRING | RULE_NULL | RULE_IDENTIFIER | RULE_ML_COMMENT | RULE_SL_COMMENT | RULE_WS );";
       }
    }
 

@@ -61,6 +61,27 @@ public interface LiteralsPackage extends EPackage {
    LiteralsPackage eINSTANCE = org.sourcepit.java.literals.literals.impl.LiteralsPackageImpl.init();
 
    /**
+    * The meta object id for the '{@link org.sourcepit.java.literals.literals.impl.FooImpl <em>Foo</em>}' class.
+    * <!-- begin-user-doc -->
+    * <!-- end-user-doc -->
+    * 
+    * @see org.sourcepit.java.literals.literals.impl.FooImpl
+    * @see org.sourcepit.java.literals.literals.impl.LiteralsPackageImpl#getFoo()
+    * @generated
+    */
+   int FOO = 0;
+
+   /**
+    * The number of structural features of the '<em>Foo</em>' class.
+    * <!-- begin-user-doc -->
+    * <!-- end-user-doc -->
+    * 
+    * @generated
+    * @ordered
+    */
+   int FOO_FEATURE_COUNT = 0;
+
+   /**
     * The meta object id for the '{@link org.sourcepit.java.literals.literals.impl.literalImpl <em>literal</em>}' class.
     * <!-- begin-user-doc -->
     * <!-- end-user-doc -->
@@ -69,7 +90,7 @@ public interface LiteralsPackage extends EPackage {
     * @see org.sourcepit.java.literals.literals.impl.LiteralsPackageImpl#getliteral()
     * @generated
     */
-   int LITERAL = 0;
+   int LITERAL = 1;
 
    /**
     * The feature id for the '<em><b>Value</b></em>' attribute.
@@ -79,7 +100,7 @@ public interface LiteralsPackage extends EPackage {
     * @generated
     * @ordered
     */
-   int LITERAL__VALUE = 0;
+   int LITERAL__VALUE = FOO_FEATURE_COUNT + 0;
 
    /**
     * The number of structural features of the '<em>literal</em>' class.
@@ -89,7 +110,7 @@ public interface LiteralsPackage extends EPackage {
     * @generated
     * @ordered
     */
-   int LITERAL_FEATURE_COUNT = 1;
+   int LITERAL_FEATURE_COUNT = FOO_FEATURE_COUNT + 1;
 
    /**
     * The meta object id for the '{@link org.sourcepit.java.literals.literals.impl.IntegerLiteralImpl
@@ -101,7 +122,7 @@ public interface LiteralsPackage extends EPackage {
     * @see org.sourcepit.java.literals.literals.impl.LiteralsPackageImpl#getIntegerLiteral()
     * @generated
     */
-   int INTEGER_LITERAL = 1;
+   int INTEGER_LITERAL = 2;
 
    /**
     * The feature id for the '<em><b>Value</b></em>' attribute.
@@ -133,7 +154,7 @@ public interface LiteralsPackage extends EPackage {
     * @see org.sourcepit.java.literals.literals.impl.LiteralsPackageImpl#getFloatingPointLiteral()
     * @generated
     */
-   int FLOATING_POINT_LITERAL = 2;
+   int FLOATING_POINT_LITERAL = 3;
 
    /**
     * The feature id for the '<em><b>Value</b></em>' attribute.
@@ -165,7 +186,7 @@ public interface LiteralsPackage extends EPackage {
     * @see org.sourcepit.java.literals.literals.impl.LiteralsPackageImpl#getBooleanLiteral()
     * @generated
     */
-   int BOOLEAN_LITERAL = 3;
+   int BOOLEAN_LITERAL = 4;
 
    /**
     * The feature id for the '<em><b>Value</b></em>' attribute.
@@ -197,7 +218,7 @@ public interface LiteralsPackage extends EPackage {
     * @see org.sourcepit.java.literals.literals.impl.LiteralsPackageImpl#getCharacterLiteral()
     * @generated
     */
-   int CHARACTER_LITERAL = 4;
+   int CHARACTER_LITERAL = 5;
 
    /**
     * The feature id for the '<em><b>Value</b></em>' attribute.
@@ -229,7 +250,7 @@ public interface LiteralsPackage extends EPackage {
     * @see org.sourcepit.java.literals.literals.impl.LiteralsPackageImpl#getStringLiteral()
     * @generated
     */
-   int STRING_LITERAL = 5;
+   int STRING_LITERAL = 6;
 
    /**
     * The feature id for the '<em><b>Value</b></em>' attribute.
@@ -261,7 +282,7 @@ public interface LiteralsPackage extends EPackage {
     * @see org.sourcepit.java.literals.literals.impl.LiteralsPackageImpl#getNullLiteral()
     * @generated
     */
-   int NULL_LITERAL = 6;
+   int NULL_LITERAL = 7;
 
    /**
     * The feature id for the '<em><b>Value</b></em>' attribute.
@@ -283,6 +304,17 @@ public interface LiteralsPackage extends EPackage {
     */
    int NULL_LITERAL_FEATURE_COUNT = LITERAL_FEATURE_COUNT + 0;
 
+
+   /**
+    * Returns the meta object for class '{@link org.sourcepit.java.literals.literals.Foo <em>Foo</em>}'.
+    * <!-- begin-user-doc -->
+    * <!-- end-user-doc -->
+    * 
+    * @return the meta object for class '<em>Foo</em>'.
+    * @see org.sourcepit.java.literals.literals.Foo
+    * @generated
+    */
+   EClass getFoo();
 
    /**
     * Returns the meta object for class '{@link org.sourcepit.java.literals.literals.literal <em>literal</em>}'.
@@ -404,6 +436,17 @@ public interface LiteralsPackage extends EPackage {
     * @generated
     */
    interface Literals {
+      /**
+       * The meta object literal for the '{@link org.sourcepit.java.literals.literals.impl.FooImpl <em>Foo</em>}' class.
+       * <!-- begin-user-doc -->
+       * <!-- end-user-doc -->
+       * 
+       * @see org.sourcepit.java.literals.literals.impl.FooImpl
+       * @see org.sourcepit.java.literals.literals.impl.LiteralsPackageImpl#getFoo()
+       * @generated
+       */
+      EClass FOO = eINSTANCE.getFoo();
+
       /**
        * The meta object literal for the '{@link org.sourcepit.java.literals.literals.impl.literalImpl <em>literal</em>}
        * ' class.

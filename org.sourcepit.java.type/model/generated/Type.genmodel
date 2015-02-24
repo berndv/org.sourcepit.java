@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/org.sourcepit.java.type/src-gen" editDirectory="/org.sourcepit.java.type.edit/src"
+    editorDirectory="/org.sourcepit.java.type.editor/src" modelPluginID="org.sourcepit.java.type"
+    forceOverwrite="true" modelName="Type" updateClasspath="false" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    complianceLevel="5.0" copyrightFields="false" editPluginID="org.sourcepit.java.type.edit"
+    editorPluginID="org.sourcepit.java.type.editor" runtimeVersion="2.10" usedGenPackages="platform:/resource/org.sourcepit.java.literals/model/generated/Literals.genmodel#//literals">
+  <genPackages prefix="Type" basePackage="org.sourcepit.java.type" disposableProviderFactory="true"
+      fileExtensions="type" ecorePackage="Type.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="Type.ecore#//ClassModifiers">
+      <genEnumLiterals ecoreEnumLiteral="Type.ecore#//ClassModifiers/PUBLIC"/>
+      <genEnumLiterals ecoreEnumLiteral="Type.ecore#//ClassModifiers/PROTECTED"/>
+      <genEnumLiterals ecoreEnumLiteral="Type.ecore#//ClassModifiers/PRIVATE"/>
+      <genEnumLiterals ecoreEnumLiteral="Type.ecore#//ClassModifiers/ABSTRACT"/>
+      <genEnumLiterals ecoreEnumLiteral="Type.ecore#//ClassModifiers/STATIC"/>
+      <genEnumLiterals ecoreEnumLiteral="Type.ecore#//ClassModifiers/FINAL"/>
+      <genEnumLiterals ecoreEnumLiteral="Type.ecore#//ClassModifiers/STRICTFP"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="Type.ecore#//FieldModifiers">
+      <genEnumLiterals ecoreEnumLiteral="Type.ecore#//FieldModifiers/PUBLIC"/>
+      <genEnumLiterals ecoreEnumLiteral="Type.ecore#//FieldModifiers/PROTECTED"/>
+      <genEnumLiterals ecoreEnumLiteral="Type.ecore#//FieldModifiers/PRIVATE"/>
+      <genEnumLiterals ecoreEnumLiteral="Type.ecore#//FieldModifiers/STATIC"/>
+      <genEnumLiterals ecoreEnumLiteral="Type.ecore#//FieldModifiers/FINAL"/>
+      <genEnumLiterals ecoreEnumLiteral="Type.ecore#//FieldModifiers/TRANSIENT"/>
+      <genEnumLiterals ecoreEnumLiteral="Type.ecore#//FieldModifiers/VOLATILE"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="Type.ecore#//methodModifiers">
+      <genEnumLiterals ecoreEnumLiteral="Type.ecore#//methodModifiers/PUBLIC"/>
+      <genEnumLiterals ecoreEnumLiteral="Type.ecore#//methodModifiers/PROTECTED"/>
+      <genEnumLiterals ecoreEnumLiteral="Type.ecore#//methodModifiers/PRIVATE"/>
+      <genEnumLiterals ecoreEnumLiteral="Type.ecore#//methodModifiers/ABSTRACT"/>
+      <genEnumLiterals ecoreEnumLiteral="Type.ecore#//methodModifiers/STATIC"/>
+      <genEnumLiterals ecoreEnumLiteral="Type.ecore#//methodModifiers/FINAL"/>
+      <genEnumLiterals ecoreEnumLiteral="Type.ecore#//methodModifiers/SYNCHRONIZED"/>
+      <genEnumLiterals ecoreEnumLiteral="Type.ecore#//methodModifiers/NATIVE"/>
+      <genEnumLiterals ecoreEnumLiteral="Type.ecore#//methodModifiers/STRICTFP"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="Type.ecore#//VariableModifiers">
+      <genEnumLiterals ecoreEnumLiteral="Type.ecore#//VariableModifiers/PUBLIC"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="Type.ecore#//ConstructorModifiers">
+      <genEnumLiterals ecoreEnumLiteral="Type.ecore#//ConstructorModifiers/PUBLIC"/>
+      <genEnumLiterals ecoreEnumLiteral="Type.ecore#//ConstructorModifiers/PROTECTED"/>
+      <genEnumLiterals ecoreEnumLiteral="Type.ecore#//ConstructorModifiers/PRIVATE"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="Type.ecore#//InterfaceModifiers">
+      <genEnumLiterals ecoreEnumLiteral="Type.ecore#//InterfaceModifiers/PUBLIC"/>
+      <genEnumLiterals ecoreEnumLiteral="Type.ecore#//InterfaceModifiers/PROTECTED"/>
+      <genEnumLiterals ecoreEnumLiteral="Type.ecore#//InterfaceModifiers/PRIVATE"/>
+      <genEnumLiterals ecoreEnumLiteral="Type.ecore#//InterfaceModifiers/ABSTRACT"/>
+      <genEnumLiterals ecoreEnumLiteral="Type.ecore#//InterfaceModifiers/STATIC"/>
+      <genEnumLiterals ecoreEnumLiteral="Type.ecore#//InterfaceModifiers/STRICTFP"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="Type.ecore#//ConstantModifiers">
+      <genEnumLiterals ecoreEnumLiteral="Type.ecore#//ConstantModifiers/PUBLIC"/>
+      <genEnumLiterals ecoreEnumLiteral="Type.ecore#//ConstantModifiers/STATIC"/>
+      <genEnumLiterals ecoreEnumLiteral="Type.ecore#//ConstantModifiers/FINAL"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="Type.ecore#//InterfaceMethodModifiers">
+      <genEnumLiterals ecoreEnumLiteral="Type.ecore#//InterfaceMethodModifiers/PUBLIC"/>
+      <genEnumLiterals ecoreEnumLiteral="Type.ecore#//InterfaceMethodModifiers/ABSTRACT"/>
+      <genEnumLiterals ecoreEnumLiteral="Type.ecore#//InterfaceMethodModifiers/DEFAULT"/>
+      <genEnumLiterals ecoreEnumLiteral="Type.ecore#//InterfaceMethodModifiers/STATIC"/>
+      <genEnumLiterals ecoreEnumLiteral="Type.ecore#//InterfaceMethodModifiers/STRICTFP"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="Type.ecore#//AnnotationTypeElementModifiers">
+      <genEnumLiterals ecoreEnumLiteral="Type.ecore#//AnnotationTypeElementModifiers/PUBLIC"/>
+      <genEnumLiterals ecoreEnumLiteral="Type.ecore#//AnnotationTypeElementModifiers/STATIC"/>
+    </genEnums>
+    <genClasses ecoreClass="Type.ecore#//Model">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//Model/type"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//type"/>
+    <genClasses ecoreClass="Type.ecore#//primitiveType">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//primitiveType/annotations"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Type.ecore#//primitiveType/typeName"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//referenceType"/>
+    <genClasses ecoreClass="Type.ecore#//classOrInterfaceType">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//classOrInterfaceType/classOrInterfaceTypeSegments"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//classOrInterfaceTypeSegment">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//classOrInterfaceTypeSegment/annotations"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Type.ecore#//classOrInterfaceTypeSegment/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//classOrInterfaceTypeSegment/typeArguments"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//classType">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//classType/typeArguments"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//classType/classOrInterfaceType"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//classType_lf_classOrInterfaceType">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//classType_lf_classOrInterfaceType/annotations"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Type.ecore#//classType_lf_classOrInterfaceType/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//classType_lf_classOrInterfaceType/typeArguments"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//classType_lfno_classOrInterfaceType">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//classType_lfno_classOrInterfaceType/annotations"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Type.ecore#//classType_lfno_classOrInterfaceType/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//classType_lfno_classOrInterfaceType/typeArguments"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//interfaceType"/>
+    <genClasses ecoreClass="Type.ecore#//interfaceType_lf_classOrInterfaceType"/>
+    <genClasses ecoreClass="Type.ecore#//interfaceType_lfno_classOrInterfaceType"/>
+    <genClasses ecoreClass="Type.ecore#//typeVariable"/>
+    <genClasses ecoreClass="Type.ecore#//arrayType">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//arrayType/type"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//arrayType/dims"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//dims">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//dims/dims"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//dim">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//dim/annotations"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//typeParameter">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//typeParameter/typeParameterModifiers"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Type.ecore#//typeParameter/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//typeParameter/typeBound"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//typeParameterModifier"/>
+    <genClasses ecoreClass="Type.ecore#//typeBound">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//typeBound/typeVariable"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//typeBound/classOrInterfaceType"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//typeBound/additionalBound"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//additionalBound"/>
+    <genClasses ecoreClass="Type.ecore#//typeArguments"/>
+    <genClasses ecoreClass="Type.ecore#//typeArgumentList">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//typeArgumentList/typeArguments"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//typeArgument"/>
+    <genClasses ecoreClass="Type.ecore#//wildcard">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//wildcard/annotations"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//wildcard/wildcardBounds"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//wildcardBounds"/>
+    <genClasses ecoreClass="Type.ecore#//compilationUnit">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//compilationUnit/package"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//compilationUnit/imports"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//compilationUnit/types"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//packageDeclaration">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//packageDeclaration/modifiers"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Type.ecore#//packageDeclaration/name"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//packageModifier"/>
+    <genClasses ecoreClass="Type.ecore#//importDeclaration">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Type.ecore#//importDeclaration/name"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//singleTypeImportDeclaration"/>
+    <genClasses ecoreClass="Type.ecore#//typeImportOnDemandDeclaration"/>
+    <genClasses ecoreClass="Type.ecore#//singleStaticImportDeclaration"/>
+    <genClasses ecoreClass="Type.ecore#//staticImportOnDemandDeclaration"/>
+    <genClasses ecoreClass="Type.ecore#//typeDeclaration"/>
+    <genClasses ecoreClass="Type.ecore#//classDeclaration">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//classDeclaration/modifiers"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Type.ecore#//classDeclaration/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//classDeclaration/superinterfaces"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//normalClassDeclaration">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//normalClassDeclaration/typeParameters"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//normalClassDeclaration/superclass"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//normalClassDeclaration/classBody"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//classModifier"/>
+    <genClasses ecoreClass="Type.ecore#//JavaClassModifier">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Type.ecore#//JavaClassModifier/modifier"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//typeParameters"/>
+    <genClasses ecoreClass="Type.ecore#//typeParameterList">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//typeParameterList/typeParameters"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//superclass"/>
+    <genClasses ecoreClass="Type.ecore#//superinterfaces"/>
+    <genClasses ecoreClass="Type.ecore#//interfaceTypeList">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//interfaceTypeList/interfaceTypes"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//classBody">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//classBody/declarations"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//classBodyDeclaration"/>
+    <genClasses ecoreClass="Type.ecore#//classMemberDeclaration"/>
+    <genClasses ecoreClass="Type.ecore#//fieldDeclaration">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//fieldDeclaration/fieldModifiers"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//fieldDeclaration/unannType"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//fieldDeclaration/variableDeclaratorList"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//fieldModifier"/>
+    <genClasses ecoreClass="Type.ecore#//JavaFieldModifier">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Type.ecore#//JavaFieldModifier/modifier"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//variableDeclaratorList">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//variableDeclaratorList/variableDeclarators"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//variableDeclarator">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//variableDeclarator/id"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//variableDeclarator/initializer"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//variableDeclaratorId">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Type.ecore#//variableDeclaratorId/id"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//variableDeclaratorId/dims"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//variableInitializer"/>
+    <genClasses ecoreClass="Type.ecore#//unannType"/>
+    <genClasses ecoreClass="Type.ecore#//unannPrimitiveType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Type.ecore#//unannPrimitiveType/name"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//unannReferenceType"/>
+    <genClasses ecoreClass="Type.ecore#//unannClassOrInterfaceType"/>
+    <genClasses ecoreClass="Type.ecore#//unannClassType">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//unannClassType/classTypeSegment"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//ClassTypeSegment">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Type.ecore#//ClassTypeSegment/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//ClassTypeSegment/typeArguments"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//ClassTypeSegmentWithAnnotations">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//ClassTypeSegmentWithAnnotations/annotations"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Type.ecore#//ClassTypeSegmentWithAnnotations/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//ClassTypeSegmentWithAnnotations/typeArguments"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//unannInterfaceType"/>
+    <genClasses ecoreClass="Type.ecore#//unannTypeVariable">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Type.ecore#//unannTypeVariable/name"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//unannArrayType">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//unannArrayType/dims"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//methodDeclaration">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//methodDeclaration/methodModifiers"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//methodDeclaration/methodHeader"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//methodDeclaration/methodBody"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//methodModifier"/>
+    <genClasses ecoreClass="Type.ecore#//JavaMethodModifier">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Type.ecore#//JavaMethodModifier/modifier"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//methodHeader">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//methodHeader/result"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//methodHeader/methodDeclarator"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//methodHeader/throws_"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//methodHeader/typeParameters"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//methodHeader/annotations"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//result"/>
+    <genClasses ecoreClass="Type.ecore#//voidType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Type.ecore#//voidType/name"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//methodDeclarator">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Type.ecore#//methodDeclarator/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//methodDeclarator/parameters"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//methodDeclarator/dims_"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//formalParameterList">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//formalParameterList/parameters"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//formalParameters">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//formalParameters/parameters"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//formalParameter"/>
+    <genClasses ecoreClass="Type.ecore#//variableModifier"/>
+    <genClasses ecoreClass="Type.ecore#//JavaVariableModifier">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Type.ecore#//JavaVariableModifier/modifier"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//lastFormalParameter">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//lastFormalParameter/modifiers"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//lastFormalParameter/type"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//lastFormalParameter/annotations"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Type.ecore#//lastFormalParameter/varargs"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//lastFormalParameter/name"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//receiverParameter">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//receiverParameter/annotations"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//receiverParameter/type"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Type.ecore#//receiverParameter/qualifier"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Type.ecore#//receiverParameter/name"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//throws_"/>
+    <genClasses ecoreClass="Type.ecore#//exceptionTypeList">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//exceptionTypeList/exceptionTypes"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//exceptionType">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//exceptionType/annotations"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Type.ecore#//exceptionType/name"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//methodBody"/>
+    <genClasses ecoreClass="Type.ecore#//instanceInitializer"/>
+    <genClasses ecoreClass="Type.ecore#//staticInitializer"/>
+    <genClasses ecoreClass="Type.ecore#//constructorDeclaration">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//constructorDeclaration/constructorModifiers"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//constructorDeclaration/constructorDeclarator"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//constructorDeclaration/throws_"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//constructorModifier"/>
+    <genClasses ecoreClass="Type.ecore#//JavaConstructorModifier">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Type.ecore#//JavaConstructorModifier/modifier"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//constructorDeclarator">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//constructorDeclarator/typeParameters"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Type.ecore#//constructorDeclarator/simpleTypeName"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//constructorDeclarator/formalParameterList"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//enumDeclaration">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//enumDeclaration/enumBody"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//enumBody">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//enumBody/enumConstantList"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//enumBody/enumBodyDeclarations"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//enumConstantList">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//enumConstantList/enumConstants"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//enumConstant">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//enumConstant/enumConstantModifiers"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Type.ecore#//enumConstant/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//enumConstant/argumentList"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//enumConstant/classBody"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//enumConstantModifier"/>
+    <genClasses ecoreClass="Type.ecore#//enumBodyDeclarations">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//enumBodyDeclarations/classBodyDeclarations"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//interfaceDeclaration">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//interfaceDeclaration/interfaceModifiers"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Type.ecore#//interfaceDeclaration/name"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//normalInterfaceDeclaration">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//normalInterfaceDeclaration/typeParameters"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//normalInterfaceDeclaration/extendsInterfaces"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//normalInterfaceDeclaration/interfaceBody"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//interfaceModifier"/>
+    <genClasses ecoreClass="Type.ecore#//JavaInterfaceModifier">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Type.ecore#//JavaInterfaceModifier/modifier"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//extendsInterfaces"/>
+    <genClasses ecoreClass="Type.ecore#//interfaceBody">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//interfaceBody/interfaceMemberDeclarations"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//interfaceMemberDeclaration"/>
+    <genClasses ecoreClass="Type.ecore#//constantDeclaration">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//constantDeclaration/constantModifiers"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//constantDeclaration/unannType"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//constantDeclaration/variableDeclaratorList"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//constantModifier"/>
+    <genClasses ecoreClass="Type.ecore#//JavaConstantModifier">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Type.ecore#//JavaConstantModifier/modifier"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//interfaceMethodDeclaration">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//interfaceMethodDeclaration/interfaceMethodModifiers"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//interfaceMethodDeclaration/methodHeader"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//interfaceMethodDeclaration/methodBody"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//interfaceMethodModifier"/>
+    <genClasses ecoreClass="Type.ecore#//JavaInterfaceMethodModifiers">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Type.ecore#//JavaInterfaceMethodModifiers/modifiers"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//annotationTypeDeclaration">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//annotationTypeDeclaration/annotationTypeBody"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//annotationTypeBody">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//annotationTypeBody/annotationTypeMemberDeclarations"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//annotationTypeMemberDeclaration"/>
+    <genClasses ecoreClass="Type.ecore#//annotationTypeElementDeclaration">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//annotationTypeElementDeclaration/annotationTypeElementModifiers"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//annotationTypeElementDeclaration/unannType"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Type.ecore#//annotationTypeElementDeclaration/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//annotationTypeElementDeclaration/dims"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//annotationTypeElementDeclaration/defaultValue"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//annotationTypeElementModifier"/>
+    <genClasses ecoreClass="Type.ecore#//JavaAnnotationTypeElementModifiers">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Type.ecore#//JavaAnnotationTypeElementModifiers/modifier"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//defaultValue"/>
+    <genClasses ecoreClass="Type.ecore#//annotation">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Type.ecore#//annotation/typeName"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//normalAnnotation">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//normalAnnotation/elementValuePairList"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//elementValuePairList">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//elementValuePairList/elementValuePairs"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//elementValuePair">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Type.ecore#//elementValuePair/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//elementValuePair/elementValue"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//elementValue"/>
+    <genClasses ecoreClass="Type.ecore#//elementValueArrayInitializer">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//elementValueArrayInitializer/elementValueList"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//elementValueList">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//elementValueList/elementValues"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//markerAnnotation"/>
+    <genClasses ecoreClass="Type.ecore#//singleElementAnnotation">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//singleElementAnnotation/elementValue"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//arrayInitializer">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//arrayInitializer/variableInitializerList"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//variableInitializerList">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Type.ecore#//variableInitializerList/variableInitializer"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//block">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Type.ecore#//block/dummy"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//blockStatements">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Type.ecore#//blockStatements/dummy"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//argumentList">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Type.ecore#//argumentList/dummy"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//primary">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Type.ecore#//primary/dummy"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//expression">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Type.ecore#//expression/dummy"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//conditionalExpression">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Type.ecore#//conditionalExpression/dummy"/>
+    </genClasses>
+    <genClasses ecoreClass="Type.ecore#//EmptyTypeDeclaration"/>
+    <genClasses ecoreClass="Type.ecore#//EmptyClassMemberDeclaration"/>
+  </genPackages>
+</genmodel:GenModel>

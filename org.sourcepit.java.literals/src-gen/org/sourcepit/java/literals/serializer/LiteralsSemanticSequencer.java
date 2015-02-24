@@ -27,42 +27,48 @@ public class LiteralsSemanticSequencer extends AbstractDelegatingSemanticSequenc
       if (semanticObject.eClass().getEPackage() == LiteralsPackage.eINSTANCE)
          switch (semanticObject.eClass().getClassifierID()) {
             case LiteralsPackage.BOOLEAN_LITERAL :
-               if (context == grammarAccess.getBooleanLiteralRule() || context == grammarAccess.getLiteralRule()) {
+               if (context == grammarAccess.getBooleanLiteralRule() || context == grammarAccess.getFooRule()
+                  || context == grammarAccess.getLiteralRule()) {
                   sequence_BooleanLiteral(context, (BooleanLiteral) semanticObject);
                   return;
                }
                else
                   break;
             case LiteralsPackage.CHARACTER_LITERAL :
-               if (context == grammarAccess.getCharacterLiteralRule() || context == grammarAccess.getLiteralRule()) {
+               if (context == grammarAccess.getCharacterLiteralRule() || context == grammarAccess.getFooRule()
+                  || context == grammarAccess.getLiteralRule()) {
                   sequence_CharacterLiteral(context, (CharacterLiteral) semanticObject);
                   return;
                }
                else
                   break;
             case LiteralsPackage.FLOATING_POINT_LITERAL :
-               if (context == grammarAccess.getFloatingPointLiteralRule() || context == grammarAccess.getLiteralRule()) {
+               if (context == grammarAccess.getFloatingPointLiteralRule() || context == grammarAccess.getFooRule()
+                  || context == grammarAccess.getLiteralRule()) {
                   sequence_FloatingPointLiteral(context, (FloatingPointLiteral) semanticObject);
                   return;
                }
                else
                   break;
             case LiteralsPackage.INTEGER_LITERAL :
-               if (context == grammarAccess.getIntegerLiteralRule() || context == grammarAccess.getLiteralRule()) {
+               if (context == grammarAccess.getFooRule() || context == grammarAccess.getIntegerLiteralRule()
+                  || context == grammarAccess.getLiteralRule()) {
                   sequence_IntegerLiteral(context, (IntegerLiteral) semanticObject);
                   return;
                }
                else
                   break;
             case LiteralsPackage.NULL_LITERAL :
-               if (context == grammarAccess.getNullLiteralRule() || context == grammarAccess.getLiteralRule()) {
+               if (context == grammarAccess.getFooRule() || context == grammarAccess.getNullLiteralRule()
+                  || context == grammarAccess.getLiteralRule()) {
                   sequence_NullLiteral(context, (NullLiteral) semanticObject);
                   return;
                }
                else
                   break;
             case LiteralsPackage.STRING_LITERAL :
-               if (context == grammarAccess.getStringLiteralRule() || context == grammarAccess.getLiteralRule()) {
+               if (context == grammarAccess.getFooRule() || context == grammarAccess.getStringLiteralRule()
+                  || context == grammarAccess.getLiteralRule()) {
                   sequence_StringLiteral(context, (StringLiteral) semanticObject);
                   return;
                }

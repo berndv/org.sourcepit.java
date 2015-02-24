@@ -9,6 +9,7 @@ import org.eclipse.emf.ecore.util.Switch;
 import org.sourcepit.java.literals.literals.BooleanLiteral;
 import org.sourcepit.java.literals.literals.CharacterLiteral;
 import org.sourcepit.java.literals.literals.FloatingPointLiteral;
+import org.sourcepit.java.literals.literals.Foo;
 import org.sourcepit.java.literals.literals.IntegerLiteral;
 import org.sourcepit.java.literals.literals.LiteralsPackage;
 import org.sourcepit.java.literals.literals.NullLiteral;
@@ -77,9 +78,18 @@ public class LiteralsSwitch<T> extends Switch<T> {
    @Override
    protected T doSwitch(int classifierID, EObject theEObject) {
       switch (classifierID) {
+         case LiteralsPackage.FOO : {
+            Foo foo = (Foo) theEObject;
+            T result = caseFoo(foo);
+            if (result == null)
+               result = defaultCase(theEObject);
+            return result;
+         }
          case LiteralsPackage.LITERAL : {
             literal literal = (literal) theEObject;
             T result = caseliteral(literal);
+            if (result == null)
+               result = caseFoo(literal);
             if (result == null)
                result = defaultCase(theEObject);
             return result;
@@ -90,6 +100,8 @@ public class LiteralsSwitch<T> extends Switch<T> {
             if (result == null)
                result = caseliteral(integerLiteral);
             if (result == null)
+               result = caseFoo(integerLiteral);
+            if (result == null)
                result = defaultCase(theEObject);
             return result;
          }
@@ -98,6 +110,8 @@ public class LiteralsSwitch<T> extends Switch<T> {
             T result = caseFloatingPointLiteral(floatingPointLiteral);
             if (result == null)
                result = caseliteral(floatingPointLiteral);
+            if (result == null)
+               result = caseFoo(floatingPointLiteral);
             if (result == null)
                result = defaultCase(theEObject);
             return result;
@@ -108,6 +122,8 @@ public class LiteralsSwitch<T> extends Switch<T> {
             if (result == null)
                result = caseliteral(booleanLiteral);
             if (result == null)
+               result = caseFoo(booleanLiteral);
+            if (result == null)
                result = defaultCase(theEObject);
             return result;
          }
@@ -116,6 +132,8 @@ public class LiteralsSwitch<T> extends Switch<T> {
             T result = caseCharacterLiteral(characterLiteral);
             if (result == null)
                result = caseliteral(characterLiteral);
+            if (result == null)
+               result = caseFoo(characterLiteral);
             if (result == null)
                result = defaultCase(theEObject);
             return result;
@@ -126,6 +144,8 @@ public class LiteralsSwitch<T> extends Switch<T> {
             if (result == null)
                result = caseliteral(stringLiteral);
             if (result == null)
+               result = caseFoo(stringLiteral);
+            if (result == null)
                result = defaultCase(theEObject);
             return result;
          }
@@ -135,12 +155,30 @@ public class LiteralsSwitch<T> extends Switch<T> {
             if (result == null)
                result = caseliteral(nullLiteral);
             if (result == null)
+               result = caseFoo(nullLiteral);
+            if (result == null)
                result = defaultCase(theEObject);
             return result;
          }
          default :
             return defaultCase(theEObject);
       }
+   }
+
+   /**
+    * Returns the result of interpreting the object as an instance of '<em>Foo</em>'.
+    * <!-- begin-user-doc -->
+    * This implementation returns null;
+    * returning a non-null result will terminate the switch.
+    * <!-- end-user-doc -->
+    * 
+    * @param object the target of the switch.
+    * @return the result of interpreting the object as an instance of '<em>Foo</em>'.
+    * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+    * @generated
+    */
+   public T caseFoo(Foo object) {
+      return null;
    }
 
    /**

@@ -25,6 +25,16 @@ public interface LiteralsFactory extends EFactory {
    LiteralsFactory eINSTANCE = org.sourcepit.java.literals.literals.impl.LiteralsFactoryImpl.init();
 
    /**
+    * Returns a new object of class '<em>Foo</em>'.
+    * <!-- begin-user-doc -->
+    * <!-- end-user-doc -->
+    * 
+    * @return a new object of class '<em>Foo</em>'.
+    * @generated
+    */
+   Foo createFoo();
+
+   /**
     * Returns a new object of class '<em>literal</em>'.
     * <!-- begin-user-doc -->
     * <!-- end-user-doc -->

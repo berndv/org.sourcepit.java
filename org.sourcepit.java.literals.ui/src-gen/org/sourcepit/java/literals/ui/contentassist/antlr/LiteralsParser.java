@@ -45,6 +45,7 @@ public class LiteralsParser extends AbstractContentAssistParser {
                   "rule__FloatingPointLiteral__ValueAlternatives_0");
                put(grammarAccess.getBooleanLiteralAccess().getValueAlternatives_0(),
                   "rule__BooleanLiteral__ValueAlternatives_0");
+               put(grammarAccess.getFooAccess().getGroup(), "rule__Foo__Group__0");
                put(grammarAccess.getIntegerLiteralAccess().getValueAssignment(),
                   "rule__IntegerLiteral__ValueAssignment");
                put(grammarAccess.getFloatingPointLiteralAccess().getValueAssignment(),
@@ -65,7 +66,7 @@ public class LiteralsParser extends AbstractContentAssistParser {
    protected Collection<FollowElement> getFollowElements(AbstractInternalContentAssistParser parser) {
       try {
          org.sourcepit.java.literals.ui.contentassist.antlr.internal.InternalLiteralsParser typedParser = (org.sourcepit.java.literals.ui.contentassist.antlr.internal.InternalLiteralsParser) parser;
-         typedParser.entryRuleliteral();
+         typedParser.entryRuleFoo();
          return typedParser.getFollowElements();
       }
       catch (RecognitionException ex) {

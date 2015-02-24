@@ -57,6 +57,11 @@ public class AbstractLiteralsProposalProvider
       completeRuleCall(((RuleCall) assignment.getTerminal()), context, acceptor);
    }
 
+   public void complete_Foo(EObject model, RuleCall ruleCall, ContentAssistContext context,
+      ICompletionProposalAcceptor acceptor) {
+      // subclasses may override
+   }
+
    public void complete_literal(EObject model, RuleCall ruleCall, ContentAssistContext context,
       ICompletionProposalAcceptor acceptor) {
       // subclasses may override

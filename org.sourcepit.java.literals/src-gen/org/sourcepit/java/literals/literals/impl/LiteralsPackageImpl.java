@@ -10,6 +10,7 @@ import org.eclipse.emf.ecore.impl.EPackageImpl;
 import org.sourcepit.java.literals.literals.BooleanLiteral;
 import org.sourcepit.java.literals.literals.CharacterLiteral;
 import org.sourcepit.java.literals.literals.FloatingPointLiteral;
+import org.sourcepit.java.literals.literals.Foo;
 import org.sourcepit.java.literals.literals.IntegerLiteral;
 import org.sourcepit.java.literals.literals.LiteralsFactory;
 import org.sourcepit.java.literals.literals.LiteralsPackage;
@@ -25,6 +26,14 @@ import org.sourcepit.java.literals.literals.literal;
  * @generated
  */
 public class LiteralsPackageImpl extends EPackageImpl implements LiteralsPackage {
+   /**
+    * <!-- begin-user-doc -->
+    * <!-- end-user-doc -->
+    * 
+    * @generated
+    */
+   private EClass fooEClass = null;
+
    /**
     * <!-- begin-user-doc -->
     * <!-- end-user-doc -->
@@ -152,6 +161,16 @@ public class LiteralsPackageImpl extends EPackageImpl implements LiteralsPackage
     * 
     * @generated
     */
+   public EClass getFoo() {
+      return fooEClass;
+   }
+
+   /**
+    * <!-- begin-user-doc -->
+    * <!-- end-user-doc -->
+    * 
+    * @generated
+    */
    public EClass getliteral() {
       return literalEClass;
    }
@@ -258,6 +277,8 @@ public class LiteralsPackageImpl extends EPackageImpl implements LiteralsPackage
       isCreated = true;
 
       // Create classes and their features
+      fooEClass = createEClass(FOO);
+
       literalEClass = createEClass(LITERAL);
       createEAttribute(literalEClass, LITERAL__VALUE);
 
@@ -305,6 +326,7 @@ public class LiteralsPackageImpl extends EPackageImpl implements LiteralsPackage
       // Set bounds for type parameters
 
       // Add supertypes to classes
+      literalEClass.getESuperTypes().add(this.getFoo());
       integerLiteralEClass.getESuperTypes().add(this.getliteral());
       floatingPointLiteralEClass.getESuperTypes().add(this.getliteral());
       booleanLiteralEClass.getESuperTypes().add(this.getliteral());
@@ -313,6 +335,8 @@ public class LiteralsPackageImpl extends EPackageImpl implements LiteralsPackage
       nullLiteralEClass.getESuperTypes().add(this.getliteral());
 
       // Initialize classes and features; add operations and parameters
+      initEClass(fooEClass, Foo.class, "Foo", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+
       initEClass(literalEClass, literal.class, "literal", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
       initEAttribute(getliteral_Value(), ecorePackage.getEString(), "value", null, 0, 1, literal.class, !IS_TRANSIENT,
          !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);

@@ -10,6 +10,8 @@ import org.eclipse.xtext.Alternatives;
 import org.eclipse.xtext.Assignment;
 import org.eclipse.xtext.Grammar;
 import org.eclipse.xtext.GrammarUtil;
+import org.eclipse.xtext.Group;
+import org.eclipse.xtext.Keyword;
 import org.eclipse.xtext.ParserRule;
 import org.eclipse.xtext.RuleCall;
 import org.eclipse.xtext.TerminalRule;
@@ -23,6 +25,46 @@ import com.google.inject.Singleton;
 @Singleton
 public class LiteralsGrammarAccess extends AbstractGrammarElementFinder {
 
+
+   public class FooElements extends AbstractParserRuleElementFinder {
+      private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "Foo");
+      private final Group cGroup = (Group) rule.eContents().get(1);
+      private final Keyword cCommercialAtKeyword_0 = (Keyword) cGroup.eContents().get(0);
+      private final RuleCall cLiteralParserRuleCall_1 = (RuleCall) cGroup.eContents().get(1);
+      private final Keyword cPublicKeyword_2 = (Keyword) cGroup.eContents().get(2);
+      private final RuleCall cIdentifierTerminalRuleCall_3 = (RuleCall) cGroup.eContents().get(3);
+
+      // Foo:
+      // "@" literal "public" Identifier;
+      public ParserRule getRule() {
+         return rule;
+      }
+
+      // "@" literal "public" Identifier
+      public Group getGroup() {
+         return cGroup;
+      }
+
+      // "@"
+      public Keyword getCommercialAtKeyword_0() {
+         return cCommercialAtKeyword_0;
+      }
+
+      // literal
+      public RuleCall getLiteralParserRuleCall_1() {
+         return cLiteralParserRuleCall_1;
+      }
+
+      // "public"
+      public Keyword getPublicKeyword_2() {
+         return cPublicKeyword_2;
+      }
+
+      // Identifier
+      public RuleCall getIdentifierTerminalRuleCall_3() {
+         return cIdentifierTerminalRuleCall_3;
+      }
+   }
 
    public class LiteralElements extends AbstractParserRuleElementFinder {
       private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "literal");
@@ -275,6 +317,7 @@ public class LiteralsGrammarAccess extends AbstractGrammarElementFinder {
    }
 
 
+   private final FooElements pFoo;
    private final LiteralElements pLiteral;
    private final IntegerLiteralElements pIntegerLiteral;
    private final TerminalRule tDecimalIntegerLiteral;
@@ -341,6 +384,7 @@ public class LiteralsGrammarAccess extends AbstractGrammarElementFinder {
    @Inject
    public LiteralsGrammarAccess(GrammarProvider grammarProvider) {
       this.grammar = internalFindGrammar(grammarProvider);
+      this.pFoo = new FooElements();
       this.pLiteral = new LiteralElements();
       this.pIntegerLiteral = new IntegerLiteralElements();
       this.tDecimalIntegerLiteral = (TerminalRule) GrammarUtil.findRuleForName(getGrammar(), "DecimalIntegerLiteral");
@@ -432,6 +476,16 @@ public class LiteralsGrammarAccess extends AbstractGrammarElementFinder {
       return grammar;
    }
 
+
+   // Foo:
+   // "@" literal "public" Identifier;
+   public FooElements getFooAccess() {
+      return pFoo;
+   }
+
+   public ParserRule getFooRule() {
+      return getFooAccess().getRule();
+   }
 
    // / *
    // * Productions from §3 (Lexical Structure)
